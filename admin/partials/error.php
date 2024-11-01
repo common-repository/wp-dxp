@@ -1,0 +1,1 @@
+<div class="notice notice-error is-dismissible"><p><?php echo esc_html( $error ); ?></p></div>

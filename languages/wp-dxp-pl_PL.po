@@ -1,0 +1,2359 @@
+# Copyright (C) 2023 Filter
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-DXP 1.6.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-dxp\n"
+"POT-Creation-Date: 2023-05-09T18:26:21+00:00\n"
+"PO-Revision-Date: 2023-05-09 19:37+0100\n"
+"Last-Translator: Filter <support@filteragency.com>\n"
+"Language-Team: Filter <support@filteragency.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: wp-dxp\n"
+
+#. Plugin Name of the plugin
+#: admin/class-wp-dxp-admin.php:223 admin/class-wp-dxp-admin.php:224
+#: src/index.js:87
+msgid "WP-DXP"
+msgstr "WP-DXP"
+
+#. Plugin URI of the plugin
+msgid "https://filter.agency/about/wp-dxp/"
+msgstr "https://filter.agency/about/wp-dxp/"
+
+#. Description of the plugin
+#, fuzzy
+msgid ""
+"Use WordPress as a digital experience platform, adding personalization and "
+"conditional rules to the content that your users see and can interact with. "
+"Compete with commercial enterprise platforms and add your own rules to match "
+"user behavior on, then show or hide blocks based on if your conditions are "
+"met."
+msgstr ""
+"Użyj WordPressa jako platformy cyfrowego doświadczenia, dodając "
+"personalizację i zasady warunkowe do treści, które Twoi użytkownicy widzą i "
+"mogą wchodzić w interakcje. Konkuruj z komercyjnymi platformami dla "
+"przedsiębiorstw i dodawaj własne reguły dopasowywania zachowań użytkowników "
+"na, a następnie pokazuj lub ukrywaj bloki w oparciu o to, czy twoje warunki "
+"są spełnione."
+
+#. Author of the plugin
+msgid "Filter"
+msgstr "Filter"
+
+#. Author URI of the plugin
+msgid "https://filter.agency"
+msgstr "https://filter.agency"
+
+#: admin/class-wp-dxp-admin-base-page.php:109
+#: admin/partials/categories/index.php:126 admin/partials/rules/edit.php:152
+#: admin/partials/rules/index.php:151
+msgid "Close"
+msgstr "Zamknij"
+
+#: admin/class-wp-dxp-admin-blocks.php:96
+#, fuzzy
+msgid "Duplicate blocks, collision detected."
+msgstr "Zduplikowane bloki, wykryto kolizję."
+
+#: admin/class-wp-dxp-admin-categories-page.php:81
+msgid "Category created"
+msgstr "Kategoria utworzona"
+
+#: admin/class-wp-dxp-admin-categories-page.php:90
+#: admin/class-wp-dxp-admin-categories-page.php:160
+#: admin/class-wp-dxp-admin-rules-page.php:91
+#: admin/class-wp-dxp-admin-rules-page.php:144
+#, fuzzy
+msgid "An error occurred, please reload the page"
+msgstr "Wystąpił błąd, proszę przeładować stronę"
+
+#: admin/class-wp-dxp-admin-categories-page.php:103
+#: admin/class-wp-dxp-admin-categories-page.php:119
+#: admin/class-wp-dxp-admin-categories-page.php:137
+#: admin/class-wp-dxp-admin-categories-page.php:173
+#, fuzzy
+msgid "Category could not be found"
+msgstr "Nie można znaleźć kategorii"
+
+#: admin/class-wp-dxp-admin-categories-page.php:141
+#, fuzzy
+msgid "This category cannot be edited"
+msgstr "Ta kategoria nie może być edytowana"
+
+#: admin/class-wp-dxp-admin-categories-page.php:151
+#, fuzzy
+msgid "Category updated"
+msgstr "Kategoria zaktualizowana"
+
+#: admin/class-wp-dxp-admin-categories-page.php:177
+#, fuzzy
+msgid "Category cannot be deleted"
+msgstr "Kategoria nie może być usunięta"
+
+#: admin/class-wp-dxp-admin-categories-page.php:182
+msgid "Category deleted"
+msgstr "Kategoria usunięta"
+
+#: admin/class-wp-dxp-admin-categories-page.php:222
+#: admin/class-wp-dxp-admin-rules-page.php:237
+#, fuzzy
+msgid "Form is not valid"
+msgstr "Formularz jest nieważny"
+
+#: admin/class-wp-dxp-admin-categories-page.php:226
+#, fuzzy
+msgid "ID is required to update a category"
+msgstr "Identyfikator jest wymagany do aktualizacji kategorii"
+
+#: admin/class-wp-dxp-admin-categories-page.php:231
+msgid "Name is required"
+msgstr "Imię jest wymagane"
+
+#: admin/class-wp-dxp-admin-categories-page.php:235
+#, fuzzy
+msgid "This category name already exists. Please choose a different name."
+msgstr "Ta nazwa kategorii już istnieje. Proszę wybrać inną nazwę."
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:27
+#, fuzzy
+msgid "You’re all done!"
+msgstr "Już wszystko zrobione!"
+
+#. translators: 1: %s expands to a website link to WP-DXP KnowledgeBase, 2: </a> closing tag.
+#: admin/class-wp-dxp-admin-dashboard-page.php:31
+#, fuzzy
+msgid ""
+"Thanks, you’re now able to use the features below. If you get stuck or need "
+"help, please read our %1$shelp documentation%2$s, or if you are looking for "
+"an enterprise implementation talk to our %1$sperformance team%2$s."
+msgstr ""
+"Dzięki, jesteś teraz w stanie korzystać z poniższych funkcji. Jeśli utkniesz "
+"lub potrzebujesz pomocy, przeczytaj naszą %1$sdokumentację pomocy%2$s lub "
+"jeśli szukasz wdrożenia w przedsiębiorstwie, porozmawiaj z naszym "
+"%1$szespołem ds. wydajności%2$s."
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:43
+#: admin/class-wp-dxp-admin.php:243 admin/class-wp-dxp-admin.php:244
+#: admin/partials/_other/header.php:14
+#, fuzzy
+msgid "Personalization"
+msgstr "Personalizacja"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:44
+#, fuzzy
+msgid "Show or hide blocks based on conditions and rules"
+msgstr "Pokazuj lub ukrywaj bloki na podstawie warunków i reguł"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:49
+#: admin/class-wp-dxp-admin.php:261 admin/class-wp-dxp-admin.php:262
+#: admin/partials/_other/header.php:18
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:50
+#, fuzzy
+msgid "Add and edit your site and plugin preferences"
+msgstr "Dodaj i edytuj preferencje witryny i wtyczek"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:58
+msgid "Contacts"
+msgstr "Kontakty"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:59
+#, fuzzy
+msgid "View data about the behavior of your site visitors"
+msgstr "Jak określasz lokalizację osoby odwiedzającej stronę?"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:63
+msgid "Segments"
+msgstr "Segmenty"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:64
+#, fuzzy
+msgid "Create groups of visitors to personalize their experience"
+msgstr "Tworzenie grup odwiedzających, aby spersonalizować ich doświadczenia"
+
+#: admin/class-wp-dxp-admin-rules-page.php:82
+#, fuzzy
+msgid "Rule created"
+msgstr "Zasada stworzona"
+
+#: admin/class-wp-dxp-admin-rules-page.php:104
+#: admin/class-wp-dxp-admin-rules-page.php:122
+#: admin/class-wp-dxp-admin-rules-page.php:157
+#: admin/class-wp-dxp-admin-rules-page.php:182
+#, fuzzy
+msgid "Rule could not be found"
+msgstr "Nie można było znaleźć zasady"
+
+#: admin/class-wp-dxp-admin-rules-page.php:126
+#, fuzzy
+msgid "This rule cannot be edited"
+msgstr "Ta zasada nie może być edytowana"
+
+#: admin/class-wp-dxp-admin-rules-page.php:136
+#, fuzzy
+msgid "Rule updated"
+msgstr "Zaktualizowana zasada"
+
+#: admin/class-wp-dxp-admin-rules-page.php:161
+#, fuzzy
+msgid "Rule cannot be deleted"
+msgstr "Reguła nie może być usunięta"
+
+#: admin/class-wp-dxp-admin-rules-page.php:166
+#, fuzzy
+msgid "Rule deleted"
+msgstr "Zasada usunięta"
+
+#: admin/class-wp-dxp-admin-rules-page.php:188
+#, fuzzy
+msgid "Rule duplicated"
+msgstr "Zasada powielona"
+
+#: admin/class-wp-dxp-admin-rules-page.php:192
+#, fuzzy
+msgid "Error duplicating rule"
+msgstr "Błąd powielania reguły"
+
+#: admin/class-wp-dxp-admin-rules-page.php:242
+#, fuzzy
+msgid "ID is required to update a rule"
+msgstr "Identyfikator jest wymagany do aktualizacji reguły"
+
+#: admin/class-wp-dxp-admin-rules-page.php:247
+msgid "Please enter a name"
+msgstr "Podaj imię i nazwisko"
+
+#: admin/class-wp-dxp-admin-rules-page.php:251
+#, fuzzy
+msgid "This rule name already exists. Please choose a different name."
+msgstr "Ta nazwa reguły już istnieje. Proszę wybrać inną nazwę."
+
+#: admin/class-wp-dxp-admin-rules-page.php:255
+msgid "Please select a category"
+msgstr "Proszę wybrać kategorię"
+
+#: admin/class-wp-dxp-admin-rules-page.php:261
+#, fuzzy
+msgid "A measure for the condition should be selected"
+msgstr "Należy wybrać środek dla tego warunku"
+
+#: admin/class-wp-dxp-admin-rules-page.php:271
+#, fuzzy
+msgid "The meta value for the condition should not be empty"
+msgstr "Wartość meta dla warunku nie powinna być pusta"
+
+#: admin/class-wp-dxp-admin-rules-page.php:279
+#, fuzzy
+msgid "A comparator for the condition should be selected"
+msgstr "Należy wybrać komparator dla danego warunku"
+
+#: admin/class-wp-dxp-admin-rules-page.php:290
+#, fuzzy
+msgid "Please select a value"
+msgstr "Proszę wybrać wartość"
+
+#: admin/class-wp-dxp-admin-settings-page.php:21
+#, fuzzy
+msgid "First time configuration"
+msgstr "Konfiguracja po raz pierwszy"
+
+#: admin/class-wp-dxp-admin-settings-page.php:22
+#, fuzzy
+msgid ""
+"Thanks for installing and activating WP-DXP so that you can start to use "
+"WordPress as a digital experience platform. We recommend that if it is your "
+"first time with the plugin, that you sign up for our email list, where we "
+"plan to share tips and tricks of things you can do with WP-DXP, as well as "
+"inform you when new versions and features are added to the plugin."
+msgstr ""
+"Dziękujemy za zainstalowanie i aktywowanie WP-DXP, abyś mógł zacząć używać "
+"WordPressa jako platformy cyfrowego doświadczenia. Zalecamy, aby jeśli jest "
+"to Twój pierwszy raz z wtyczką, abyś zapisał się na naszą listę e-mailową, "
+"gdzie planujemy udostępnić wskazówki i sztuczki dotyczące rzeczy, które "
+"możesz zrobić z WP-DXP, a także poinformować Cię, gdy nowe wersje i funkcje "
+"zostaną dodane do wtyczki."
+
+#: admin/class-wp-dxp-admin-settings-page.php:30
+#: admin/class-wp-dxp-admin-settings-page.php:32
+msgid "Learn more"
+msgstr "Dowiedz się więcej"
+
+#: admin/class-wp-dxp-admin-settings-page.php:31
+#, fuzzy
+msgid "Find out what more you can do with WP-DXP on our website"
+msgstr ""
+"Dowiedz się, co jeszcze możesz zrobić z WP-DXP na naszej stronie internetowej"
+
+#: admin/class-wp-dxp-admin-settings-page.php:37
+msgid "Need help?"
+msgstr "Potrzebujesz pomocy?"
+
+#: admin/class-wp-dxp-admin-settings-page.php:38
+#, fuzzy
+msgid "Check out our knowledge base"
+msgstr "Sprawdź naszą bazę wiedzy"
+
+#: admin/class-wp-dxp-admin-settings-page.php:39
+#, fuzzy
+msgid "View Help Docs"
+msgstr "Wyświetlanie dokumentów pomocy"
+
+#: admin/class-wp-dxp-admin-settings-page.php:74
+#, fuzzy
+#| msgid "Please enter a name"
+msgid "Please provide your first name"
+msgstr "Podaj imię i nazwisko"
+
+#: admin/class-wp-dxp-admin-settings-page.php:82
+#, fuzzy
+#| msgid "Please enter a name"
+msgid "Please provide your last name"
+msgstr "Podaj imię i nazwisko"
+
+#: admin/class-wp-dxp-admin-settings-page.php:90
+#, fuzzy
+msgid "Please provide your email address"
+msgstr "Proszę podać swój adres e-mail"
+
+#: admin/class-wp-dxp-admin-settings-page.php:98
+#, fuzzy
+msgid "Please accept Terms and Conditions"
+msgstr "Prosimy o zaakceptowanie Warunków Umowy"
+
+#: admin/class-wp-dxp-admin-settings-page.php:138
+msgid "Something went wrong, please try again"
+msgstr "Coś poszło nie tak. Proszę spróbuj ponownie"
+
+#: admin/class-wp-dxp-admin.php:124 admin/partials/rules/index.php:40
+#: admin/partials/rules/index.php:111
+msgid "Active"
+msgstr "Aktywny"
+
+#: admin/class-wp-dxp-admin.php:126
+msgid "Search"
+msgstr "Szukaj"
+
+#. translators: 1: %s placeholder for select dropdown of numbers.
+#: admin/class-wp-dxp-admin.php:130
+#, fuzzy
+msgid "Rows per page: %s"
+msgstr "Wiersze na stronie: %s"
+
+#. translators: 1: %s placeholder for index of the first record on the current page, 2: %s placeholder for index of the last record on the current page, 3: %s placeholder for number of records in the table after filtering
+#: admin/class-wp-dxp-admin.php:137
+#, fuzzy
+msgid "%1$s-%2$s of %3$s items"
+msgstr "%1$s-%2$s z %3$s pozycji"
+
+#: admin/class-wp-dxp-admin.php:143
+msgid "0 results"
+msgstr "Brak wyników"
+
+#: admin/class-wp-dxp-admin.php:144
+msgid "No matching records found"
+msgstr "Brak wyników"
+
+#: admin/class-wp-dxp-admin.php:145
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: admin/class-wp-dxp-admin.php:146
+msgid "Next"
+msgstr "Następny"
+
+#: admin/class-wp-dxp-admin.php:234 admin/class-wp-dxp-admin.php:235
+#: admin/partials/_other/header.php:9
+msgid "Dashboard"
+msgstr "Kokpit"
+
+#: admin/class-wp-dxp-admin.php:252 admin/class-wp-dxp-admin.php:253
+#: admin/partials/personalisation/nav.php:25
+msgid "Categories"
+msgstr "Kategorie"
+
+#: admin/class-wp-dxp-admin.php:285
+msgid "Knowledge Base"
+msgstr "Baza wiedzy"
+
+#: admin/class-wp-dxp-admin.php:353
+#, fuzzy
+msgid "You can not view private data."
+msgstr "Nie można przeglądać prywatnych danych."
+
+#: admin/partials/categories/create.php:28
+#: admin/partials/categories/index.php:85
+msgid "Add New Category"
+msgstr "Dodaj nową kategorię"
+
+#: admin/partials/categories/create.php:33
+#, fuzzy
+msgid "Create a new category using the options below."
+msgstr "Utwórz nową kategorię korzystając z poniższych opcji."
+
+#. translators: 1: %s category name.
+#: admin/partials/categories/edit.php:30
+#, fuzzy
+msgid "Edit Category: %s"
+msgstr "Edit Category: %s"
+
+#: admin/partials/categories/edit.php:39
+#, fuzzy
+msgid ""
+"Edit the category details using the form below. When finished, click on Save "
+"to update the category."
+msgstr ""
+"Edytuj szczegóły kategorii korzystając z poniższego formularza. Po "
+"zakończeniu kliknij na Zapisz, aby zaktualizować kategorię."
+
+#: admin/partials/categories/index.php:28
+msgid "Create Category"
+msgstr "Utwórz kategorię"
+
+#: admin/partials/categories/index.php:33
+#: admin/partials/categories/_form.php:17
+msgid "Category Name"
+msgstr "Nazwa kategorii"
+
+#: admin/partials/categories/index.php:34
+#: admin/partials/categories/rules.php:26
+#: admin/partials/personalisation/nav.php:22
+msgid "Rules"
+msgstr "Reguły"
+
+#: admin/partials/categories/index.php:48
+#: admin/partials/categories/rules.php:81 admin/partials/rules/index.php:115
+msgid "Actions"
+msgstr "Akcje"
+
+#: admin/partials/categories/index.php:51
+#: admin/partials/categories/rules.php:84 admin/partials/rules/edit.php:129
+#: admin/partials/rules/index.php:118
+msgid "Edit"
+msgstr "Edytuj"
+
+#: admin/partials/categories/index.php:51
+#: admin/partials/categories/rules.php:84 admin/partials/rules/index.php:118
+msgid "View"
+msgstr "Zobacz"
+
+#: admin/partials/categories/index.php:54
+#, fuzzy
+msgid "View Rules"
+msgstr "Wyświetl zasady"
+
+#: admin/partials/categories/index.php:58
+#: admin/partials/categories/index.php:60
+#: admin/partials/categories/index.php:134
+#: admin/partials/categories/rules.php:92 admin/partials/rules/edit.php:64
+#: admin/partials/rules/edit.php:66 admin/partials/rules/edit.php:160
+#: admin/partials/rules/index.php:125 admin/partials/rules/index.php:127
+#: admin/partials/rules/index.php:159
+msgid "Delete"
+msgstr "Usuń"
+
+#: admin/partials/categories/index.php:105
+msgid "Edit Category"
+msgstr "Edytuj kategorię"
+
+#: admin/partials/categories/index.php:125
+msgid "Delete Category"
+msgstr "Usuń kategorię"
+
+#: admin/partials/categories/index.php:132
+msgid "Are you sure you want to delete this category?"
+msgstr "Czy na pewno chcesz usunąć tą kategorię?"
+
+#: admin/partials/categories/index.php:135
+#: admin/partials/categories/_form.php:39 admin/partials/rules/edit.php:161
+#: admin/partials/rules/index.php:160 admin/partials/rules/_form.php:281
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: admin/partials/categories/rules.php:31
+#, fuzzy
+msgid ""
+"Rules that are active will be displayed to a user and are available to use. "
+"Click on View/Edit to find out more information about the rule."
+msgstr ""
+"Reguły, które są aktywne, zostaną wyświetlone użytkownikowi i są dostępne do "
+"użycia. Kliknij na Widok/Edytuj, aby dowiedzieć się więcej informacji o "
+"regule."
+
+#: admin/partials/categories/rules.php:45 admin/partials/rules/index.php:78
+#: admin/partials/rules/_form.php:18
+#, fuzzy
+msgid "Rule Name"
+msgstr "Nazwa zasady"
+
+#: admin/partials/categories/rules.php:46 admin/partials/rules/index.php:79
+#: admin/partials/rules/_form.php:33
+msgid "Category"
+msgstr "Kategoria"
+
+#: admin/partials/categories/rules.php:47 admin/partials/rules/index.php:80
+msgid "Type"
+msgstr "Typ"
+
+#: admin/partials/categories/rules.php:48 admin/partials/rules/index.php:81
+msgid "Created By"
+msgstr "Utworzone przez"
+
+#: admin/partials/categories/rules.php:49
+msgid "Used By"
+msgstr "Użyte przez"
+
+#. translators: 1: %d number of blocks.
+#: admin/partials/categories/rules.php:75 admin/partials/rules/index.php:108
+#, fuzzy
+msgid "%d block"
+msgid_plural "%d blocks"
+msgstr[0] "%d blok"
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/partials/categories/rules.php:87 admin/partials/rules/edit.php:58
+#: admin/partials/rules/edit.php:60 admin/partials/rules/index.php:121
+msgid "Duplicate"
+msgstr "Duplikuj"
+
+#: admin/partials/categories/_form.php:37
+msgid "Save Category"
+msgstr "Zapisz kategorię"
+
+#: admin/partials/dashboard/tile.php:22
+msgid "Coming soon"
+msgstr "Już wkrótce"
+
+#: admin/partials/rules/create.php:26
+msgid "Add New Rule"
+msgstr "Dodaj nową regułę"
+
+#: admin/partials/rules/create.php:31
+#, fuzzy
+msgid ""
+"Create a new rule using the options below. Once the rule has been added, it "
+"will become active or inactive, depending on the conditions chosen."
+msgstr ""
+"Utwórz nową regułę korzystając z poniższych opcji. Po dodaniu reguły stanie "
+"się ona aktywna lub nieaktywna, w zależności od wybranych warunków."
+
+#: admin/partials/rules/edit.php:28
+msgid "Back"
+msgstr "Wstecz"
+
+#: admin/partials/rules/edit.php:37
+#, fuzzy
+msgid "This rule is not currently usable for the following reasons:"
+msgstr ""
+"Ta zasada nie jest obecnie możliwa do wykorzystania z następujących powodów:"
+
+#: admin/partials/rules/edit.php:54
+#, fuzzy
+msgid "View / edit rule"
+msgstr "Podgląd / edycja reguły"
+
+#: admin/partials/rules/edit.php:76
+#, fuzzy
+msgid ""
+"Standard rules cannot be edited, however you can duplicate this rule and "
+"make your own changes."
+msgstr ""
+"Standardowe reguły nie mogą być edytowane, jednak możesz powielić tę regułę "
+"i wprowadzić własne zmiany."
+
+#: admin/partials/rules/edit.php:106
+#, fuzzy
+msgid "Current usage"
+msgstr "Obecne wykorzystanie"
+
+#: admin/partials/rules/edit.php:115
+msgid "Page"
+msgstr "Strona"
+
+#: admin/partials/rules/edit.php:116
+msgid "Block"
+msgstr "Blok"
+
+#: admin/partials/rules/edit.php:136
+#, fuzzy
+msgid "There are no blocks using this rule"
+msgstr "Nie ma bloków wykorzystujących tę regułę"
+
+#: admin/partials/rules/edit.php:151
+#, fuzzy
+msgid "Delete rule?"
+msgstr "Usuń regułę"
+
+#: admin/partials/rules/edit.php:158 admin/partials/rules/index.php:157
+msgid "Are you sure you want to delete this rule?"
+msgstr "Czy na pewno chcesz usunąć tę regułę?"
+
+#: admin/partials/rules/index.php:31
+#, fuzzy
+msgid ""
+"Rules that are active will be displayed to a user and are available to use. "
+"If a rule is inactive, content related to it will not currently be displayed "
+"to a user. Reasons these rules are \"inactive\" include dependence upon a "
+"third party plugin to function (for example WooCommerce)."
+msgstr ""
+"Reguły, które są aktywne, zostaną wyświetlone użytkownikowi i są dostępne do "
+"użycia. Jeśli reguła jest nieaktywna, zawartość związana z nią nie będzie "
+"aktualnie wyświetlana użytkownikowi. Powody, dla których reguły te są "
+"\"nieaktywne\", obejmują zależność od wtyczki innej firmy (na przykład "
+"WooCommerce)."
+
+#. translators: 1: %d total active rules.
+#: admin/partials/rules/index.php:46
+#, fuzzy
+msgid "Active (%d)"
+msgstr "Aktywny (%d)"
+
+#: admin/partials/rules/index.php:53 admin/partials/rules/index.php:111
+msgid "Inactive"
+msgstr "Nieaktywne"
+
+#. translators: 1: %d total inactive rules.
+#: admin/partials/rules/index.php:59
+#, fuzzy
+msgid "Inactive (%d)"
+msgstr "Nieaktywny (%d)"
+
+#: admin/partials/rules/index.php:68
+msgid "All categories"
+msgstr "Wszystkie kategorie"
+
+#: admin/partials/rules/index.php:73 admin/partials/rules/_form.php:280
+msgid "Create rule"
+msgstr "Stwórz regułę"
+
+#: admin/partials/rules/index.php:82
+#, fuzzy
+msgid "Blocks used in"
+msgstr "Bloki używane w"
+
+#: admin/partials/rules/index.php:83
+msgid "Status"
+msgstr "Status"
+
+#: admin/partials/rules/index.php:150
+msgid "Delete Rule"
+msgstr "Usuń regułę"
+
+#: admin/partials/rules/_form.php:36 admin/partials/rules/_form.php:38
+msgid "-- Select a category --"
+msgstr "-- Wybierz kategorię --"
+
+#: admin/partials/rules/_form.php:53
+msgid "Conditions"
+msgstr "Warunki"
+
+#: admin/partials/rules/_form.php:68 admin/partials/rules/_form.php:76
+#: admin/partials/rules/_form.php:185
+#, fuzzy
+msgid "-- Select a measure --"
+msgstr "-- Wybierz środek -"
+
+#: admin/partials/rules/_form.php:71 admin/partials/rules/_form.php:79
+#: admin/partials/rules/_form.php:188 admin/partials/rules/_form.php:231
+#, fuzzy
+msgid "-- Enter cookie name here --"
+msgstr "-- Wpisz tutaj nazwę pliku cookie --"
+
+#: admin/partials/rules/_form.php:74 admin/partials/rules/_form.php:82
+#: admin/partials/rules/_form.php:191
+#, fuzzy
+msgid "-- Select a comparator --"
+msgstr "-- Wybrać komparator --"
+
+#: admin/partials/rules/_form.php:91 admin/partials/rules/_form.php:104
+#: admin/partials/rules/_form.php:122 admin/partials/rules/_form.php:130
+#: admin/partials/rules/_form.php:143 admin/partials/rules/_form.php:151
+#: admin/partials/rules/_form.php:193 admin/partials/rules/_form.php:236
+#, fuzzy
+msgid "-- Select a value --"
+msgstr "-- Wybrać wartość -->"
+
+#: admin/partials/rules/_form.php:93 admin/partials/rules/_form.php:106
+#: admin/partials/rules/_form.php:124 admin/partials/rules/_form.php:132
+#: admin/partials/rules/_form.php:145 admin/partials/rules/_form.php:153
+#: admin/partials/rules/_form.php:200
+#, fuzzy
+msgid "-- Enter value here --"
+msgstr "-- Wprowadź tutaj wartość --"
+
+#: admin/partials/rules/_form.php:96 admin/partials/rules/_form.php:109
+#: admin/partials/rules/_form.php:127 admin/partials/rules/_form.php:135
+#: admin/partials/rules/_form.php:148 admin/partials/rules/_form.php:156
+#: admin/partials/rules/_form.php:204 admin/partials/rules/_form.php:246
+#, fuzzy
+msgid "-- Select a date --"
+msgstr "-- Wybierz datę.."
+
+#: admin/partials/rules/_form.php:101 admin/partials/rules/_form.php:196
+#: admin/partials/rules/_form.php:239
+#, fuzzy
+msgid "-- Enter key here --"
+msgstr "-- Wpisz tutaj klucz.."
+
+#: admin/partials/rules/_form.php:169 admin/partials/rules/_form.php:211
+#: admin/partials/rules/_form.php:253
+msgid "Remove"
+msgstr "Usuń"
+
+#: admin/partials/rules/_form.php:267
+msgid "Add"
+msgstr "Dodaj"
+
+#: admin/partials/rules/_form.php:275
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: admin/partials/rules/_form.php:276
+msgid "Reset"
+msgstr "Resetuj"
+
+#: admin/partials/settings/index.php:25
+#, fuzzy
+msgid "Join our email list"
+msgstr "Dołącz do naszej listy e-mailowej"
+
+#: admin/partials/settings/index.php:29
+msgid "First name"
+msgstr "Imię"
+
+#: admin/partials/settings/index.php:33
+msgid "Last name"
+msgstr "Nazwisko"
+
+#: admin/partials/settings/index.php:38
+msgid "Email address"
+msgstr "Adres e-mail"
+
+#. translators: 1: %s expands to a website link to WP-DXP Terms and Conditions, 2: </a> closing tag.
+#: admin/partials/settings/index.php:47
+#, fuzzy
+#| msgid "Conditions"
+msgid "I accept the %1$sTerms and Conditions%2$s"
+msgstr "Warunki"
+
+#: admin/partials/settings/index.php:55
+msgid "Sign up"
+msgstr "Zarejestruj się"
+
+#: admin/partials/settings/index.php:58
+#, fuzzy
+msgid "Skip for now"
+msgstr "Na razie pomiń"
+
+#: admin/partials/settings/index.php:64
+#, fuzzy
+msgid "You’re on the list!"
+msgstr "Jesteś na liście!"
+
+#: admin/partials/settings/index.php:65
+#, fuzzy
+msgid ""
+"Now you’re on our email list, we’ll share tips and tricks of things you can "
+"do with WP-DXP, as well as inform you when new versions and features are "
+"added to the plugin. If you’d like to opt-out of receiving email, then click "
+"on the Manage Preference link at the bottom of any emails we send you."
+msgstr ""
+"Teraz jesteś na naszej liście e-mailowej, będziemy dzielić się wskazówkami i "
+"sztuczkami rzeczy, które możesz zrobić z WP-DXP, a także informować Cię, gdy "
+"nowe wersje i funkcje zostaną dodane do wtyczki. Jeśli chcesz zrezygnować z "
+"otrzymywania wiadomości e-mail, kliknij link Zarządzaj preferencjami na dole "
+"każdej wiadomości e-mail, którą wysyłamy."
+
+#: admin/partials/wp-dxp-admin-display.php:18
+#, fuzzy
+msgid "WP-DXP: Partial"
+msgstr "WP-DXP: Częściowo "
+
+#: admin/partials/_other/header.php:20
+#, fuzzy
+msgid "Onboarding"
+msgstr "Onboarding"
+
+#: admin/partials/_other/header.php:41
+msgid "Help"
+msgstr "Pomoc"
+
+#: admin/partials/_other/header.php:46
+msgid "Support"
+msgstr "Wsparcie"
+
+#: admin/partials/_other/header.php:51
+msgid "Leave a Review"
+msgstr "Podziel się opinią"
+
+#: includes/class-wp-dxp-conditions.php:134
+msgctxt "Class description"
+msgid "Unknown"
+msgstr "Nieznany"
+
+#: includes/class-wp-dxp-conditions.php:146
+msgctxt "Class category"
+msgid "Misc"
+msgstr "Różne"
+
+#: includes/conditions/base.php:39 includes/conditions/core-query-string.php:19
+#: includes/conditions/core-referrer.php:17
+#: includes/conditions/core-users-role.php:17
+#: includes/conditions/core-visitor-country.php:19
+msgctxt "Comparator"
+msgid "Equals"
+msgstr "Równa się"
+
+#: includes/conditions/base.php:40 includes/conditions/core-query-string.php:20
+#: includes/conditions/core-referrer.php:18
+#: includes/conditions/core-users-role.php:18
+#: includes/conditions/core-visitor-country.php:20
+msgctxt "Comparator"
+msgid "Does Not Equal"
+msgstr "Nie jest równe"
+
+#: includes/conditions/base.php:41
+#, fuzzy
+msgctxt "Comparator"
+msgid "Is any of"
+msgstr "Czy któryś z"
+
+#: includes/conditions/base.php:44
+#: includes/conditions/gravityforms-completed-form-submission.php:23
+#: includes/conditions/ninja-forms-completed-form-submission.php:23
+#: includes/conditions/woocommerce-completed-purchase.php:23
+msgctxt "Comparison value"
+msgid "True"
+msgstr "Prawda"
+
+#: includes/conditions/base.php:45
+#: includes/conditions/gravityforms-completed-form-submission.php:24
+#: includes/conditions/ninja-forms-completed-form-submission.php:24
+#: includes/conditions/woocommerce-completed-purchase.php:24
+msgctxt "Comparison value"
+msgid "False"
+msgstr "Fałsz"
+
+#: includes/conditions/core-cookie.php:16
+msgid "Cookie"
+msgstr "Cookie"
+
+#: includes/conditions/core-cookie.php:19
+#, fuzzy
+msgctxt "Comparator"
+msgid "Has any Value (Exists)"
+msgstr "Ma jakąkolwiek wartość (istnieje)"
+
+#: includes/conditions/core-cookie.php:20
+#, fuzzy
+msgctxt "Comparator"
+msgid "Has no Value (Does not exist)"
+msgstr "Has no Value (Nie istnieje)"
+
+#: includes/conditions/core-cookie.php:21
+msgctxt "Comparator"
+msgid "Equal to"
+msgstr "Równy"
+
+#: includes/conditions/core-cookie.php:22
+#, fuzzy
+msgctxt "Comparator"
+msgid "Not Equal to"
+msgstr "Równy"
+
+#: includes/conditions/core-cookie.php:23
+#: includes/conditions/core-query-string.php:21
+#: includes/conditions/core-referrer.php:19
+msgctxt "Comparator"
+msgid "Contains"
+msgstr "Zawiera"
+
+#: includes/conditions/core-cookie.php:24
+#: includes/conditions/core-query-string.php:22
+#: includes/conditions/core-referrer.php:20
+#, fuzzy
+msgctxt "Comparator"
+msgid "Does Not Contain"
+msgstr "Nie zawiera"
+
+#: includes/conditions/core-is-logged-in-user.php:14
+msgid "User is logged in"
+msgstr "Użytkownik jest zalogowany"
+
+#: includes/conditions/core-is-logged-in-user.php:17
+#: includes/conditions/core-new-visitor.php:17
+#: includes/conditions/core-time-elapsed.php:17
+#: includes/conditions/core-visiting-date.php:19
+#: includes/conditions/gravityforms-completed-form-submission.php:19
+#: includes/conditions/ninja-forms-completed-form-submission.php:19
+#: includes/conditions/woocommerce-completed-purchase.php:19
+msgctxt "Comparator"
+msgid "Is"
+msgstr "Jest"
+
+#: includes/conditions/core-new-visitor.php:14
+#, fuzzy
+msgid "New Visit"
+msgstr "Nowa wizyta"
+
+#: includes/conditions/core-query-string.php:16
+#, fuzzy
+msgid "Query String"
+msgstr "Ciąg zapytania"
+
+#: includes/conditions/core-query-string.php:23
+#, fuzzy
+msgctxt "Comparator"
+msgid "Key/Value"
+msgstr "Klucz/wartość"
+
+#: includes/conditions/core-referrer.php:14
+msgid "Referer"
+msgstr "Referer"
+
+#: includes/conditions/core-time-elapsed.php:14
+#, fuzzy
+msgid "Time on current page"
+msgstr "Czas na aktualnej stronie"
+
+#: includes/conditions/core-users-device-type.php:16
+msgid "Device Type"
+msgstr "Rodzaj urządzenia"
+
+#: includes/conditions/core-users-device-type.php:19
+#: includes/conditions/core-users-last-visit.php:19
+#: includes/conditions/core-users-visiting-time.php:17
+#, fuzzy
+msgctxt "Comparator"
+msgid "Equal To"
+msgstr "Równy"
+
+#: includes/conditions/core-users-device-type.php:23
+msgid "Mobile"
+msgstr "Komórka"
+
+#: includes/conditions/core-users-device-type.php:24
+msgid "Tablet"
+msgstr "Tablet"
+
+#: includes/conditions/core-users-device-type.php:25
+msgid "Desktop"
+msgstr "Monitor"
+
+#: includes/conditions/core-users-device-type.php:26
+#, fuzzy
+msgid "iOS device"
+msgstr "urządzenie z systemem iOS"
+
+#: includes/conditions/core-users-device-type.php:27
+#, fuzzy
+msgid "Android device"
+msgstr "Urządzenie z systemem Android"
+
+#: includes/conditions/core-users-last-visit.php:14
+msgid "Last Visit"
+msgstr "Ostatnia wizyta"
+
+#: includes/conditions/core-users-last-visit.php:17
+#, fuzzy
+msgctxt "Comparator"
+msgid "More Than"
+msgstr "Więcej niż"
+
+#: includes/conditions/core-users-last-visit.php:18
+msgctxt "Comparator"
+msgid "Less Than"
+msgstr "Mniej niż"
+
+#. translators: 1: %d number of days.
+#: includes/conditions/core-users-last-visit.php:27
+#, fuzzy
+msgid "%d Day ago"
+msgid_plural "%d Days ago"
+msgstr[0] "dzień temu %d"
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/conditions/core-users-role.php:14
+msgid "User Role"
+msgstr "Rola użytkownika"
+
+#: includes/conditions/core-users-specific-visiting-time.php:14
+msgid "Visit Time"
+msgstr "Czas wizyty"
+
+#: includes/conditions/core-users-specific-visiting-time.php:17
+#: includes/conditions/core-visiting-date.php:17
+msgctxt "Comparator"
+msgid "Before"
+msgstr "Przed"
+
+#: includes/conditions/core-users-specific-visiting-time.php:18
+#: includes/conditions/core-visiting-date.php:18
+msgctxt "Comparator"
+msgid "After"
+msgstr "Po"
+
+#: includes/conditions/core-users-visiting-time.php:14
+#, fuzzy
+msgid "Visit Period"
+msgstr "Okres wizyty"
+
+#: includes/conditions/core-users-visiting-time.php:21
+msgctxt "Comparison value"
+msgid "Morning"
+msgstr "Rano"
+
+#: includes/conditions/core-users-visiting-time.php:22
+msgctxt "Comparison value"
+msgid "Afternoon"
+msgstr "Południe"
+
+#: includes/conditions/core-users-visiting-time.php:23
+msgctxt "Comparison value"
+msgid "Evening"
+msgstr "Wieczór"
+
+#: includes/conditions/core-users-visiting-time.php:24
+#, fuzzy
+msgctxt "Comparison value"
+msgid "Nighttime"
+msgstr "Nocą"
+
+#: includes/conditions/core-visiting-date.php:14
+msgid "Date"
+msgstr "Data"
+
+#: includes/conditions/core-visitor-country.php:16
+#, fuzzy
+msgid "User Location"
+msgstr "Lokalizacja użytkownika"
+
+#: includes/conditions/core-visitor-country.php:24
+msgctxt "countries"
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#: includes/conditions/core-visitor-country.php:25
+msgctxt "countries"
+msgid "Åland Islands"
+msgstr "Wyspy alandzkie"
+
+#: includes/conditions/core-visitor-country.php:26
+msgctxt "countries"
+msgid "Albania"
+msgstr "Albania"
+
+#: includes/conditions/core-visitor-country.php:27
+msgctxt "countries"
+msgid "Algeria"
+msgstr "Algieria"
+
+#: includes/conditions/core-visitor-country.php:28
+msgctxt "countries"
+msgid "American Samoa"
+msgstr "Samoa Amerykańska"
+
+#: includes/conditions/core-visitor-country.php:29
+msgctxt "countries"
+msgid "Andorra"
+msgstr "Andora"
+
+#: includes/conditions/core-visitor-country.php:30
+msgctxt "countries"
+msgid "Angola"
+msgstr "Angola"
+
+#: includes/conditions/core-visitor-country.php:31
+msgctxt "countries"
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: includes/conditions/core-visitor-country.php:32
+msgctxt "countries"
+msgid "Antarctica"
+msgstr "Antarktyda"
+
+#: includes/conditions/core-visitor-country.php:33
+msgctxt "countries"
+msgid "Antigua and Barbuda"
+msgstr "Antigua i Barbuda"
+
+#: includes/conditions/core-visitor-country.php:34
+msgctxt "countries"
+msgid "Argentina"
+msgstr "Argentyna"
+
+#: includes/conditions/core-visitor-country.php:35
+msgctxt "countries"
+msgid "Armenia"
+msgstr "Armenia"
+
+#: includes/conditions/core-visitor-country.php:36
+msgctxt "countries"
+msgid "Aruba"
+msgstr "Aruba"
+
+#: includes/conditions/core-visitor-country.php:37
+msgctxt "countries"
+msgid "Australia"
+msgstr "Australia"
+
+#: includes/conditions/core-visitor-country.php:38
+msgctxt "countries"
+msgid "Austria"
+msgstr "Austria"
+
+#: includes/conditions/core-visitor-country.php:39
+msgctxt "countries"
+msgid "Azerbaijan"
+msgstr "Azerbejdżan"
+
+#: includes/conditions/core-visitor-country.php:40
+msgctxt "countries"
+msgid "Bahamas"
+msgstr "Bahamy"
+
+#: includes/conditions/core-visitor-country.php:41
+msgctxt "countries"
+msgid "Bahrain"
+msgstr "Bahrajn"
+
+#: includes/conditions/core-visitor-country.php:42
+msgctxt "countries"
+msgid "Bangladesh"
+msgstr "Bangladesz"
+
+#: includes/conditions/core-visitor-country.php:43
+msgctxt "countries"
+msgid "Barbados"
+msgstr "Barbados"
+
+#: includes/conditions/core-visitor-country.php:44
+msgctxt "countries"
+msgid "Belarus"
+msgstr "Białoruś"
+
+#: includes/conditions/core-visitor-country.php:45
+msgctxt "countries"
+msgid "Belgium"
+msgstr "Belgia"
+
+#: includes/conditions/core-visitor-country.php:46
+msgctxt "countries"
+msgid "Belize"
+msgstr "Belize"
+
+#: includes/conditions/core-visitor-country.php:47
+msgctxt "countries"
+msgid "Benin"
+msgstr "Benin"
+
+#: includes/conditions/core-visitor-country.php:48
+msgctxt "countries"
+msgid "Bermuda"
+msgstr "Bermudy"
+
+#: includes/conditions/core-visitor-country.php:49
+msgctxt "countries"
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: includes/conditions/core-visitor-country.php:50
+msgctxt "countries"
+msgid "Bolivia, Plurinational State of"
+msgstr "Bolívia, mnohonárodný štát"
+
+#: includes/conditions/core-visitor-country.php:51
+msgctxt "countries"
+msgid "Bosnia and Herzegovina"
+msgstr "Bośnia i Hercegowina"
+
+#: includes/conditions/core-visitor-country.php:52
+msgctxt "countries"
+msgid "Botswana"
+msgstr "Botswana"
+
+#: includes/conditions/core-visitor-country.php:53
+msgctxt "countries"
+msgid "Bouvet Island"
+msgstr "Wyspy Bouvet"
+
+#: includes/conditions/core-visitor-country.php:54
+msgctxt "countries"
+msgid "Brazil"
+msgstr "Brazylia"
+
+#: includes/conditions/core-visitor-country.php:55
+msgctxt "countries"
+msgid "British Indian Ocean Territory"
+msgstr "Brytyjskie Terytorium Oceanu Indyjskiego"
+
+#: includes/conditions/core-visitor-country.php:56
+msgctxt "countries"
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#: includes/conditions/core-visitor-country.php:57
+msgctxt "countries"
+msgid "Bulgaria"
+msgstr "Bułgaria"
+
+#: includes/conditions/core-visitor-country.php:58
+msgctxt "countries"
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: includes/conditions/core-visitor-country.php:59
+msgctxt "countries"
+msgid "Burundi"
+msgstr "Burundi"
+
+#: includes/conditions/core-visitor-country.php:60
+msgctxt "countries"
+msgid "Cambodia"
+msgstr "Kambodża"
+
+#: includes/conditions/core-visitor-country.php:61
+msgctxt "countries"
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: includes/conditions/core-visitor-country.php:62
+msgctxt "countries"
+msgid "Canada"
+msgstr "Kanada"
+
+#: includes/conditions/core-visitor-country.php:63
+msgctxt "countries"
+msgid "Cape Verde"
+msgstr "Republika Zielonego Przylądka"
+
+#: includes/conditions/core-visitor-country.php:64
+msgctxt "countries"
+msgid "Cayman Islands"
+msgstr "Kajmany"
+
+#: includes/conditions/core-visitor-country.php:65
+msgctxt "countries"
+msgid "Central African Republic"
+msgstr "Republika Afryki Śrofkowej"
+
+#: includes/conditions/core-visitor-country.php:66
+msgctxt "countries"
+msgid "Chad"
+msgstr "Czad"
+
+#: includes/conditions/core-visitor-country.php:67
+msgctxt "countries"
+msgid "Chile"
+msgstr "Chile"
+
+#: includes/conditions/core-visitor-country.php:68
+msgctxt "countries"
+msgid "China"
+msgstr "Chiny"
+
+#: includes/conditions/core-visitor-country.php:69
+msgctxt "countries"
+msgid "Christmas Island"
+msgstr "Wyspa Bożego Narodzenia"
+
+#: includes/conditions/core-visitor-country.php:70
+msgctxt "countries"
+msgid "Cocos (Keeling) Islands"
+msgstr "Wyspy Kokosowe"
+
+#: includes/conditions/core-visitor-country.php:71
+msgctxt "countries"
+msgid "Colombia"
+msgstr "Kolumbia"
+
+#: includes/conditions/core-visitor-country.php:72
+msgctxt "countries"
+msgid "Comoros"
+msgstr "Komory"
+
+#: includes/conditions/core-visitor-country.php:73
+msgctxt "countries"
+msgid "Congo"
+msgstr "Kongo"
+
+#: includes/conditions/core-visitor-country.php:74
+msgctxt "countries"
+msgid "Congo, Democratic Republic"
+msgstr "Demokratyczna Republika Konga"
+
+#: includes/conditions/core-visitor-country.php:75
+msgctxt "countries"
+msgid "Cook Islands"
+msgstr "Wyspy Cooka"
+
+#: includes/conditions/core-visitor-country.php:76
+msgctxt "countries"
+msgid "Costa Rica"
+msgstr "Kostaryka"
+
+#: includes/conditions/core-visitor-country.php:77
+msgctxt "countries"
+msgid "Côte d'Ivoire"
+msgstr "Wybrzeże Kości Słoniowej"
+
+#: includes/conditions/core-visitor-country.php:78
+msgctxt "countries"
+msgid "Croatia"
+msgstr "Chorwacja"
+
+#: includes/conditions/core-visitor-country.php:79
+msgctxt "countries"
+msgid "Cuba"
+msgstr "Kuba"
+
+#: includes/conditions/core-visitor-country.php:80
+msgctxt "countries"
+msgid "Cyprus"
+msgstr "Cypr"
+
+#: includes/conditions/core-visitor-country.php:81
+msgctxt "countries"
+msgid "Czech Republic"
+msgstr "Czechy"
+
+#: includes/conditions/core-visitor-country.php:82
+msgctxt "countries"
+msgid "Denmark"
+msgstr "Dania"
+
+#: includes/conditions/core-visitor-country.php:83
+msgctxt "countries"
+msgid "Djibouti"
+msgstr "Dżibuti"
+
+#: includes/conditions/core-visitor-country.php:84
+msgctxt "countries"
+msgid "Dominica"
+msgstr "Dominika"
+
+#: includes/conditions/core-visitor-country.php:85
+msgctxt "countries"
+msgid "Dominican Republic"
+msgstr "Dominikana"
+
+#: includes/conditions/core-visitor-country.php:86
+msgctxt "countries"
+msgid "Ecuador"
+msgstr "Ekwador"
+
+#: includes/conditions/core-visitor-country.php:87
+msgctxt "countries"
+msgid "Egypt"
+msgstr "Egipt"
+
+#: includes/conditions/core-visitor-country.php:88
+msgctxt "countries"
+msgid "El Salvador"
+msgstr "Salwador"
+
+#: includes/conditions/core-visitor-country.php:89
+msgctxt "countries"
+msgid "Equatorial Guinea"
+msgstr "Gwinea Równikowa"
+
+#: includes/conditions/core-visitor-country.php:90
+msgctxt "countries"
+msgid "Eritrea"
+msgstr "Erytrea"
+
+#: includes/conditions/core-visitor-country.php:91
+msgctxt "countries"
+msgid "Estonia"
+msgstr "Estonia"
+
+#: includes/conditions/core-visitor-country.php:92
+msgctxt "countries"
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+#: includes/conditions/core-visitor-country.php:93
+msgctxt "countries"
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falklandy (Malwiny)"
+
+#: includes/conditions/core-visitor-country.php:94
+msgctxt "countries"
+msgid "Faroe Islands"
+msgstr "Wyspy Owcze"
+
+#: includes/conditions/core-visitor-country.php:95
+msgctxt "countries"
+msgid "Fiji"
+msgstr "Fidżi"
+
+#: includes/conditions/core-visitor-country.php:96
+msgctxt "countries"
+msgid "Finland"
+msgstr "Finlandia"
+
+#: includes/conditions/core-visitor-country.php:97
+msgctxt "countries"
+msgid "France"
+msgstr "Francja"
+
+#: includes/conditions/core-visitor-country.php:98
+msgctxt "countries"
+msgid "French Guiana"
+msgstr "Gujana Francuska"
+
+#: includes/conditions/core-visitor-country.php:99
+msgctxt "countries"
+msgid "French Polynesia"
+msgstr "Polinezja Francuska"
+
+#: includes/conditions/core-visitor-country.php:100
+msgctxt "countries"
+msgid "French Southern Territories"
+msgstr "Francuskie Terytoria Południowe"
+
+#: includes/conditions/core-visitor-country.php:101
+msgctxt "countries"
+msgid "Gabon"
+msgstr "Gabon"
+
+#: includes/conditions/core-visitor-country.php:102
+msgctxt "countries"
+msgid "Gambia"
+msgstr "Gambia"
+
+#: includes/conditions/core-visitor-country.php:103
+msgctxt "countries"
+msgid "Georgia"
+msgstr "Gruzja"
+
+#: includes/conditions/core-visitor-country.php:104
+msgctxt "countries"
+msgid "Germany"
+msgstr "Niemcy"
+
+#: includes/conditions/core-visitor-country.php:105
+msgctxt "countries"
+msgid "Ghana"
+msgstr "Ghana"
+
+#: includes/conditions/core-visitor-country.php:106
+msgctxt "countries"
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: includes/conditions/core-visitor-country.php:107
+msgctxt "countries"
+msgid "Greece"
+msgstr "Grecja"
+
+#: includes/conditions/core-visitor-country.php:108
+msgctxt "countries"
+msgid "Greenland"
+msgstr "Grenlandia"
+
+#: includes/conditions/core-visitor-country.php:109
+msgctxt "countries"
+msgid "Grenada"
+msgstr "Grenada"
+
+#: includes/conditions/core-visitor-country.php:110
+msgctxt "countries"
+msgid "Guadeloupe"
+msgstr "Gwadelupa"
+
+#: includes/conditions/core-visitor-country.php:111
+msgctxt "countries"
+msgid "Guam"
+msgstr "Guam"
+
+#: includes/conditions/core-visitor-country.php:112
+msgctxt "countries"
+msgid "Guatemala"
+msgstr "Gwatemala"
+
+#: includes/conditions/core-visitor-country.php:113
+msgctxt "countries"
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: includes/conditions/core-visitor-country.php:114
+msgctxt "countries"
+msgid "Guinea"
+msgstr "Gwinea"
+
+#: includes/conditions/core-visitor-country.php:115
+msgctxt "countries"
+msgid "Guinea-Bissau"
+msgstr "Gwinea Bissau"
+
+#: includes/conditions/core-visitor-country.php:116
+msgctxt "countries"
+msgid "Guyana"
+msgstr "Gujana"
+
+#: includes/conditions/core-visitor-country.php:117
+msgctxt "countries"
+msgid "Haiti"
+msgstr "Haiti"
+
+#: includes/conditions/core-visitor-country.php:118
+msgctxt "countries"
+msgid "Heard Island & Mcdonald Islands"
+msgstr "Wyspy Heard i McDonalda"
+
+#: includes/conditions/core-visitor-country.php:119
+msgctxt "countries"
+msgid "Holy See (Vatican City State)"
+msgstr "Stolica Apostolska (Państwo Watykańskie)"
+
+#: includes/conditions/core-visitor-country.php:120
+msgctxt "countries"
+msgid "Honduras"
+msgstr "Honduras"
+
+#: includes/conditions/core-visitor-country.php:121
+msgctxt "countries"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: includes/conditions/core-visitor-country.php:122
+msgctxt "countries"
+msgid "Hungary"
+msgstr "Węgry"
+
+#: includes/conditions/core-visitor-country.php:123
+msgctxt "countries"
+msgid "Iceland"
+msgstr "Islandia"
+
+#: includes/conditions/core-visitor-country.php:124
+msgctxt "countries"
+msgid "India"
+msgstr "Indie"
+
+#: includes/conditions/core-visitor-country.php:125
+msgctxt "countries"
+msgid "Indonesia"
+msgstr "Indonezja"
+
+#: includes/conditions/core-visitor-country.php:126
+msgctxt "countries"
+msgid "Iran, Islamic Republic Of"
+msgstr "Iran, Islamska Republika"
+
+#: includes/conditions/core-visitor-country.php:127
+msgctxt "countries"
+msgid "Iraq"
+msgstr "Irak"
+
+#: includes/conditions/core-visitor-country.php:128
+msgctxt "countries"
+msgid "Ireland"
+msgstr "Irlandia"
+
+#: includes/conditions/core-visitor-country.php:129
+msgctxt "countries"
+msgid "Isle Of Man"
+msgstr "Wyspa Man"
+
+#: includes/conditions/core-visitor-country.php:130
+msgctxt "countries"
+msgid "Israel"
+msgstr "Izrael"
+
+#: includes/conditions/core-visitor-country.php:131
+msgctxt "countries"
+msgid "Italy"
+msgstr "Włochy"
+
+#: includes/conditions/core-visitor-country.php:132
+msgctxt "countries"
+msgid "Jamaica"
+msgstr "Jamajka"
+
+#: includes/conditions/core-visitor-country.php:133
+msgctxt "countries"
+msgid "Japan"
+msgstr "Japonia"
+
+#: includes/conditions/core-visitor-country.php:134
+msgctxt "countries"
+msgid "Jersey"
+msgstr "Jersey"
+
+#: includes/conditions/core-visitor-country.php:135
+msgctxt "countries"
+msgid "Jordan"
+msgstr "Jordania"
+
+#: includes/conditions/core-visitor-country.php:136
+msgctxt "countries"
+msgid "Kazakhstan"
+msgstr "Kazachstan"
+
+#: includes/conditions/core-visitor-country.php:137
+msgctxt "countries"
+msgid "Kenya"
+msgstr "Kenia"
+
+#: includes/conditions/core-visitor-country.php:138
+msgctxt "countries"
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: includes/conditions/core-visitor-country.php:139
+msgctxt "countries"
+msgid "Korea, Democratic People's Republic of"
+msgstr "Koreańska Republika Ludowo-Demokratyczna"
+
+#: includes/conditions/core-visitor-country.php:140
+msgctxt "countries"
+msgid "Korea, Republic of"
+msgstr "Korea Południowa"
+
+#: includes/conditions/core-visitor-country.php:141
+msgctxt "countries"
+msgid "Kuwait"
+msgstr "Kuwejt"
+
+#: includes/conditions/core-visitor-country.php:142
+msgctxt "countries"
+msgid "Kyrgyzstan"
+msgstr "Kirgistan"
+
+#: includes/conditions/core-visitor-country.php:143
+msgctxt "countries"
+msgid "Lao People's Democratic Republic"
+msgstr "Laotańska Republika Ludowo-Demokratyczna"
+
+#: includes/conditions/core-visitor-country.php:144
+msgctxt "countries"
+msgid "Latvia"
+msgstr "Łotwa"
+
+#: includes/conditions/core-visitor-country.php:145
+msgctxt "countries"
+msgid "Lebanon"
+msgstr "Liban"
+
+#: includes/conditions/core-visitor-country.php:146
+msgctxt "countries"
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: includes/conditions/core-visitor-country.php:147
+msgctxt "countries"
+msgid "Liberia"
+msgstr "Liberia"
+
+#: includes/conditions/core-visitor-country.php:148
+msgctxt "countries"
+msgid "Libyan Arab Jamahiriya"
+msgstr "Libia"
+
+#: includes/conditions/core-visitor-country.php:149
+msgctxt "countries"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: includes/conditions/core-visitor-country.php:150
+msgctxt "countries"
+msgid "Lithuania"
+msgstr "Litwa"
+
+#: includes/conditions/core-visitor-country.php:151
+msgctxt "countries"
+msgid "Luxembourg"
+msgstr "Luksemburg"
+
+#: includes/conditions/core-visitor-country.php:152
+msgctxt "countries"
+msgid "Macao"
+msgstr "Makao"
+
+#: includes/conditions/core-visitor-country.php:153
+msgctxt "countries"
+msgid "Macedonia, the former Yugoslav Republic of"
+msgstr "Macedonia,, Była Jugosłowiańska Republika"
+
+#: includes/conditions/core-visitor-country.php:154
+msgctxt "countries"
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: includes/conditions/core-visitor-country.php:155
+msgctxt "countries"
+msgid "Malawi"
+msgstr "Malawi"
+
+#: includes/conditions/core-visitor-country.php:156
+msgctxt "countries"
+msgid "Malaysia"
+msgstr "Malezja"
+
+#: includes/conditions/core-visitor-country.php:157
+msgctxt "countries"
+msgid "Maldives"
+msgstr "Maledivy"
+
+#: includes/conditions/core-visitor-country.php:158
+msgctxt "countries"
+msgid "Mali"
+msgstr "Mali"
+
+#: includes/conditions/core-visitor-country.php:159
+msgctxt "countries"
+msgid "Malta"
+msgstr "Malta"
+
+#: includes/conditions/core-visitor-country.php:160
+msgctxt "countries"
+msgid "Marshall Islands"
+msgstr "Wyspy Marshalla"
+
+#: includes/conditions/core-visitor-country.php:161
+msgctxt "countries"
+msgid "Martinique"
+msgstr "Martynika"
+
+#: includes/conditions/core-visitor-country.php:162
+msgctxt "countries"
+msgid "Mauritania"
+msgstr "Mauretania"
+
+#: includes/conditions/core-visitor-country.php:163
+msgctxt "countries"
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: includes/conditions/core-visitor-country.php:164
+msgctxt "countries"
+msgid "Mayotte"
+msgstr "Majotta"
+
+#: includes/conditions/core-visitor-country.php:165
+msgctxt "countries"
+msgid "Mexico"
+msgstr "Meksyk"
+
+#: includes/conditions/core-visitor-country.php:166
+msgctxt "countries"
+msgid "Micronesia, Federated States Of"
+msgstr "Mikronezja"
+
+#: includes/conditions/core-visitor-country.php:167
+msgctxt "countries"
+msgid "Moldova, Republic of"
+msgstr "Republika Mołdawii"
+
+#: includes/conditions/core-visitor-country.php:168
+msgctxt "countries"
+msgid "Monaco"
+msgstr "Monako"
+
+#: includes/conditions/core-visitor-country.php:169
+msgctxt "countries"
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: includes/conditions/core-visitor-country.php:170
+msgctxt "countries"
+msgid "Montenegro"
+msgstr "Czarnogóra"
+
+#: includes/conditions/core-visitor-country.php:171
+msgctxt "countries"
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: includes/conditions/core-visitor-country.php:172
+msgctxt "countries"
+msgid "Morocco"
+msgstr "Maroko"
+
+#: includes/conditions/core-visitor-country.php:173
+msgctxt "countries"
+msgid "Mozambique"
+msgstr "Mozambik"
+
+#: includes/conditions/core-visitor-country.php:174
+msgctxt "countries"
+msgid "Myanmar"
+msgstr "Mjanma"
+
+#: includes/conditions/core-visitor-country.php:175
+msgctxt "countries"
+msgid "Namibia"
+msgstr "Namibia"
+
+#: includes/conditions/core-visitor-country.php:176
+msgctxt "countries"
+msgid "Nauru"
+msgstr "Nauru"
+
+#: includes/conditions/core-visitor-country.php:177
+msgctxt "countries"
+msgid "Nepal"
+msgstr "Nepal"
+
+#: includes/conditions/core-visitor-country.php:178
+msgctxt "countries"
+msgid "Netherlands"
+msgstr "Holandia"
+
+#: includes/conditions/core-visitor-country.php:179
+msgctxt "countries"
+msgid "Netherlands Antilles"
+msgstr "Antyle Holenderskie"
+
+#: includes/conditions/core-visitor-country.php:180
+msgctxt "countries"
+msgid "New Caledonia"
+msgstr "Nowa Kaledonia"
+
+#: includes/conditions/core-visitor-country.php:181
+msgctxt "countries"
+msgid "New Zealand"
+msgstr "Nowa Zelandia"
+
+#: includes/conditions/core-visitor-country.php:182
+msgctxt "countries"
+msgid "Nicaragua"
+msgstr "Nikaragua"
+
+#: includes/conditions/core-visitor-country.php:183
+msgctxt "countries"
+msgid "Niger"
+msgstr "Niger"
+
+#: includes/conditions/core-visitor-country.php:184
+msgctxt "countries"
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: includes/conditions/core-visitor-country.php:185
+msgctxt "countries"
+msgid "Niue"
+msgstr "Niue"
+
+#: includes/conditions/core-visitor-country.php:186
+msgctxt "countries"
+msgid "Norfolk Island"
+msgstr "Wyspa Norfolk"
+
+#: includes/conditions/core-visitor-country.php:187
+msgctxt "countries"
+msgid "Northern Mariana Islands"
+msgstr "Mariany Północne"
+
+#: includes/conditions/core-visitor-country.php:188
+msgctxt "countries"
+msgid "Norway"
+msgstr "Norwegia"
+
+#: includes/conditions/core-visitor-country.php:189
+msgctxt "countries"
+msgid "Oman"
+msgstr "Oman"
+
+#: includes/conditions/core-visitor-country.php:190
+msgctxt "countries"
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: includes/conditions/core-visitor-country.php:191
+msgctxt "countries"
+msgid "Palau"
+msgstr "Palau"
+
+#: includes/conditions/core-visitor-country.php:192
+msgctxt "countries"
+msgid "Palestinian Territory, Occupied"
+msgstr "Palestyńskie Terytoria Okupowane"
+
+#: includes/conditions/core-visitor-country.php:193
+msgctxt "countries"
+msgid "Panama"
+msgstr "Panama"
+
+#: includes/conditions/core-visitor-country.php:194
+msgctxt "countries"
+msgid "Papua New Guinea"
+msgstr "Papua-Nowa Gwinea"
+
+#: includes/conditions/core-visitor-country.php:195
+msgctxt "countries"
+msgid "Paraguay"
+msgstr "Paragwaj"
+
+#: includes/conditions/core-visitor-country.php:196
+msgctxt "countries"
+msgid "Peru"
+msgstr "Peru"
+
+#: includes/conditions/core-visitor-country.php:197
+msgctxt "countries"
+msgid "Philippines"
+msgstr "Filipiny"
+
+#: includes/conditions/core-visitor-country.php:198
+msgctxt "countries"
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: includes/conditions/core-visitor-country.php:199
+msgctxt "countries"
+msgid "Poland"
+msgstr "Polska"
+
+#: includes/conditions/core-visitor-country.php:200
+msgctxt "countries"
+msgid "Portugal"
+msgstr "Portugalia"
+
+#: includes/conditions/core-visitor-country.php:201
+msgctxt "countries"
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: includes/conditions/core-visitor-country.php:202
+msgctxt "countries"
+msgid "Qatar"
+msgstr "Katar"
+
+#: includes/conditions/core-visitor-country.php:203
+msgctxt "countries"
+msgid "Réunion"
+msgstr "Réunion"
+
+#: includes/conditions/core-visitor-country.php:204
+msgctxt "countries"
+msgid "Romania"
+msgstr "Rumunia"
+
+#: includes/conditions/core-visitor-country.php:205
+msgctxt "countries"
+msgid "Russian Federation"
+msgstr "Federacja Rosyjska"
+
+#: includes/conditions/core-visitor-country.php:206
+msgctxt "countries"
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: includes/conditions/core-visitor-country.php:207
+msgctxt "countries"
+msgid "Saint Barthélemy"
+msgstr "Saint-Barthélemy"
+
+#: includes/conditions/core-visitor-country.php:208
+msgctxt "countries"
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr "Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i Tristan da Cunha"
+
+#: includes/conditions/core-visitor-country.php:209
+msgctxt "countries"
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts i Nevis"
+
+#: includes/conditions/core-visitor-country.php:210
+msgctxt "countries"
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: includes/conditions/core-visitor-country.php:211
+msgctxt "countries"
+msgid "Saint Martin (French part)"
+msgstr "Saint Martin (część francuska)"
+
+#: includes/conditions/core-visitor-country.php:212
+msgctxt "countries"
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre i Miquelon"
+
+#: includes/conditions/core-visitor-country.php:213
+msgctxt "countries"
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent i Grenadyny"
+
+#: includes/conditions/core-visitor-country.php:214
+msgctxt "countries"
+msgid "Samoa"
+msgstr "Samoa"
+
+#: includes/conditions/core-visitor-country.php:215
+msgctxt "countries"
+msgid "San Marino"
+msgstr "San Marino"
+
+#: includes/conditions/core-visitor-country.php:216
+msgctxt "countries"
+msgid "Sao Tome And Principe"
+msgstr "Wyspy Świętego Tomasza i Książęca"
+
+#: includes/conditions/core-visitor-country.php:217
+msgctxt "countries"
+msgid "Saudi Arabia"
+msgstr "Arabia Saudyjska"
+
+#: includes/conditions/core-visitor-country.php:218
+msgctxt "countries"
+msgid "Senegal"
+msgstr "Senegal"
+
+#: includes/conditions/core-visitor-country.php:219
+msgctxt "countries"
+msgid "Serbia"
+msgstr "Serbia"
+
+#: includes/conditions/core-visitor-country.php:220
+msgctxt "countries"
+msgid "Seychelles"
+msgstr "Seszele"
+
+#: includes/conditions/core-visitor-country.php:221
+msgctxt "countries"
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: includes/conditions/core-visitor-country.php:222
+msgctxt "countries"
+msgid "Singapore"
+msgstr "Singapur"
+
+#: includes/conditions/core-visitor-country.php:223
+msgctxt "countries"
+msgid "Slovakia"
+msgstr "Słowacja"
+
+#: includes/conditions/core-visitor-country.php:224
+msgctxt "countries"
+msgid "Slovenia"
+msgstr "Słowenia"
+
+#: includes/conditions/core-visitor-country.php:225
+msgctxt "countries"
+msgid "Solomon Islands"
+msgstr "Wyspy Salomona"
+
+#: includes/conditions/core-visitor-country.php:226
+msgctxt "countries"
+msgid "Somalia"
+msgstr "Somalia"
+
+#: includes/conditions/core-visitor-country.php:227
+msgctxt "countries"
+msgid "South Africa"
+msgstr "Południowa Afryka"
+
+#: includes/conditions/core-visitor-country.php:228
+msgctxt "countries"
+msgid "South Georgia And Sandwich Isl."
+msgstr "Georgia Południowa i Sandwich Isl."
+
+#: includes/conditions/core-visitor-country.php:229
+msgctxt "countries"
+msgid "Spain"
+msgstr "Hiszpania"
+
+#: includes/conditions/core-visitor-country.php:230
+msgctxt "countries"
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: includes/conditions/core-visitor-country.php:231
+msgctxt "countries"
+msgid "Sudan"
+msgstr "Sudan"
+
+#: includes/conditions/core-visitor-country.php:232
+msgctxt "countries"
+msgid "Suriname"
+msgstr "Surinam"
+
+#: includes/conditions/core-visitor-country.php:233
+msgctxt "countries"
+msgid "Svalbard And Jan Mayen"
+msgstr "Svalbard i Jan Mayen"
+
+#: includes/conditions/core-visitor-country.php:234
+msgctxt "countries"
+msgid "Swaziland"
+msgstr "Szwajcaria"
+
+#: includes/conditions/core-visitor-country.php:235
+msgctxt "countries"
+msgid "Sweden"
+msgstr "Szwecja"
+
+#: includes/conditions/core-visitor-country.php:236
+msgctxt "countries"
+msgid "Switzerland"
+msgstr "Szwajcaria"
+
+#: includes/conditions/core-visitor-country.php:237
+msgctxt "countries"
+msgid "Syrian Arab Republic"
+msgstr "Syryjska Republika Arabska"
+
+#: includes/conditions/core-visitor-country.php:238
+msgctxt "countries"
+msgid "Taiwan"
+msgstr "Tajwan"
+
+#: includes/conditions/core-visitor-country.php:239
+msgctxt "countries"
+msgid "Tajikistan"
+msgstr "Tadżykistan"
+
+#: includes/conditions/core-visitor-country.php:240
+msgctxt "countries"
+msgid "Tanzania, United Republic of"
+msgstr "Tanzania"
+
+#: includes/conditions/core-visitor-country.php:241
+msgctxt "countries"
+msgid "Thailand"
+msgstr "Tajlandia"
+
+#: includes/conditions/core-visitor-country.php:242
+msgctxt "countries"
+msgid "Timor-Leste"
+msgstr "Timor Wschodni"
+
+#: includes/conditions/core-visitor-country.php:243
+msgctxt "countries"
+msgid "Togo"
+msgstr "Togo"
+
+#: includes/conditions/core-visitor-country.php:244
+msgctxt "countries"
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: includes/conditions/core-visitor-country.php:245
+msgctxt "countries"
+msgid "Tonga"
+msgstr "Tonga"
+
+#: includes/conditions/core-visitor-country.php:246
+msgctxt "countries"
+msgid "Trinidad And Tobago"
+msgstr "Trynidad i Tobago"
+
+#: includes/conditions/core-visitor-country.php:247
+msgctxt "countries"
+msgid "Tunisia"
+msgstr "Tunezja"
+
+#: includes/conditions/core-visitor-country.php:248
+msgctxt "countries"
+msgid "Turkey"
+msgstr "Turcja"
+
+#: includes/conditions/core-visitor-country.php:249
+msgctxt "countries"
+msgid "Turkmenistan"
+msgstr "Turkmenia"
+
+#: includes/conditions/core-visitor-country.php:250
+msgctxt "countries"
+msgid "Turks And Caicos Islands"
+msgstr "Turks i Caicos"
+
+#: includes/conditions/core-visitor-country.php:251
+msgctxt "countries"
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: includes/conditions/core-visitor-country.php:252
+msgctxt "countries"
+msgid "Uganda"
+msgstr "Uganda"
+
+#: includes/conditions/core-visitor-country.php:253
+msgctxt "countries"
+msgid "Ukraine"
+msgstr "Ukraina"
+
+#: includes/conditions/core-visitor-country.php:254
+msgctxt "countries"
+msgid "United Arab Emirates"
+msgstr "Zjednoczone Emiraty Arabskie"
+
+#: includes/conditions/core-visitor-country.php:255
+msgctxt "countries"
+msgid "United Kingdom"
+msgstr "Wielka Brytania"
+
+#: includes/conditions/core-visitor-country.php:256
+msgctxt "countries"
+msgid "United States"
+msgstr "Stany Zjednoczone"
+
+#: includes/conditions/core-visitor-country.php:257
+msgctxt "countries"
+msgid "United States Outlying Islands"
+msgstr "Stany Zjednoczone Wyspy Wycieczkowe"
+
+#: includes/conditions/core-visitor-country.php:258
+msgctxt "countries"
+msgid "Uruguay"
+msgstr "Urugwaj"
+
+#: includes/conditions/core-visitor-country.php:259
+msgctxt "countries"
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: includes/conditions/core-visitor-country.php:260
+msgctxt "countries"
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: includes/conditions/core-visitor-country.php:261
+msgctxt "countries"
+msgid "Venezuela, Bolivarian Republic of"
+msgstr "Wenezuela"
+
+#: includes/conditions/core-visitor-country.php:262
+msgctxt "countries"
+msgid "Viet Nam"
+msgstr "Wietnam"
+
+#: includes/conditions/core-visitor-country.php:263
+msgctxt "countries"
+msgid "Virgin Islands, British"
+msgstr "Brytyjskie Wyspy Dziewicze"
+
+#: includes/conditions/core-visitor-country.php:264
+msgctxt "countries"
+msgid "Virgin Islands, U.S."
+msgstr "Wyspy Dziewicze Stanów Zjednoczonych"
+
+#: includes/conditions/core-visitor-country.php:265
+msgctxt "countries"
+msgid "Wallis and Futuna"
+msgstr "Wallis i Futuna"
+
+#: includes/conditions/core-visitor-country.php:266
+msgctxt "countries"
+msgid "Western Sahara"
+msgstr "Sahara Zachodnia"
+
+#: includes/conditions/core-visitor-country.php:267
+msgctxt "countries"
+msgid "Yemen"
+msgstr "Jemen"
+
+#: includes/conditions/core-visitor-country.php:268
+msgctxt "countries"
+msgid "Zambia"
+msgstr "Zambia"
+
+#: includes/conditions/core-visitor-country.php:269
+msgctxt "countries"
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: includes/conditions/gravityforms-completed-form-submission.php:16
+#: includes/conditions/ninja-forms-completed-form-submission.php:16
+#, fuzzy
+msgid "User has submitted a form"
+msgstr "Użytkownik przesłał formularz"
+
+#: includes/conditions/woocommerce-completed-purchase.php:16
+#, fuzzy
+msgid "Visitor has completed purchase"
+msgstr "Odwiedzający dokonał zakupu"
+
+#. translators: 1: %s plugin name.
+#: includes/dependencies/gravityforms-activated.php:12
+#: includes/dependencies/ninja-forms-activated.php:12
+#: includes/dependencies/woocommerce-activated.php:12
+#, fuzzy
+msgid "%s must be installed & activated"
+msgstr "%s musi być zainstalowany i aktywowany"
+
+#. translators: 1: %s plugin name.
+#: includes/dependencies/gravityforms-activated.php:17
+#: includes/dependencies/ninja-forms-activated.php:17
+#: includes/dependencies/woocommerce-activated.php:17
+#, fuzzy
+msgid "%s is installed and activated"
+msgstr "%s jest zainstalowany i aktywowany"
+
+#. translators: 1: %s plugin name.
+#: includes/dependencies/gravityforms-activated.php:22
+#: includes/dependencies/ninja-forms-activated.php:22
+#: includes/dependencies/woocommerce-activated.php:22
+#, fuzzy
+msgid "%s is either not installed or not activated"
+msgstr "%s nie jest zainstalowany lub nie jest aktywowany"
+
+#: includes/models/base.php:59
+#, fuzzy
+msgctxt "post fix added to name on duplication"
+msgid " copy"
+msgstr " kopia"
+
+#: includes/models/rule.php:37
+msgctxt "Category name"
+msgid "Unknown"
+msgstr "Nieznany"
+
+#: includes/models/rule.php:79
+msgctxt "Created by user name"
+msgid "Plugin"
+msgstr "Wtyczka"
+
+#: includes/models/rule.php:84
+msgctxt "Created by user name"
+msgid "Unknown"
+msgstr "Nieznany"
+
+#: includes/values/class-wp-dxp-rule-types.php:12
+msgctxt "Rule type"
+msgid "Standard"
+msgstr "Standardowy"
+
+#: includes/values/class-wp-dxp-rule-types.php:16
+msgctxt "Rule type"
+msgid "Custom"
+msgstr "Własny"
+
+#: src/index.js:16
+#, fuzzy
+msgid "-- No rule selected --"
+msgstr "-- Nie wybrano żadnej reguły.."
+
+#: src/index.js:27
+#, fuzzy
+msgid "Show Block"
+msgstr "Pokaż blok"
+
+#: src/index.js:28
+#, fuzzy
+msgid "Hide Block"
+msgstr "Ukryj blok"
+
+#: src/index.js:94
+msgid "When these rules are met:"
+msgstr "Gdy te zasady zostaną spełnione:"
+
+#: src/index.js:135
+#, fuzzy
+msgid "Then take the following action:"
+msgstr "Następnie należy podjąć następujące działania:"

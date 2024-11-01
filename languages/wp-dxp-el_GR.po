@@ -1,0 +1,2375 @@
+# Copyright (C) 2023 Filter
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-DXP 1.6.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-dxp\n"
+"POT-Creation-Date: 2023-05-09T18:26:21+00:00\n"
+"PO-Revision-Date: 2023-05-09 19:36+0100\n"
+"Last-Translator: Filter <support@filteragency.com>\n"
+"Language-Team: Filter <support@filteragency.com>\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: wp-dxp\n"
+
+#. Plugin Name of the plugin
+#: admin/class-wp-dxp-admin.php:223 admin/class-wp-dxp-admin.php:224
+#: src/index.js:87
+msgid "WP-DXP"
+msgstr "WP-DXP"
+
+#. Plugin URI of the plugin
+msgid "https://filter.agency/about/wp-dxp/"
+msgstr "https://filter.agency/about/wp-dxp/"
+
+#. Description of the plugin
+#, fuzzy
+msgid ""
+"Use WordPress as a digital experience platform, adding personalization and "
+"conditional rules to the content that your users see and can interact with. "
+"Compete with commercial enterprise platforms and add your own rules to match "
+"user behavior on, then show or hide blocks based on if your conditions are "
+"met."
+msgstr ""
+"Χρησιμοποιήστε το WordPress ως πλατφόρμα ψηφιακής εμπειρίας, προσθέτοντας "
+"εξατομίκευση και κανόνες υπό όρους στο περιεχόμενο που βλέπουν και μπορούν "
+"να αλληλεπιδράσουν οι χρήστες σας. Ανταγωνιστείτε με εμπορικές πλατφόρμες "
+"επιχειρήσεων και προσθέστε τους δικούς σας κανόνες για να ταιριάζει η "
+"συμπεριφορά των χρηστών σε, στη συνέχεια, εμφανίστε ή αποκρύψτε μπλοκ με "
+"βάση το αν πληρούνται οι όροι σας."
+
+#. Author of the plugin
+msgid "Filter"
+msgstr "Filter"
+
+#. Author URI of the plugin
+msgid "https://filter.agency"
+msgstr "https://filter.agency"
+
+#: admin/class-wp-dxp-admin-base-page.php:109
+#: admin/partials/categories/index.php:126 admin/partials/rules/edit.php:152
+#: admin/partials/rules/index.php:151
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: admin/class-wp-dxp-admin-blocks.php:96
+#, fuzzy
+msgid "Duplicate blocks, collision detected."
+msgstr "Διπλά μπλοκ, εντοπίστηκε σύγκρουση."
+
+#: admin/class-wp-dxp-admin-categories-page.php:81
+#, fuzzy
+msgid "Category created"
+msgstr "Κατηγορία που δημιουργήθηκε"
+
+#: admin/class-wp-dxp-admin-categories-page.php:90
+#: admin/class-wp-dxp-admin-categories-page.php:160
+#: admin/class-wp-dxp-admin-rules-page.php:91
+#: admin/class-wp-dxp-admin-rules-page.php:144
+#, fuzzy
+msgid "An error occurred, please reload the page"
+msgstr "Εμφανίστηκε σφάλμα, παρακαλούμε επαναφορτώστε τη σελίδα"
+
+#: admin/class-wp-dxp-admin-categories-page.php:103
+#: admin/class-wp-dxp-admin-categories-page.php:119
+#: admin/class-wp-dxp-admin-categories-page.php:137
+#: admin/class-wp-dxp-admin-categories-page.php:173
+#, fuzzy
+msgid "Category could not be found"
+msgstr "Η κατηγορία δεν βρέθηκε"
+
+#: admin/class-wp-dxp-admin-categories-page.php:141
+#, fuzzy
+msgid "This category cannot be edited"
+msgstr "Αυτή η κατηγορία δεν μπορεί να επεξεργαστεί"
+
+#: admin/class-wp-dxp-admin-categories-page.php:151
+#, fuzzy
+msgid "Category updated"
+msgstr "Κατηγορία ενημερωμένη"
+
+#: admin/class-wp-dxp-admin-categories-page.php:177
+#, fuzzy
+msgid "Category cannot be deleted"
+msgstr "Η κατηγορία δεν μπορεί να διαγραφεί"
+
+#: admin/class-wp-dxp-admin-categories-page.php:182
+msgid "Category deleted"
+msgstr "Η Κατηγορία διαγράφηκε"
+
+#: admin/class-wp-dxp-admin-categories-page.php:222
+#: admin/class-wp-dxp-admin-rules-page.php:237
+#, fuzzy
+msgid "Form is not valid"
+msgstr "Η φόρμα δεν είναι έγκυρη"
+
+#: admin/class-wp-dxp-admin-categories-page.php:226
+#, fuzzy
+msgid "ID is required to update a category"
+msgstr "Το ID απαιτείται για την ενημέρωση μιας κατηγορίας"
+
+#: admin/class-wp-dxp-admin-categories-page.php:231
+msgid "Name is required"
+msgstr "Απαιτείται όνομα"
+
+#: admin/class-wp-dxp-admin-categories-page.php:235
+#, fuzzy
+msgid "This category name already exists. Please choose a different name."
+msgstr ""
+"Αυτό το όνομα κατηγορίας υπάρχει ήδη. Παρακαλώ επιλέξτε ένα διαφορετικό "
+"όνομα."
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:27
+#, fuzzy
+msgid "You’re all done!"
+msgstr "Τελειώσατε!"
+
+#. translators: 1: %s expands to a website link to WP-DXP KnowledgeBase, 2: </a> closing tag.
+#: admin/class-wp-dxp-admin-dashboard-page.php:31
+#, fuzzy
+msgid ""
+"Thanks, you’re now able to use the features below. If you get stuck or need "
+"help, please read our %1$shelp documentation%2$s, or if you are looking for "
+"an enterprise implementation talk to our %1$sperformance team%2$s."
+msgstr ""
+"Ευχαριστούμε, τώρα μπορείτε να χρησιμοποιήσετε τις παρακάτω λειτουργίες. Εάν "
+"κολλήσετε ή χρειάζεστε βοήθεια, διαβάστε την τεκμηρίωση %1$sβοήθεια%2$s, ή "
+"εάν αναζητάτε μια επιχειρησιακή εφαρμογή, μιλήστε με την ομάδα "
+"%1$sαπόδοσης%2$s."
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:43
+#: admin/class-wp-dxp-admin.php:243 admin/class-wp-dxp-admin.php:244
+#: admin/partials/_other/header.php:14
+msgid "Personalization"
+msgstr "Εξατομίκευση"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:44
+#, fuzzy
+msgid "Show or hide blocks based on conditions and rules"
+msgstr "Εμφάνιση ή απόκρυψη μπλοκ βάσει συνθηκών και κανόνων"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:49
+#: admin/class-wp-dxp-admin.php:261 admin/class-wp-dxp-admin.php:262
+#: admin/partials/_other/header.php:18
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:50
+#, fuzzy
+msgid "Add and edit your site and plugin preferences"
+msgstr ""
+"Προσθέστε και επεξεργαστείτε τις προτιμήσεις σας για τον ιστότοπο και τα "
+"πρόσθετα"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:58
+msgid "Contacts"
+msgstr "Επαφές"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:59
+#, fuzzy
+msgid "View data about the behavior of your site visitors"
+msgstr "Πώς προσδιορίζετε την τοποθεσία ενός επισκέπτη του ιστότοπου"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:63
+msgid "Segments"
+msgstr "Τμήματα"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:64
+#, fuzzy
+msgid "Create groups of visitors to personalize their experience"
+msgstr "Δημιουργήστε ομάδες επισκεπτών για να εξατομικεύσετε την εμπειρία τους"
+
+#: admin/class-wp-dxp-admin-rules-page.php:82
+#, fuzzy
+msgid "Rule created"
+msgstr "Κανόνας που δημιουργήθηκε"
+
+#: admin/class-wp-dxp-admin-rules-page.php:104
+#: admin/class-wp-dxp-admin-rules-page.php:122
+#: admin/class-wp-dxp-admin-rules-page.php:157
+#: admin/class-wp-dxp-admin-rules-page.php:182
+#, fuzzy
+msgid "Rule could not be found"
+msgstr "Ο κανόνας δεν βρέθηκε"
+
+#: admin/class-wp-dxp-admin-rules-page.php:126
+#, fuzzy
+msgid "This rule cannot be edited"
+msgstr "Αυτός ο κανόνας δεν μπορεί να επεξεργαστεί"
+
+#: admin/class-wp-dxp-admin-rules-page.php:136
+#, fuzzy
+msgid "Rule updated"
+msgstr "Ενημέρωση του κανόνα"
+
+#: admin/class-wp-dxp-admin-rules-page.php:161
+#, fuzzy
+msgid "Rule cannot be deleted"
+msgstr "Ο κανόνας δεν μπορεί να διαγραφεί"
+
+#: admin/class-wp-dxp-admin-rules-page.php:166
+#, fuzzy
+msgid "Rule deleted"
+msgstr "Κανόνας που διαγράφεται"
+
+#: admin/class-wp-dxp-admin-rules-page.php:188
+#, fuzzy
+msgid "Rule duplicated"
+msgstr "Κανόνας που επαναλαμβάνεται"
+
+#: admin/class-wp-dxp-admin-rules-page.php:192
+#, fuzzy
+msgid "Error duplicating rule"
+msgstr "Σφάλμα αντιγραφής κανόνα"
+
+#: admin/class-wp-dxp-admin-rules-page.php:242
+#, fuzzy
+msgid "ID is required to update a rule"
+msgstr "Το ID απαιτείται για την ενημέρωση ενός κανόνα"
+
+#: admin/class-wp-dxp-admin-rules-page.php:247
+msgid "Please enter a name"
+msgstr "Πληκτρολογήστε ένα όνομα"
+
+#: admin/class-wp-dxp-admin-rules-page.php:251
+#, fuzzy
+msgid "This rule name already exists. Please choose a different name."
+msgstr ""
+"Αυτό το όνομα κανόνα υπάρχει ήδη. Παρακαλώ επιλέξτε ένα διαφορετικό όνομα."
+
+#: admin/class-wp-dxp-admin-rules-page.php:255
+msgid "Please select a category"
+msgstr "Παρακαλώ επιλέξτε μία κατηγορία"
+
+#: admin/class-wp-dxp-admin-rules-page.php:261
+#, fuzzy
+msgid "A measure for the condition should be selected"
+msgstr "Θα πρέπει να επιλεγεί ένα μέτρο για την κατάσταση"
+
+#: admin/class-wp-dxp-admin-rules-page.php:271
+#, fuzzy
+msgid "The meta value for the condition should not be empty"
+msgstr "Η μετα-τιμή για τη συνθήκη δεν πρέπει να είναι κενή"
+
+#: admin/class-wp-dxp-admin-rules-page.php:279
+#, fuzzy
+msgid "A comparator for the condition should be selected"
+msgstr "Θα πρέπει να επιλεγεί ένας συγκριτής για την κατάσταση"
+
+#: admin/class-wp-dxp-admin-rules-page.php:290
+#, fuzzy
+msgid "Please select a value"
+msgstr "Παρακαλώ επιλέξτε μια τιμή"
+
+#: admin/class-wp-dxp-admin-settings-page.php:21
+#, fuzzy
+msgid "First time configuration"
+msgstr "Διαμόρφωση για πρώτη φορά"
+
+#: admin/class-wp-dxp-admin-settings-page.php:22
+#, fuzzy
+msgid ""
+"Thanks for installing and activating WP-DXP so that you can start to use "
+"WordPress as a digital experience platform. We recommend that if it is your "
+"first time with the plugin, that you sign up for our email list, where we "
+"plan to share tips and tricks of things you can do with WP-DXP, as well as "
+"inform you when new versions and features are added to the plugin."
+msgstr ""
+"Σας ευχαριστούμε που εγκαταστήσατε και ενεργοποιήσατε το WP-DXP, ώστε να "
+"αρχίσετε να χρησιμοποιείτε το WordPress ως πλατφόρμα ψηφιακής εμπειρίας. Σας "
+"συνιστούμε, αν είναι η πρώτη σας φορά με το πρόσθετο, να εγγραφείτε στη "
+"λίστα email μας, όπου σκοπεύουμε να μοιραζόμαστε συμβουλές και κόλπα για "
+"πράγματα που μπορείτε να κάνετε με το WP-DXP, καθώς και να σας ενημερώνουμε "
+"όταν προστίθενται νέες εκδόσεις και δυνατότητες στο πρόσθετο."
+
+#: admin/class-wp-dxp-admin-settings-page.php:30
+#: admin/class-wp-dxp-admin-settings-page.php:32
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+
+#: admin/class-wp-dxp-admin-settings-page.php:31
+#, fuzzy
+msgid "Find out what more you can do with WP-DXP on our website"
+msgstr "Μάθετε τι άλλο μπορείτε να κάνετε με το WP-DXP στον ιστότοπό μας"
+
+#: admin/class-wp-dxp-admin-settings-page.php:37
+msgid "Need help?"
+msgstr "Χρειάζεστε βοήθεια;"
+
+#: admin/class-wp-dxp-admin-settings-page.php:38
+#, fuzzy
+msgid "Check out our knowledge base"
+msgstr "Ελέγξτε τη βάση γνώσεών μας"
+
+#: admin/class-wp-dxp-admin-settings-page.php:39
+msgid "View Help Docs"
+msgstr "Προβολή εγγράφων βοήθειας"
+
+#: admin/class-wp-dxp-admin-settings-page.php:74
+#, fuzzy
+#| msgid "Please enter a name"
+msgid "Please provide your first name"
+msgstr "Πληκτρολογήστε ένα όνομα"
+
+#: admin/class-wp-dxp-admin-settings-page.php:82
+#, fuzzy
+#| msgid "Please enter a name"
+msgid "Please provide your last name"
+msgstr "Πληκτρολογήστε ένα όνομα"
+
+#: admin/class-wp-dxp-admin-settings-page.php:90
+msgid "Please provide your email address"
+msgstr "Καταχωρίστε τη διεύθυνση email σας"
+
+#: admin/class-wp-dxp-admin-settings-page.php:98
+#, fuzzy
+msgid "Please accept Terms and Conditions"
+msgstr "Παρακαλούμε αποδεχτείτε τους Όρους και Προϋποθέσεις"
+
+#: admin/class-wp-dxp-admin-settings-page.php:138
+msgid "Something went wrong, please try again"
+msgstr "Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά"
+
+#: admin/class-wp-dxp-admin.php:124 admin/partials/rules/index.php:40
+#: admin/partials/rules/index.php:111
+msgid "Active"
+msgstr "Ενεργό"
+
+#: admin/class-wp-dxp-admin.php:126
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#. translators: 1: %s placeholder for select dropdown of numbers.
+#: admin/class-wp-dxp-admin.php:130
+#, fuzzy
+msgid "Rows per page: %s"
+msgstr "Σειρές ανά σελίδα: %s"
+
+#. translators: 1: %s placeholder for index of the first record on the current page, 2: %s placeholder for index of the last record on the current page, 3: %s placeholder for number of records in the table after filtering
+#: admin/class-wp-dxp-admin.php:137
+#, fuzzy
+msgid "%1$s-%2$s of %3$s items"
+msgstr "%1$s-%2$s από %3$s στοιχεία"
+
+#: admin/class-wp-dxp-admin.php:143
+#, fuzzy
+msgid "0 results"
+msgstr "0 αποτελέσματα"
+
+#: admin/class-wp-dxp-admin.php:144
+msgid "No matching records found"
+msgstr "Δεν βρέθηκαν εγγραφές που να ταιριάζουν"
+
+#: admin/class-wp-dxp-admin.php:145
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: admin/class-wp-dxp-admin.php:146
+msgid "Next"
+msgstr "Επόμενο"
+
+#: admin/class-wp-dxp-admin.php:234 admin/class-wp-dxp-admin.php:235
+#: admin/partials/_other/header.php:9
+msgid "Dashboard"
+msgstr "Πίνακας Ελέγχου"
+
+#: admin/class-wp-dxp-admin.php:252 admin/class-wp-dxp-admin.php:253
+#: admin/partials/personalisation/nav.php:25
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: admin/class-wp-dxp-admin.php:285
+msgid "Knowledge Base"
+msgstr "Γνωσιακή Βάση"
+
+#: admin/class-wp-dxp-admin.php:353
+#, fuzzy
+msgid "You can not view private data."
+msgstr "Δεν μπορείτε να δείτε ιδιωτικά δεδομένα."
+
+#: admin/partials/categories/create.php:28
+#: admin/partials/categories/index.php:85
+msgid "Add New Category"
+msgstr "Προσθήκη Νέας Κατηγορίας"
+
+#: admin/partials/categories/create.php:33
+#, fuzzy
+msgid "Create a new category using the options below."
+msgstr "Δημιουργήστε μια νέα κατηγορία χρησιμοποιώντας τις παρακάτω επιλογές."
+
+#. translators: 1: %s category name.
+#: admin/partials/categories/edit.php:30
+#, fuzzy
+msgid "Edit Category: %s"
+msgstr "Επεξεργασία κατηγορίας: %s"
+
+#: admin/partials/categories/edit.php:39
+#, fuzzy
+msgid ""
+"Edit the category details using the form below. When finished, click on Save "
+"to update the category."
+msgstr ""
+"Επεξεργαστείτε τα στοιχεία της κατηγορίας χρησιμοποιώντας την παρακάτω "
+"φόρμα. Όταν τελειώσετε, κάντε κλικ στο Αποθήκευση για να ενημερώσετε την "
+"κατηγορία."
+
+#: admin/partials/categories/index.php:28
+#, fuzzy
+msgid "Create Category"
+msgstr "Δημιουργία κατηγορίας"
+
+#: admin/partials/categories/index.php:33
+#: admin/partials/categories/_form.php:17
+msgid "Category Name"
+msgstr "Όνομα Κατηγορίας"
+
+#: admin/partials/categories/index.php:34
+#: admin/partials/categories/rules.php:26
+#: admin/partials/personalisation/nav.php:22
+msgid "Rules"
+msgstr "Κανόνες"
+
+#: admin/partials/categories/index.php:48
+#: admin/partials/categories/rules.php:81 admin/partials/rules/index.php:115
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: admin/partials/categories/index.php:51
+#: admin/partials/categories/rules.php:84 admin/partials/rules/edit.php:129
+#: admin/partials/rules/index.php:118
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: admin/partials/categories/index.php:51
+#: admin/partials/categories/rules.php:84 admin/partials/rules/index.php:118
+msgid "View"
+msgstr "Προβολή"
+
+#: admin/partials/categories/index.php:54
+#, fuzzy
+msgid "View Rules"
+msgstr "Προβολή κανόνων"
+
+#: admin/partials/categories/index.php:58
+#: admin/partials/categories/index.php:60
+#: admin/partials/categories/index.php:134
+#: admin/partials/categories/rules.php:92 admin/partials/rules/edit.php:64
+#: admin/partials/rules/edit.php:66 admin/partials/rules/edit.php:160
+#: admin/partials/rules/index.php:125 admin/partials/rules/index.php:127
+#: admin/partials/rules/index.php:159
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: admin/partials/categories/index.php:105
+msgid "Edit Category"
+msgstr "Επεξεργασία κατηγορίας"
+
+#: admin/partials/categories/index.php:125
+msgid "Delete Category"
+msgstr "Διαγραφή κατηγορίας"
+
+#: admin/partials/categories/index.php:132
+msgid "Are you sure you want to delete this category?"
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την κατηγορία;"
+
+#: admin/partials/categories/index.php:135
+#: admin/partials/categories/_form.php:39 admin/partials/rules/edit.php:161
+#: admin/partials/rules/index.php:160 admin/partials/rules/_form.php:281
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: admin/partials/categories/rules.php:31
+#, fuzzy
+msgid ""
+"Rules that are active will be displayed to a user and are available to use. "
+"Click on View/Edit to find out more information about the rule."
+msgstr ""
+"Οι κανόνες που είναι ενεργοί θα εμφανίζονται στον χρήστη και θα είναι "
+"διαθέσιμοι για χρήση. Κάντε κλικ στο View/Edit (Προβολή/Επεξεργασία) για να "
+"μάθετε περισσότερες πληροφορίες σχετικά με τον κανόνα."
+
+#: admin/partials/categories/rules.php:45 admin/partials/rules/index.php:78
+#: admin/partials/rules/_form.php:18
+msgid "Rule Name"
+msgstr "Όνομα κανόνα"
+
+#: admin/partials/categories/rules.php:46 admin/partials/rules/index.php:79
+#: admin/partials/rules/_form.php:33
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: admin/partials/categories/rules.php:47 admin/partials/rules/index.php:80
+msgid "Type"
+msgstr "Τύπος"
+
+#: admin/partials/categories/rules.php:48 admin/partials/rules/index.php:81
+msgid "Created By"
+msgstr "Δημιουργήθηκε στο"
+
+#: admin/partials/categories/rules.php:49
+msgid "Used By"
+msgstr "Χρησιμοποιηθηκε απο"
+
+#. translators: 1: %d number of blocks.
+#: admin/partials/categories/rules.php:75 admin/partials/rules/index.php:108
+msgid "%d block"
+msgid_plural "%d blocks"
+msgstr[0] "%d Μπλοκ"
+msgstr[1] "%d Μπλοκς"
+
+#: admin/partials/categories/rules.php:87 admin/partials/rules/edit.php:58
+#: admin/partials/rules/edit.php:60 admin/partials/rules/index.php:121
+msgid "Duplicate"
+msgstr "Αντιγραφή"
+
+#: admin/partials/categories/_form.php:37
+#, fuzzy
+msgid "Save Category"
+msgstr "Αποθήκευση κατηγορίας"
+
+#: admin/partials/dashboard/tile.php:22
+msgid "Coming soon"
+msgstr "Σύντομα κοντά σας"
+
+#: admin/partials/rules/create.php:26
+msgid "Add New Rule"
+msgstr "Προσθήκη νέου κανόνα"
+
+#: admin/partials/rules/create.php:31
+#, fuzzy
+msgid ""
+"Create a new rule using the options below. Once the rule has been added, it "
+"will become active or inactive, depending on the conditions chosen."
+msgstr ""
+"Δημιουργήστε έναν νέο κανόνα χρησιμοποιώντας τις παρακάτω επιλογές. Μόλις "
+"προστεθεί ο κανόνας, θα γίνει ενεργός ή ανενεργός, ανάλογα με τις συνθήκες "
+"που έχουν επιλεγεί."
+
+#: admin/partials/rules/edit.php:28
+msgid "Back"
+msgstr "Πίσω"
+
+#: admin/partials/rules/edit.php:37
+#, fuzzy
+msgid "This rule is not currently usable for the following reasons:"
+msgstr ""
+"Αυτός ο κανόνας δεν είναι προς το παρόν χρησιμοποιήσιμος για τους ακόλουθους "
+"λόγους:"
+
+#: admin/partials/rules/edit.php:54
+#, fuzzy
+msgid "View / edit rule"
+msgstr "Προβολή / επεξεργασία κανόνα"
+
+#: admin/partials/rules/edit.php:76
+#, fuzzy
+msgid ""
+"Standard rules cannot be edited, however you can duplicate this rule and "
+"make your own changes."
+msgstr ""
+"Οι τυπικοί κανόνες δεν μπορούν να επεξεργαστούν, ωστόσο μπορείτε να "
+"αντιγράψετε αυτόν τον κανόνα και να κάνετε τις δικές σας αλλαγές."
+
+#: admin/partials/rules/edit.php:106
+#, fuzzy
+msgid "Current usage"
+msgstr "Τρέχουσα χρήση"
+
+#: admin/partials/rules/edit.php:115
+msgid "Page"
+msgstr "Σελίδα"
+
+#: admin/partials/rules/edit.php:116
+msgid "Block"
+msgstr "Μπλοκ"
+
+#: admin/partials/rules/edit.php:136
+#, fuzzy
+msgid "There are no blocks using this rule"
+msgstr "Δεν υπάρχουν μπλοκ που να χρησιμοποιούν αυτόν τον κανόνα"
+
+#: admin/partials/rules/edit.php:151
+#, fuzzy
+msgid "Delete rule?"
+msgstr "Διαγραφή κανόνα"
+
+#: admin/partials/rules/edit.php:158 admin/partials/rules/index.php:157
+msgid "Are you sure you want to delete this rule?"
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον κανόνα;"
+
+#: admin/partials/rules/index.php:31
+#, fuzzy
+msgid ""
+"Rules that are active will be displayed to a user and are available to use. "
+"If a rule is inactive, content related to it will not currently be displayed "
+"to a user. Reasons these rules are \"inactive\" include dependence upon a "
+"third party plugin to function (for example WooCommerce)."
+msgstr ""
+"Οι κανόνες που είναι ενεργοί θα εμφανίζονται στον χρήστη και θα είναι "
+"διαθέσιμοι για χρήση. Εάν ένας κανόνας είναι ανενεργός, το περιεχόμενο που "
+"σχετίζεται με αυτόν δεν θα εμφανίζεται προς το παρόν σε έναν χρήστη. Οι "
+"λόγοι για τους οποίους αυτοί οι κανόνες είναι \"ανενεργοί\" περιλαμβάνουν "
+"την εξάρτηση από ένα πρόσθετο τρίτου μέρους για να λειτουργήσει (για "
+"παράδειγμα το WooCommerce)."
+
+#. translators: 1: %d total active rules.
+#: admin/partials/rules/index.php:46
+msgid "Active (%d)"
+msgstr "Ενεργό (%d)"
+
+#: admin/partials/rules/index.php:53 admin/partials/rules/index.php:111
+msgid "Inactive"
+msgstr "Ανενεργό"
+
+#. translators: 1: %d total inactive rules.
+#: admin/partials/rules/index.php:59
+msgid "Inactive (%d)"
+msgstr "Ανενεργό (%d)"
+
+#: admin/partials/rules/index.php:68
+msgid "All categories"
+msgstr "Όλες οι κατηγορίες"
+
+#: admin/partials/rules/index.php:73 admin/partials/rules/_form.php:280
+#, fuzzy
+msgid "Create rule"
+msgstr "Δημιουργία κανόνα"
+
+#: admin/partials/rules/index.php:82
+#, fuzzy
+msgid "Blocks used in"
+msgstr "Μπλοκ που χρησιμοποιούνται σε"
+
+#: admin/partials/rules/index.php:83
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: admin/partials/rules/index.php:150
+msgid "Delete Rule"
+msgstr "Διαγραφή κανόνα"
+
+#: admin/partials/rules/_form.php:36 admin/partials/rules/_form.php:38
+#, fuzzy
+msgid "-- Select a category --"
+msgstr "Παρακαλώ επιλέξτε μία κατηγορία"
+
+#: admin/partials/rules/_form.php:53
+msgid "Conditions"
+msgstr "Προϋποθέσεις"
+
+#: admin/partials/rules/_form.php:68 admin/partials/rules/_form.php:76
+#: admin/partials/rules/_form.php:185
+#, fuzzy
+msgid "-- Select a measure --"
+msgstr "-- Επιλέξτε ένα μέτρο --"
+
+#: admin/partials/rules/_form.php:71 admin/partials/rules/_form.php:79
+#: admin/partials/rules/_form.php:188 admin/partials/rules/_form.php:231
+#, fuzzy
+msgid "-- Enter cookie name here --"
+msgstr "-- Εισάγετε το όνομα του cookie εδώ --"
+
+#: admin/partials/rules/_form.php:74 admin/partials/rules/_form.php:82
+#: admin/partials/rules/_form.php:191
+#, fuzzy
+msgid "-- Select a comparator --"
+msgstr "-- Επιλέξτε έναν συγκριτή --"
+
+#: admin/partials/rules/_form.php:91 admin/partials/rules/_form.php:104
+#: admin/partials/rules/_form.php:122 admin/partials/rules/_form.php:130
+#: admin/partials/rules/_form.php:143 admin/partials/rules/_form.php:151
+#: admin/partials/rules/_form.php:193 admin/partials/rules/_form.php:236
+#, fuzzy
+msgid "-- Select a value --"
+msgstr "-- Επιλέξτε μια τιμή --"
+
+#: admin/partials/rules/_form.php:93 admin/partials/rules/_form.php:106
+#: admin/partials/rules/_form.php:124 admin/partials/rules/_form.php:132
+#: admin/partials/rules/_form.php:145 admin/partials/rules/_form.php:153
+#: admin/partials/rules/_form.php:200
+#, fuzzy
+msgid "-- Enter value here --"
+msgstr "-- Εισάγετε την τιμή εδώ --"
+
+#: admin/partials/rules/_form.php:96 admin/partials/rules/_form.php:109
+#: admin/partials/rules/_form.php:127 admin/partials/rules/_form.php:135
+#: admin/partials/rules/_form.php:148 admin/partials/rules/_form.php:156
+#: admin/partials/rules/_form.php:204 admin/partials/rules/_form.php:246
+#, fuzzy
+msgid "-- Select a date --"
+msgstr "-- Επιλέξτε μια ημερομηνία --"
+
+#: admin/partials/rules/_form.php:101 admin/partials/rules/_form.php:196
+#: admin/partials/rules/_form.php:239
+#, fuzzy
+msgid "-- Enter key here --"
+msgstr "-- Εισάγετε το κλειδί εδώ --"
+
+#: admin/partials/rules/_form.php:169 admin/partials/rules/_form.php:211
+#: admin/partials/rules/_form.php:253
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: admin/partials/rules/_form.php:267
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: admin/partials/rules/_form.php:275
+msgid "Save Changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: admin/partials/rules/_form.php:276
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: admin/partials/settings/index.php:25
+#, fuzzy
+msgid "Join our email list"
+msgstr "Εγγραφείτε στη λίστα email μας"
+
+#: admin/partials/settings/index.php:29
+msgid "First name"
+msgstr "Όνομα"
+
+#: admin/partials/settings/index.php:33
+msgid "Last name"
+msgstr "Επώνυμο"
+
+#: admin/partials/settings/index.php:38
+msgid "Email address"
+msgstr "Διεύθυνση Email"
+
+#. translators: 1: %s expands to a website link to WP-DXP Terms and Conditions, 2: </a> closing tag.
+#: admin/partials/settings/index.php:47
+#, fuzzy
+#| msgid "Conditions"
+msgid "I accept the %1$sTerms and Conditions%2$s"
+msgstr "Προϋποθέσεις"
+
+#: admin/partials/settings/index.php:55
+msgid "Sign up"
+msgstr "Εγγραφή"
+
+#: admin/partials/settings/index.php:58
+msgid "Skip for now"
+msgstr "Παράλειψη προς το παρόν"
+
+#: admin/partials/settings/index.php:64
+#, fuzzy
+msgid "You’re on the list!"
+msgstr "Είσαι στη λίστα!"
+
+#: admin/partials/settings/index.php:65
+#, fuzzy
+msgid ""
+"Now you’re on our email list, we’ll share tips and tricks of things you can "
+"do with WP-DXP, as well as inform you when new versions and features are "
+"added to the plugin. If you’d like to opt-out of receiving email, then click "
+"on the Manage Preference link at the bottom of any emails we send you."
+msgstr ""
+"Τώρα που είστε στη λίστα email μας, θα μοιραζόμαστε συμβουλές και κόλπα για "
+"πράγματα που μπορείτε να κάνετε με το WP-DXP, καθώς και θα σας ενημερώνουμε "
+"όταν προστίθενται νέες εκδόσεις και λειτουργίες στο πρόσθετο. Αν θέλετε να "
+"εξαιρεθείτε από τη λήψη μηνυμάτων ηλεκτρονικού ταχυδρομείου, τότε κάντε κλικ "
+"στο σύνδεσμο Διαχείριση προτιμήσεων στο κάτω μέρος όλων των μηνυμάτων "
+"ηλεκτρονικού ταχυδρομείου που σας στέλνουμε."
+
+#: admin/partials/wp-dxp-admin-display.php:18
+#, fuzzy
+msgid "WP-DXP: Partial"
+msgstr "WP-DXP: "
+
+#: admin/partials/_other/header.php:20
+msgid "Onboarding"
+msgstr "Επιβίβαση"
+
+#: admin/partials/_other/header.php:41
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: admin/partials/_other/header.php:46
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: admin/partials/_other/header.php:51
+msgid "Leave a Review"
+msgstr "Αφήστε μια κριτική"
+
+#: includes/class-wp-dxp-conditions.php:134
+msgctxt "Class description"
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: includes/class-wp-dxp-conditions.php:146
+msgctxt "Class category"
+msgid "Misc"
+msgstr "Διάφορα"
+
+#: includes/conditions/base.php:39 includes/conditions/core-query-string.php:19
+#: includes/conditions/core-referrer.php:17
+#: includes/conditions/core-users-role.php:17
+#: includes/conditions/core-visitor-country.php:19
+msgctxt "Comparator"
+msgid "Equals"
+msgstr "Ίσο"
+
+#: includes/conditions/base.php:40 includes/conditions/core-query-string.php:20
+#: includes/conditions/core-referrer.php:18
+#: includes/conditions/core-users-role.php:18
+#: includes/conditions/core-visitor-country.php:20
+#, fuzzy
+msgctxt "Comparator"
+msgid "Does Not Equal"
+msgstr "Δεν ισούται"
+
+#: includes/conditions/base.php:41
+#, fuzzy
+msgctxt "Comparator"
+msgid "Is any of"
+msgstr "Είναι κάποιο από τα"
+
+#: includes/conditions/base.php:44
+#: includes/conditions/gravityforms-completed-form-submission.php:23
+#: includes/conditions/ninja-forms-completed-form-submission.php:23
+#: includes/conditions/woocommerce-completed-purchase.php:23
+msgctxt "Comparison value"
+msgid "True"
+msgstr "Αληθής"
+
+#: includes/conditions/base.php:45
+#: includes/conditions/gravityforms-completed-form-submission.php:24
+#: includes/conditions/ninja-forms-completed-form-submission.php:24
+#: includes/conditions/woocommerce-completed-purchase.php:24
+msgctxt "Comparison value"
+msgid "False"
+msgstr "Ψευδής"
+
+#: includes/conditions/core-cookie.php:16
+msgid "Cookie"
+msgstr "Cookie"
+
+#: includes/conditions/core-cookie.php:19
+#, fuzzy
+msgctxt "Comparator"
+msgid "Has any Value (Exists)"
+msgstr "Έχει οποιαδήποτε αξία (Υπάρχει)"
+
+#: includes/conditions/core-cookie.php:20
+#, fuzzy
+msgctxt "Comparator"
+msgid "Has no Value (Does not exist)"
+msgstr "Δεν έχει αξία (Δεν υπάρχει)"
+
+#: includes/conditions/core-cookie.php:21
+#, fuzzy
+msgctxt "Comparator"
+msgid "Equal to"
+msgstr "ίσο (=)"
+
+#: includes/conditions/core-cookie.php:22
+#, fuzzy
+msgctxt "Comparator"
+msgid "Not Equal to"
+msgstr "ίσο (=)"
+
+#: includes/conditions/core-cookie.php:23
+#: includes/conditions/core-query-string.php:21
+#: includes/conditions/core-referrer.php:19
+msgctxt "Comparator"
+msgid "Contains"
+msgstr "Περιέχει"
+
+#: includes/conditions/core-cookie.php:24
+#: includes/conditions/core-query-string.php:22
+#: includes/conditions/core-referrer.php:20
+msgctxt "Comparator"
+msgid "Does Not Contain"
+msgstr "Δεν περιέχει"
+
+#: includes/conditions/core-is-logged-in-user.php:14
+msgid "User is logged in"
+msgstr "Ο χρήστης είναι συνδεδεμένος"
+
+#: includes/conditions/core-is-logged-in-user.php:17
+#: includes/conditions/core-new-visitor.php:17
+#: includes/conditions/core-time-elapsed.php:17
+#: includes/conditions/core-visiting-date.php:19
+#: includes/conditions/gravityforms-completed-form-submission.php:19
+#: includes/conditions/ninja-forms-completed-form-submission.php:19
+#: includes/conditions/woocommerce-completed-purchase.php:19
+msgctxt "Comparator"
+msgid "Is"
+msgstr "Είναι"
+
+#: includes/conditions/core-new-visitor.php:14
+#, fuzzy
+msgid "New Visit"
+msgstr "Νέα επίσκεψη"
+
+#: includes/conditions/core-query-string.php:16
+msgid "Query String"
+msgstr "Συμβολοσειρά ερωτήματος"
+
+#: includes/conditions/core-query-string.php:23
+#, fuzzy
+msgctxt "Comparator"
+msgid "Key/Value"
+msgstr "Κλειδί/Αξία"
+
+#: includes/conditions/core-referrer.php:14
+msgid "Referer"
+msgstr "Παραπομπή"
+
+#: includes/conditions/core-time-elapsed.php:14
+#, fuzzy
+msgid "Time on current page"
+msgstr "Χρόνος στην τρέχουσα σελίδα"
+
+#: includes/conditions/core-users-device-type.php:16
+msgid "Device Type"
+msgstr "Τύπος συσκευής"
+
+#: includes/conditions/core-users-device-type.php:19
+#: includes/conditions/core-users-last-visit.php:19
+#: includes/conditions/core-users-visiting-time.php:17
+msgctxt "Comparator"
+msgid "Equal To"
+msgstr "ίσο (=)"
+
+#: includes/conditions/core-users-device-type.php:23
+msgid "Mobile"
+msgstr "Κινητό"
+
+#: includes/conditions/core-users-device-type.php:24
+msgid "Tablet"
+msgstr "Τάμπλετ"
+
+#: includes/conditions/core-users-device-type.php:25
+msgid "Desktop"
+msgstr "Επιφάνεια Εργασίας"
+
+#: includes/conditions/core-users-device-type.php:26
+#, fuzzy
+msgid "iOS device"
+msgstr "συσκευή iOS"
+
+#: includes/conditions/core-users-device-type.php:27
+#, fuzzy
+msgid "Android device"
+msgstr "Συσκευή Android"
+
+#: includes/conditions/core-users-last-visit.php:14
+#, fuzzy
+msgid "Last Visit"
+msgstr "Τελευταία επίσκεψη"
+
+#: includes/conditions/core-users-last-visit.php:17
+#, fuzzy
+msgctxt "Comparator"
+msgid "More Than"
+msgstr "Περισσότερο από"
+
+#: includes/conditions/core-users-last-visit.php:18
+msgctxt "Comparator"
+msgid "Less Than"
+msgstr "Λιγότερο από"
+
+#. translators: 1: %d number of days.
+#: includes/conditions/core-users-last-visit.php:27
+#, fuzzy
+msgid "%d Day ago"
+msgid_plural "%d Days ago"
+msgstr[0] "%d Μέρα πριν"
+msgstr[1] "%d Μέρες πριν"
+
+#: includes/conditions/core-users-role.php:14
+msgid "User Role"
+msgstr "Ρόλος χρήστη"
+
+#: includes/conditions/core-users-specific-visiting-time.php:14
+#, fuzzy
+msgid "Visit Time"
+msgstr "Χρόνος επίσκεψης"
+
+#: includes/conditions/core-users-specific-visiting-time.php:17
+#: includes/conditions/core-visiting-date.php:17
+msgctxt "Comparator"
+msgid "Before"
+msgstr "Πριν"
+
+#: includes/conditions/core-users-specific-visiting-time.php:18
+#: includes/conditions/core-visiting-date.php:18
+msgctxt "Comparator"
+msgid "After"
+msgstr "Μετά"
+
+#: includes/conditions/core-users-visiting-time.php:14
+#, fuzzy
+msgid "Visit Period"
+msgstr "Περίοδος επίσκεψης"
+
+#: includes/conditions/core-users-visiting-time.php:21
+msgctxt "Comparison value"
+msgid "Morning"
+msgstr "Πρωί"
+
+#: includes/conditions/core-users-visiting-time.php:22
+msgctxt "Comparison value"
+msgid "Afternoon"
+msgstr "Απόγευμα"
+
+#: includes/conditions/core-users-visiting-time.php:23
+msgctxt "Comparison value"
+msgid "Evening"
+msgstr "Απογευματινή"
+
+#: includes/conditions/core-users-visiting-time.php:24
+#, fuzzy
+msgctxt "Comparison value"
+msgid "Nighttime"
+msgstr "Νυχτερινή ώρα"
+
+#: includes/conditions/core-visiting-date.php:14
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: includes/conditions/core-visitor-country.php:16
+#, fuzzy
+msgid "User Location"
+msgstr "Τοποθεσία χρήστη"
+
+#: includes/conditions/core-visitor-country.php:24
+msgctxt "countries"
+msgid "Afghanistan"
+msgstr "Αφγανιστάν"
+
+#: includes/conditions/core-visitor-country.php:25
+msgctxt "countries"
+msgid "Åland Islands"
+msgstr "Νήσοι Åland"
+
+#: includes/conditions/core-visitor-country.php:26
+msgctxt "countries"
+msgid "Albania"
+msgstr "Αλβανία"
+
+#: includes/conditions/core-visitor-country.php:27
+msgctxt "countries"
+msgid "Algeria"
+msgstr "Αλγερία"
+
+#: includes/conditions/core-visitor-country.php:28
+msgctxt "countries"
+msgid "American Samoa"
+msgstr "Αμερικανικές Σαμόα"
+
+#: includes/conditions/core-visitor-country.php:29
+msgctxt "countries"
+msgid "Andorra"
+msgstr "Ανδόρα"
+
+#: includes/conditions/core-visitor-country.php:30
+msgctxt "countries"
+msgid "Angola"
+msgstr "Αγκόλα"
+
+#: includes/conditions/core-visitor-country.php:31
+msgctxt "countries"
+msgid "Anguilla"
+msgstr "Ανγκουίλα"
+
+#: includes/conditions/core-visitor-country.php:32
+msgctxt "countries"
+msgid "Antarctica"
+msgstr "Ανταρκτική"
+
+#: includes/conditions/core-visitor-country.php:33
+msgctxt "countries"
+msgid "Antigua and Barbuda"
+msgstr "Αντίγκουα και Μπαρμπούντα"
+
+#: includes/conditions/core-visitor-country.php:34
+msgctxt "countries"
+msgid "Argentina"
+msgstr "Argentina"
+
+#: includes/conditions/core-visitor-country.php:35
+msgctxt "countries"
+msgid "Armenia"
+msgstr "Armenia"
+
+#: includes/conditions/core-visitor-country.php:36
+msgctxt "countries"
+msgid "Aruba"
+msgstr "Aruba"
+
+#: includes/conditions/core-visitor-country.php:37
+msgctxt "countries"
+msgid "Australia"
+msgstr "Australia"
+
+#: includes/conditions/core-visitor-country.php:38
+msgctxt "countries"
+msgid "Austria"
+msgstr "Αυστρία"
+
+#: includes/conditions/core-visitor-country.php:39
+msgctxt "countries"
+msgid "Azerbaijan"
+msgstr "Αζερμπαϊτζάν"
+
+#: includes/conditions/core-visitor-country.php:40
+msgctxt "countries"
+msgid "Bahamas"
+msgstr "Μπαχάμες"
+
+#: includes/conditions/core-visitor-country.php:41
+msgctxt "countries"
+msgid "Bahrain"
+msgstr "Μπαχρέιν"
+
+#: includes/conditions/core-visitor-country.php:42
+msgctxt "countries"
+msgid "Bangladesh"
+msgstr "Μπαγκλαντές"
+
+#: includes/conditions/core-visitor-country.php:43
+msgctxt "countries"
+msgid "Barbados"
+msgstr "Μπαρμπάντος"
+
+#: includes/conditions/core-visitor-country.php:44
+msgctxt "countries"
+msgid "Belarus"
+msgstr "Λευκορωσία"
+
+#: includes/conditions/core-visitor-country.php:45
+msgctxt "countries"
+msgid "Belgium"
+msgstr "Βέλγιο"
+
+#: includes/conditions/core-visitor-country.php:46
+#, fuzzy
+msgctxt "countries"
+msgid "Belize"
+msgstr "Μπελίσε"
+
+#: includes/conditions/core-visitor-country.php:47
+msgctxt "countries"
+msgid "Benin"
+msgstr "Μπενίν"
+
+#: includes/conditions/core-visitor-country.php:48
+msgctxt "countries"
+msgid "Bermuda"
+msgstr "Βερμούδες"
+
+#: includes/conditions/core-visitor-country.php:49
+msgctxt "countries"
+msgid "Bhutan"
+msgstr "Μπουτάν"
+
+#: includes/conditions/core-visitor-country.php:50
+#, fuzzy
+msgctxt "countries"
+msgid "Bolivia, Plurinational State of"
+msgstr "Βολιβία, Πολυεθνικό Κράτος της"
+
+#: includes/conditions/core-visitor-country.php:51
+msgctxt "countries"
+msgid "Bosnia and Herzegovina"
+msgstr "Βοσνία Ερζεγοβίνη"
+
+#: includes/conditions/core-visitor-country.php:52
+msgctxt "countries"
+msgid "Botswana"
+msgstr "Μποτσουάνα"
+
+#: includes/conditions/core-visitor-country.php:53
+msgctxt "countries"
+msgid "Bouvet Island"
+msgstr "Νησί Μπουβέ"
+
+#: includes/conditions/core-visitor-country.php:54
+msgctxt "countries"
+msgid "Brazil"
+msgstr "Βραζιλία"
+
+#: includes/conditions/core-visitor-country.php:55
+msgctxt "countries"
+msgid "British Indian Ocean Territory"
+msgstr "Βρετανικό έδαφος Ινδικού Ωκεανού"
+
+#: includes/conditions/core-visitor-country.php:56
+msgctxt "countries"
+msgid "Brunei Darussalam"
+msgstr "Μπρουνάι Νταρουσαλάμ"
+
+#: includes/conditions/core-visitor-country.php:57
+msgctxt "countries"
+msgid "Bulgaria"
+msgstr "Βουλγαρία"
+
+#: includes/conditions/core-visitor-country.php:58
+msgctxt "countries"
+msgid "Burkina Faso"
+msgstr "Μπουρκίνα Φάσο"
+
+#: includes/conditions/core-visitor-country.php:59
+msgctxt "countries"
+msgid "Burundi"
+msgstr "Μπουρούντι"
+
+#: includes/conditions/core-visitor-country.php:60
+msgctxt "countries"
+msgid "Cambodia"
+msgstr "Καμπότζη"
+
+#: includes/conditions/core-visitor-country.php:61
+msgctxt "countries"
+msgid "Cameroon"
+msgstr "Καμερούν"
+
+#: includes/conditions/core-visitor-country.php:62
+msgctxt "countries"
+msgid "Canada"
+msgstr "Καναδάς"
+
+#: includes/conditions/core-visitor-country.php:63
+#, fuzzy
+msgctxt "countries"
+msgid "Cape Verde"
+msgstr "Ακρωτήριο"
+
+#: includes/conditions/core-visitor-country.php:64
+msgctxt "countries"
+msgid "Cayman Islands"
+msgstr "Καϋμάν"
+
+#: includes/conditions/core-visitor-country.php:65
+msgctxt "countries"
+msgid "Central African Republic"
+msgstr "Κεντροαφρικανική Δημοκρατία"
+
+#: includes/conditions/core-visitor-country.php:66
+msgctxt "countries"
+msgid "Chad"
+msgstr "Τσαντ"
+
+#: includes/conditions/core-visitor-country.php:67
+msgctxt "countries"
+msgid "Chile"
+msgstr "Χιλή"
+
+#: includes/conditions/core-visitor-country.php:68
+msgctxt "countries"
+msgid "China"
+msgstr "Κίνα"
+
+#: includes/conditions/core-visitor-country.php:69
+msgctxt "countries"
+msgid "Christmas Island"
+msgstr "Νήσος των Χριστουγέννων"
+
+#: includes/conditions/core-visitor-country.php:70
+msgctxt "countries"
+msgid "Cocos (Keeling) Islands"
+msgstr "Νήσοι Κόκος"
+
+#: includes/conditions/core-visitor-country.php:71
+msgctxt "countries"
+msgid "Colombia"
+msgstr "Κολομβία"
+
+#: includes/conditions/core-visitor-country.php:72
+msgctxt "countries"
+msgid "Comoros"
+msgstr "Κομόρες"
+
+#: includes/conditions/core-visitor-country.php:73
+msgctxt "countries"
+msgid "Congo"
+msgstr "Κογκό"
+
+#: includes/conditions/core-visitor-country.php:74
+msgctxt "countries"
+msgid "Congo, Democratic Republic"
+msgstr "Κονγκό, Λαϊκή Δημοκρατία"
+
+#: includes/conditions/core-visitor-country.php:75
+msgctxt "countries"
+msgid "Cook Islands"
+msgstr "Νήσοι Κουκ"
+
+#: includes/conditions/core-visitor-country.php:76
+msgctxt "countries"
+msgid "Costa Rica"
+msgstr "Κόστα Ρίκα"
+
+#: includes/conditions/core-visitor-country.php:77
+msgctxt "countries"
+msgid "Côte d'Ivoire"
+msgstr "Ακτή Ελεφαντοστού"
+
+#: includes/conditions/core-visitor-country.php:78
+msgctxt "countries"
+msgid "Croatia"
+msgstr "Κροατία"
+
+#: includes/conditions/core-visitor-country.php:79
+msgctxt "countries"
+msgid "Cuba"
+msgstr "Κούβα"
+
+#: includes/conditions/core-visitor-country.php:80
+msgctxt "countries"
+msgid "Cyprus"
+msgstr "Κύπρος"
+
+#: includes/conditions/core-visitor-country.php:81
+msgctxt "countries"
+msgid "Czech Republic"
+msgstr "Τσεχία"
+
+#: includes/conditions/core-visitor-country.php:82
+msgctxt "countries"
+msgid "Denmark"
+msgstr "Δανία"
+
+#: includes/conditions/core-visitor-country.php:83
+msgctxt "countries"
+msgid "Djibouti"
+msgstr "Tζιμπουτί"
+
+#: includes/conditions/core-visitor-country.php:84
+msgctxt "countries"
+msgid "Dominica"
+msgstr "Δομινίκα"
+
+#: includes/conditions/core-visitor-country.php:85
+msgctxt "countries"
+msgid "Dominican Republic"
+msgstr "Δομινικανή Δημοκρατία"
+
+#: includes/conditions/core-visitor-country.php:86
+msgctxt "countries"
+msgid "Ecuador"
+msgstr "Ισημερινός"
+
+#: includes/conditions/core-visitor-country.php:87
+msgctxt "countries"
+msgid "Egypt"
+msgstr "Αίγυπτος"
+
+#: includes/conditions/core-visitor-country.php:88
+msgctxt "countries"
+msgid "El Salvador"
+msgstr "Ελ Σαλβαδόρ"
+
+#: includes/conditions/core-visitor-country.php:89
+msgctxt "countries"
+msgid "Equatorial Guinea"
+msgstr "Ισημερινή Γουινέα"
+
+#: includes/conditions/core-visitor-country.php:90
+msgctxt "countries"
+msgid "Eritrea"
+msgstr "Ερυθραία"
+
+#: includes/conditions/core-visitor-country.php:91
+msgctxt "countries"
+msgid "Estonia"
+msgstr "Εσθονία"
+
+#: includes/conditions/core-visitor-country.php:92
+msgctxt "countries"
+msgid "Ethiopia"
+msgstr "Αιθιοπία"
+
+#: includes/conditions/core-visitor-country.php:93
+msgctxt "countries"
+msgid "Falkland Islands (Malvinas)"
+msgstr "Νήσοι Φώκλαντ (Μαλβίνας)"
+
+#: includes/conditions/core-visitor-country.php:94
+msgctxt "countries"
+msgid "Faroe Islands"
+msgstr "Νήσοι Φερόες"
+
+#: includes/conditions/core-visitor-country.php:95
+msgctxt "countries"
+msgid "Fiji"
+msgstr "Φίτζι"
+
+#: includes/conditions/core-visitor-country.php:96
+msgctxt "countries"
+msgid "Finland"
+msgstr "Φινλανδία"
+
+#: includes/conditions/core-visitor-country.php:97
+msgctxt "countries"
+msgid "France"
+msgstr "Γαλλία"
+
+#: includes/conditions/core-visitor-country.php:98
+msgctxt "countries"
+msgid "French Guiana"
+msgstr "Γαλλική Γουιάνα"
+
+#: includes/conditions/core-visitor-country.php:99
+msgctxt "countries"
+msgid "French Polynesia"
+msgstr "Γαλλική Πολυνησία"
+
+#: includes/conditions/core-visitor-country.php:100
+msgctxt "countries"
+msgid "French Southern Territories"
+msgstr "Γαλλικά νότια εδάφη"
+
+#: includes/conditions/core-visitor-country.php:101
+msgctxt "countries"
+msgid "Gabon"
+msgstr "Γκαμπόν"
+
+#: includes/conditions/core-visitor-country.php:102
+msgctxt "countries"
+msgid "Gambia"
+msgstr "Γκάμπια"
+
+#: includes/conditions/core-visitor-country.php:103
+msgctxt "countries"
+msgid "Georgia"
+msgstr "Γεωργία"
+
+#: includes/conditions/core-visitor-country.php:104
+msgctxt "countries"
+msgid "Germany"
+msgstr "Γερμανία"
+
+#: includes/conditions/core-visitor-country.php:105
+msgctxt "countries"
+msgid "Ghana"
+msgstr "Γκάνα"
+
+#: includes/conditions/core-visitor-country.php:106
+msgctxt "countries"
+msgid "Gibraltar"
+msgstr "Γιβραλτάρ"
+
+#: includes/conditions/core-visitor-country.php:107
+msgctxt "countries"
+msgid "Greece"
+msgstr "Ελλάδα"
+
+#: includes/conditions/core-visitor-country.php:108
+msgctxt "countries"
+msgid "Greenland"
+msgstr "Γροιλανδία"
+
+#: includes/conditions/core-visitor-country.php:109
+msgctxt "countries"
+msgid "Grenada"
+msgstr "Γρενάδα"
+
+#: includes/conditions/core-visitor-country.php:110
+msgctxt "countries"
+msgid "Guadeloupe"
+msgstr "Γουαδελούπη"
+
+#: includes/conditions/core-visitor-country.php:111
+msgctxt "countries"
+msgid "Guam"
+msgstr "Γκουάμ"
+
+#: includes/conditions/core-visitor-country.php:112
+msgctxt "countries"
+msgid "Guatemala"
+msgstr "Γουατεμάλα"
+
+#: includes/conditions/core-visitor-country.php:113
+msgctxt "countries"
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: includes/conditions/core-visitor-country.php:114
+msgctxt "countries"
+msgid "Guinea"
+msgstr "Γουινέα"
+
+#: includes/conditions/core-visitor-country.php:115
+msgctxt "countries"
+msgid "Guinea-Bissau"
+msgstr "Γουινέα-Μπισάου"
+
+#: includes/conditions/core-visitor-country.php:116
+msgctxt "countries"
+msgid "Guyana"
+msgstr "Γουιάνας"
+
+#: includes/conditions/core-visitor-country.php:117
+msgctxt "countries"
+msgid "Haiti"
+msgstr "Αϊτή"
+
+#: includes/conditions/core-visitor-country.php:118
+msgctxt "countries"
+msgid "Heard Island & Mcdonald Islands"
+msgstr "Νήσος Χερντ & Νησιά Μακντόναλντ"
+
+#: includes/conditions/core-visitor-country.php:119
+msgctxt "countries"
+msgid "Holy See (Vatican City State)"
+msgstr "Αγία Έδρα (Πόλη του Βατικανού)"
+
+#: includes/conditions/core-visitor-country.php:120
+msgctxt "countries"
+msgid "Honduras"
+msgstr "Ονδούρα"
+
+#: includes/conditions/core-visitor-country.php:121
+msgctxt "countries"
+msgid "Hong Kong"
+msgstr "Χονγκ Κονγκ"
+
+#: includes/conditions/core-visitor-country.php:122
+msgctxt "countries"
+msgid "Hungary"
+msgstr "Ουγγαρία"
+
+#: includes/conditions/core-visitor-country.php:123
+msgctxt "countries"
+msgid "Iceland"
+msgstr "Ισλανδία"
+
+#: includes/conditions/core-visitor-country.php:124
+msgctxt "countries"
+msgid "India"
+msgstr "Ινδία"
+
+#: includes/conditions/core-visitor-country.php:125
+msgctxt "countries"
+msgid "Indonesia"
+msgstr "Ινδονησία"
+
+#: includes/conditions/core-visitor-country.php:126
+msgctxt "countries"
+msgid "Iran, Islamic Republic Of"
+msgstr "Ιράν, Ισλαμική Δημοκρατία της"
+
+#: includes/conditions/core-visitor-country.php:127
+msgctxt "countries"
+msgid "Iraq"
+msgstr "Ιράκ"
+
+#: includes/conditions/core-visitor-country.php:128
+msgctxt "countries"
+msgid "Ireland"
+msgstr "Ιρλανδία"
+
+#: includes/conditions/core-visitor-country.php:129
+msgctxt "countries"
+msgid "Isle Of Man"
+msgstr "Νήσος του Μαν"
+
+#: includes/conditions/core-visitor-country.php:130
+msgctxt "countries"
+msgid "Israel"
+msgstr "Ισραήλ"
+
+#: includes/conditions/core-visitor-country.php:131
+msgctxt "countries"
+msgid "Italy"
+msgstr "Ιταλία"
+
+#: includes/conditions/core-visitor-country.php:132
+msgctxt "countries"
+msgid "Jamaica"
+msgstr "Τζαμάικα"
+
+#: includes/conditions/core-visitor-country.php:133
+msgctxt "countries"
+msgid "Japan"
+msgstr "Ιαπωνία"
+
+#: includes/conditions/core-visitor-country.php:134
+msgctxt "countries"
+msgid "Jersey"
+msgstr "Ζέρσεϊ"
+
+#: includes/conditions/core-visitor-country.php:135
+msgctxt "countries"
+msgid "Jordan"
+msgstr "Ιορδανία"
+
+#: includes/conditions/core-visitor-country.php:136
+msgctxt "countries"
+msgid "Kazakhstan"
+msgstr "Καζακστάν"
+
+#: includes/conditions/core-visitor-country.php:137
+msgctxt "countries"
+msgid "Kenya"
+msgstr "Κένυα"
+
+#: includes/conditions/core-visitor-country.php:138
+msgctxt "countries"
+msgid "Kiribati"
+msgstr "Κιριμπάτι"
+
+#: includes/conditions/core-visitor-country.php:139
+msgctxt "countries"
+msgid "Korea, Democratic People's Republic of"
+msgstr "Βόρεια Κορέα"
+
+#: includes/conditions/core-visitor-country.php:140
+msgctxt "countries"
+msgid "Korea, Republic of"
+msgstr "Νότια Κορέα"
+
+#: includes/conditions/core-visitor-country.php:141
+msgctxt "countries"
+msgid "Kuwait"
+msgstr "Κουβέιτ"
+
+#: includes/conditions/core-visitor-country.php:142
+msgctxt "countries"
+msgid "Kyrgyzstan"
+msgstr "Κιργιστάν"
+
+#: includes/conditions/core-visitor-country.php:143
+msgctxt "countries"
+msgid "Lao People's Democratic Republic"
+msgstr "Λαϊκή Δημοκρατία του Λάος"
+
+#: includes/conditions/core-visitor-country.php:144
+msgctxt "countries"
+msgid "Latvia"
+msgstr "Λετονία"
+
+#: includes/conditions/core-visitor-country.php:145
+msgctxt "countries"
+msgid "Lebanon"
+msgstr "Λίβανος"
+
+#: includes/conditions/core-visitor-country.php:146
+msgctxt "countries"
+msgid "Lesotho"
+msgstr "Λεσότο"
+
+#: includes/conditions/core-visitor-country.php:147
+msgctxt "countries"
+msgid "Liberia"
+msgstr "Λιβερία"
+
+#: includes/conditions/core-visitor-country.php:148
+msgctxt "countries"
+msgid "Libyan Arab Jamahiriya"
+msgstr "Λιβύη"
+
+#: includes/conditions/core-visitor-country.php:149
+msgctxt "countries"
+msgid "Liechtenstein"
+msgstr "Λιχτενστάιν"
+
+#: includes/conditions/core-visitor-country.php:150
+msgctxt "countries"
+msgid "Lithuania"
+msgstr "Λιθουανία"
+
+#: includes/conditions/core-visitor-country.php:151
+msgctxt "countries"
+msgid "Luxembourg"
+msgstr "Λουξεμβούργο"
+
+#: includes/conditions/core-visitor-country.php:152
+msgctxt "countries"
+msgid "Macao"
+msgstr "Μακάο"
+
+#: includes/conditions/core-visitor-country.php:153
+#, fuzzy
+msgctxt "countries"
+msgid "Macedonia, the former Yugoslav Republic of"
+msgstr "Μακεδονία, πρώην Γιουγκοσλαβική Δημοκρατία της"
+
+#: includes/conditions/core-visitor-country.php:154
+msgctxt "countries"
+msgid "Madagascar"
+msgstr "Μαδαγασκάρη"
+
+#: includes/conditions/core-visitor-country.php:155
+msgctxt "countries"
+msgid "Malawi"
+msgstr "Μαλάουι"
+
+#: includes/conditions/core-visitor-country.php:156
+msgctxt "countries"
+msgid "Malaysia"
+msgstr "Μαλαισία"
+
+#: includes/conditions/core-visitor-country.php:157
+msgctxt "countries"
+msgid "Maldives"
+msgstr "Μαλδίβες"
+
+#: includes/conditions/core-visitor-country.php:158
+msgctxt "countries"
+msgid "Mali"
+msgstr "Μάλι"
+
+#: includes/conditions/core-visitor-country.php:159
+msgctxt "countries"
+msgid "Malta"
+msgstr "Μάλτα"
+
+#: includes/conditions/core-visitor-country.php:160
+msgctxt "countries"
+msgid "Marshall Islands"
+msgstr "Νήσοι Μάρσαλ"
+
+#: includes/conditions/core-visitor-country.php:161
+msgctxt "countries"
+msgid "Martinique"
+msgstr "Μαρτινίκα"
+
+#: includes/conditions/core-visitor-country.php:162
+msgctxt "countries"
+msgid "Mauritania"
+msgstr "Μαυριτανία"
+
+#: includes/conditions/core-visitor-country.php:163
+msgctxt "countries"
+msgid "Mauritius"
+msgstr "Μαυρίκιος"
+
+#: includes/conditions/core-visitor-country.php:164
+msgctxt "countries"
+msgid "Mayotte"
+msgstr "Μαγιότ"
+
+#: includes/conditions/core-visitor-country.php:165
+msgctxt "countries"
+msgid "Mexico"
+msgstr "Μεξικό"
+
+#: includes/conditions/core-visitor-country.php:166
+#, fuzzy
+msgctxt "countries"
+msgid "Micronesia, Federated States Of"
+msgstr "Μικρονησία, Ομόσπονδες Πολιτείες της"
+
+#: includes/conditions/core-visitor-country.php:167
+msgctxt "countries"
+msgid "Moldova, Republic of"
+msgstr "Μολδαβία"
+
+#: includes/conditions/core-visitor-country.php:168
+msgctxt "countries"
+msgid "Monaco"
+msgstr "Μονακό"
+
+#: includes/conditions/core-visitor-country.php:169
+msgctxt "countries"
+msgid "Mongolia"
+msgstr "Μογγολία"
+
+#: includes/conditions/core-visitor-country.php:170
+msgctxt "countries"
+msgid "Montenegro"
+msgstr "Μαυροβούνιο"
+
+#: includes/conditions/core-visitor-country.php:171
+msgctxt "countries"
+msgid "Montserrat"
+msgstr "Μοντσερράτ"
+
+#: includes/conditions/core-visitor-country.php:172
+msgctxt "countries"
+msgid "Morocco"
+msgstr "Μαρόκο"
+
+#: includes/conditions/core-visitor-country.php:173
+msgctxt "countries"
+msgid "Mozambique"
+msgstr "Μοζαμβίκη"
+
+#: includes/conditions/core-visitor-country.php:174
+msgctxt "countries"
+msgid "Myanmar"
+msgstr "Μιανμάρ"
+
+#: includes/conditions/core-visitor-country.php:175
+msgctxt "countries"
+msgid "Namibia"
+msgstr "Ναμίμπια"
+
+#: includes/conditions/core-visitor-country.php:176
+msgctxt "countries"
+msgid "Nauru"
+msgstr "Ναουρού"
+
+#: includes/conditions/core-visitor-country.php:177
+msgctxt "countries"
+msgid "Nepal"
+msgstr "Νεπάλ"
+
+#: includes/conditions/core-visitor-country.php:178
+msgctxt "countries"
+msgid "Netherlands"
+msgstr "Ολλανδία"
+
+#: includes/conditions/core-visitor-country.php:179
+msgctxt "countries"
+msgid "Netherlands Antilles"
+msgstr "Ολλανδικές Αντίλλες"
+
+#: includes/conditions/core-visitor-country.php:180
+msgctxt "countries"
+msgid "New Caledonia"
+msgstr "Νέα Καληδονία"
+
+#: includes/conditions/core-visitor-country.php:181
+msgctxt "countries"
+msgid "New Zealand"
+msgstr "Νέα Ζηλανδία"
+
+#: includes/conditions/core-visitor-country.php:182
+msgctxt "countries"
+msgid "Nicaragua"
+msgstr "Νικαράγουα"
+
+#: includes/conditions/core-visitor-country.php:183
+#, fuzzy
+msgctxt "countries"
+msgid "Niger"
+msgstr "Νίγηρα"
+
+#: includes/conditions/core-visitor-country.php:184
+msgctxt "countries"
+msgid "Nigeria"
+msgstr "Νιγηρία"
+
+#: includes/conditions/core-visitor-country.php:185
+#, fuzzy
+msgctxt "countries"
+msgid "Niue"
+msgstr "Niue"
+
+#: includes/conditions/core-visitor-country.php:186
+msgctxt "countries"
+msgid "Norfolk Island"
+msgstr "Νήσος Νόρφολκ"
+
+#: includes/conditions/core-visitor-country.php:187
+msgctxt "countries"
+msgid "Northern Mariana Islands"
+msgstr "Βορεια Νησια Μαριανα"
+
+#: includes/conditions/core-visitor-country.php:188
+msgctxt "countries"
+msgid "Norway"
+msgstr "Νορβηγία"
+
+#: includes/conditions/core-visitor-country.php:189
+msgctxt "countries"
+msgid "Oman"
+msgstr "Ομάν"
+
+#: includes/conditions/core-visitor-country.php:190
+msgctxt "countries"
+msgid "Pakistan"
+msgstr "Πακιστάν"
+
+#: includes/conditions/core-visitor-country.php:191
+msgctxt "countries"
+msgid "Palau"
+msgstr "Παλάου"
+
+#: includes/conditions/core-visitor-country.php:192
+#, fuzzy
+msgctxt "countries"
+msgid "Palestinian Territory, Occupied"
+msgstr "Παλαιστινιακό έδαφος, κατεχόμενο"
+
+#: includes/conditions/core-visitor-country.php:193
+msgctxt "countries"
+msgid "Panama"
+msgstr "Παναμάς"
+
+#: includes/conditions/core-visitor-country.php:194
+msgctxt "countries"
+msgid "Papua New Guinea"
+msgstr "Παπούα Νέα Γουινέα"
+
+#: includes/conditions/core-visitor-country.php:195
+msgctxt "countries"
+msgid "Paraguay"
+msgstr "Παραγουάη"
+
+#: includes/conditions/core-visitor-country.php:196
+msgctxt "countries"
+msgid "Peru"
+msgstr "Περού"
+
+#: includes/conditions/core-visitor-country.php:197
+msgctxt "countries"
+msgid "Philippines"
+msgstr "Φιλιππίνες"
+
+#: includes/conditions/core-visitor-country.php:198
+msgctxt "countries"
+msgid "Pitcairn"
+msgstr "Πίτκερν"
+
+#: includes/conditions/core-visitor-country.php:199
+msgctxt "countries"
+msgid "Poland"
+msgstr "Πολωνία"
+
+#: includes/conditions/core-visitor-country.php:200
+msgctxt "countries"
+msgid "Portugal"
+msgstr "Πορτογαλία"
+
+#: includes/conditions/core-visitor-country.php:201
+msgctxt "countries"
+msgid "Puerto Rico"
+msgstr "Πουέρτο Ρίκο"
+
+#: includes/conditions/core-visitor-country.php:202
+msgctxt "countries"
+msgid "Qatar"
+msgstr "Κατάρ"
+
+#: includes/conditions/core-visitor-country.php:203
+msgctxt "countries"
+msgid "Réunion"
+msgstr "Επανένωση"
+
+#: includes/conditions/core-visitor-country.php:204
+msgctxt "countries"
+msgid "Romania"
+msgstr "Ρουμανία"
+
+#: includes/conditions/core-visitor-country.php:205
+msgctxt "countries"
+msgid "Russian Federation"
+msgstr "Ρωσία"
+
+#: includes/conditions/core-visitor-country.php:206
+msgctxt "countries"
+msgid "Rwanda"
+msgstr "Ρουάντα"
+
+#: includes/conditions/core-visitor-country.php:207
+#, fuzzy
+msgctxt "countries"
+msgid "Saint Barthélemy"
+msgstr "Άγιος Βαρθολομαίου"
+
+#: includes/conditions/core-visitor-country.php:208
+msgctxt "countries"
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr "Αγία Ελένη, Ανάληψη και Tristan da Cunha"
+
+#: includes/conditions/core-visitor-country.php:209
+msgctxt "countries"
+msgid "Saint Kitts and Nevis"
+msgstr "Άγιος Χριστόφορος και Νέβις"
+
+#: includes/conditions/core-visitor-country.php:210
+msgctxt "countries"
+msgid "Saint Lucia"
+msgstr "Αγία Λουκία"
+
+#: includes/conditions/core-visitor-country.php:211
+msgctxt "countries"
+msgid "Saint Martin (French part)"
+msgstr "Άγιος Μαρτίνος (γαλλικό τμήμα)"
+
+#: includes/conditions/core-visitor-country.php:212
+msgctxt "countries"
+msgid "Saint Pierre and Miquelon"
+msgstr "Άγιος Πέτρος και Μικελόν"
+
+#: includes/conditions/core-visitor-country.php:213
+msgctxt "countries"
+msgid "Saint Vincent and the Grenadines"
+msgstr "Άγιος Βικέντιος και Γρεναδίνες"
+
+#: includes/conditions/core-visitor-country.php:214
+msgctxt "countries"
+msgid "Samoa"
+msgstr "Σαμόα"
+
+#: includes/conditions/core-visitor-country.php:215
+msgctxt "countries"
+msgid "San Marino"
+msgstr "Σαν Μαρίνο"
+
+#: includes/conditions/core-visitor-country.php:216
+msgctxt "countries"
+msgid "Sao Tome And Principe"
+msgstr "Σάο Τομέ και Πρίντσιπε"
+
+#: includes/conditions/core-visitor-country.php:217
+msgctxt "countries"
+msgid "Saudi Arabia"
+msgstr "Σαουδική Αραβία"
+
+#: includes/conditions/core-visitor-country.php:218
+msgctxt "countries"
+msgid "Senegal"
+msgstr "Σενεγάλη"
+
+#: includes/conditions/core-visitor-country.php:219
+msgctxt "countries"
+msgid "Serbia"
+msgstr "Σερβία"
+
+#: includes/conditions/core-visitor-country.php:220
+msgctxt "countries"
+msgid "Seychelles"
+msgstr "Σεϋχέλλες"
+
+#: includes/conditions/core-visitor-country.php:221
+msgctxt "countries"
+msgid "Sierra Leone"
+msgstr "Σιέρρα Λεόνε"
+
+#: includes/conditions/core-visitor-country.php:222
+msgctxt "countries"
+msgid "Singapore"
+msgstr "Σιγκαπούρη"
+
+#: includes/conditions/core-visitor-country.php:223
+msgctxt "countries"
+msgid "Slovakia"
+msgstr "Σλοβακία"
+
+#: includes/conditions/core-visitor-country.php:224
+msgctxt "countries"
+msgid "Slovenia"
+msgstr "Σλοβενία"
+
+#: includes/conditions/core-visitor-country.php:225
+msgctxt "countries"
+msgid "Solomon Islands"
+msgstr "Νησιά του Σολομώντα"
+
+#: includes/conditions/core-visitor-country.php:226
+msgctxt "countries"
+msgid "Somalia"
+msgstr "Σομαλία"
+
+#: includes/conditions/core-visitor-country.php:227
+msgctxt "countries"
+msgid "South Africa"
+msgstr "Νότια Αφρική"
+
+#: includes/conditions/core-visitor-country.php:228
+msgctxt "countries"
+msgid "South Georgia And Sandwich Isl."
+msgstr "Νότια Γεωργία και Σάντουιτς Isl."
+
+#: includes/conditions/core-visitor-country.php:229
+msgctxt "countries"
+msgid "Spain"
+msgstr "Ισπανία"
+
+#: includes/conditions/core-visitor-country.php:230
+msgctxt "countries"
+msgid "Sri Lanka"
+msgstr "Σρι Λάνκα"
+
+#: includes/conditions/core-visitor-country.php:231
+msgctxt "countries"
+msgid "Sudan"
+msgstr "Σουδάν"
+
+#: includes/conditions/core-visitor-country.php:232
+msgctxt "countries"
+msgid "Suriname"
+msgstr "Όνομα χρήστη (username)"
+
+#: includes/conditions/core-visitor-country.php:233
+msgctxt "countries"
+msgid "Svalbard And Jan Mayen"
+msgstr "Svalbard και Jan Mayen"
+
+#: includes/conditions/core-visitor-country.php:234
+msgctxt "countries"
+msgid "Swaziland"
+msgstr "Σουαζιλάνδη"
+
+#: includes/conditions/core-visitor-country.php:235
+msgctxt "countries"
+msgid "Sweden"
+msgstr "Σουηδία"
+
+#: includes/conditions/core-visitor-country.php:236
+msgctxt "countries"
+msgid "Switzerland"
+msgstr "Ελβετία"
+
+#: includes/conditions/core-visitor-country.php:237
+msgctxt "countries"
+msgid "Syrian Arab Republic"
+msgstr "Συρία"
+
+#: includes/conditions/core-visitor-country.php:238
+msgctxt "countries"
+msgid "Taiwan"
+msgstr "Ταϊβάν"
+
+#: includes/conditions/core-visitor-country.php:239
+msgctxt "countries"
+msgid "Tajikistan"
+msgstr "Τατζικιστάν"
+
+#: includes/conditions/core-visitor-country.php:240
+#, fuzzy
+msgctxt "countries"
+msgid "Tanzania, United Republic of"
+msgstr "Τανζανία, Ηνωμένη Δημοκρατία της"
+
+#: includes/conditions/core-visitor-country.php:241
+msgctxt "countries"
+msgid "Thailand"
+msgstr "Ταϊλάνδη"
+
+#: includes/conditions/core-visitor-country.php:242
+msgctxt "countries"
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: includes/conditions/core-visitor-country.php:243
+msgctxt "countries"
+msgid "Togo"
+msgstr "Τόγκο"
+
+#: includes/conditions/core-visitor-country.php:244
+msgctxt "countries"
+msgid "Tokelau"
+msgstr "Τοκελάου"
+
+#: includes/conditions/core-visitor-country.php:245
+msgctxt "countries"
+msgid "Tonga"
+msgstr "Τόνγκα"
+
+#: includes/conditions/core-visitor-country.php:246
+msgctxt "countries"
+msgid "Trinidad And Tobago"
+msgstr "Τρινιντάντ και Τομπάγκο"
+
+#: includes/conditions/core-visitor-country.php:247
+msgctxt "countries"
+msgid "Tunisia"
+msgstr "Τυνησία"
+
+#: includes/conditions/core-visitor-country.php:248
+msgctxt "countries"
+msgid "Turkey"
+msgstr "Τουρκία"
+
+#: includes/conditions/core-visitor-country.php:249
+msgctxt "countries"
+msgid "Turkmenistan"
+msgstr "Τουρκμενιστάν"
+
+#: includes/conditions/core-visitor-country.php:250
+#, fuzzy
+msgctxt "countries"
+msgid "Turks And Caicos Islands"
+msgstr "Νήσοι Τερκς και Κάικος"
+
+#: includes/conditions/core-visitor-country.php:251
+msgctxt "countries"
+msgid "Tuvalu"
+msgstr "Τουβαλού"
+
+#: includes/conditions/core-visitor-country.php:252
+msgctxt "countries"
+msgid "Uganda"
+msgstr "Ουγκάντα"
+
+#: includes/conditions/core-visitor-country.php:253
+msgctxt "countries"
+msgid "Ukraine"
+msgstr "Ουκρανία"
+
+#: includes/conditions/core-visitor-country.php:254
+msgctxt "countries"
+msgid "United Arab Emirates"
+msgstr "Ηνωμένα Αραβικά Εμιράτα"
+
+#: includes/conditions/core-visitor-country.php:255
+msgctxt "countries"
+msgid "United Kingdom"
+msgstr "Ηνωμένο Βασίλειο"
+
+#: includes/conditions/core-visitor-country.php:256
+msgctxt "countries"
+msgid "United States"
+msgstr "Ηνωμένες Πολιτείες"
+
+#: includes/conditions/core-visitor-country.php:257
+msgctxt "countries"
+msgid "United States Outlying Islands"
+msgstr "Απομακρυσμένα νησιά των Ηνωμένων Πολιτειών"
+
+#: includes/conditions/core-visitor-country.php:258
+msgctxt "countries"
+msgid "Uruguay"
+msgstr "Ουρουγουάη"
+
+#: includes/conditions/core-visitor-country.php:259
+msgctxt "countries"
+msgid "Uzbekistan"
+msgstr "Ουζμπεκιστάν"
+
+#: includes/conditions/core-visitor-country.php:260
+msgctxt "countries"
+msgid "Vanuatu"
+msgstr "Βανουάτου"
+
+#: includes/conditions/core-visitor-country.php:261
+#, fuzzy
+msgctxt "countries"
+msgid "Venezuela, Bolivarian Republic of"
+msgstr "Βενεζουέλα, Μπολιβαριανή Δημοκρατία της"
+
+#: includes/conditions/core-visitor-country.php:262
+msgctxt "countries"
+msgid "Viet Nam"
+msgstr "Βιετνάμ"
+
+#: includes/conditions/core-visitor-country.php:263
+msgctxt "countries"
+msgid "Virgin Islands, British"
+msgstr "Παρθένοι Νήσοι, Βρετανοί"
+
+#: includes/conditions/core-visitor-country.php:264
+msgctxt "countries"
+msgid "Virgin Islands, U.S."
+msgstr "Παρθένοι Νήσοι, ΗΠΑ."
+
+#: includes/conditions/core-visitor-country.php:265
+#, fuzzy
+msgctxt "countries"
+msgid "Wallis and Futuna"
+msgstr "Wallis και Φουτούνα"
+
+#: includes/conditions/core-visitor-country.php:266
+msgctxt "countries"
+msgid "Western Sahara"
+msgstr "Δυτική Σαχάρα"
+
+#: includes/conditions/core-visitor-country.php:267
+msgctxt "countries"
+msgid "Yemen"
+msgstr "Υεμένη"
+
+#: includes/conditions/core-visitor-country.php:268
+msgctxt "countries"
+msgid "Zambia"
+msgstr "Ζάμπια"
+
+#: includes/conditions/core-visitor-country.php:269
+msgctxt "countries"
+msgid "Zimbabwe"
+msgstr "Ζιμπάμπουε"
+
+#: includes/conditions/gravityforms-completed-form-submission.php:16
+#: includes/conditions/ninja-forms-completed-form-submission.php:16
+#, fuzzy
+msgid "User has submitted a form"
+msgstr "Ο χρήστης έχει υποβάλει μια φόρμα"
+
+#: includes/conditions/woocommerce-completed-purchase.php:16
+#, fuzzy
+msgid "Visitor has completed purchase"
+msgstr "Ο επισκέπτης έχει ολοκληρώσει την αγορά"
+
+#. translators: 1: %s plugin name.
+#: includes/dependencies/gravityforms-activated.php:12
+#: includes/dependencies/ninja-forms-activated.php:12
+#: includes/dependencies/woocommerce-activated.php:12
+#, fuzzy
+msgid "%s must be installed & activated"
+msgstr "%s πρέπει να εγκατασταθεί & να ενεργοποιηθεί"
+
+#. translators: 1: %s plugin name.
+#: includes/dependencies/gravityforms-activated.php:17
+#: includes/dependencies/ninja-forms-activated.php:17
+#: includes/dependencies/woocommerce-activated.php:17
+#, fuzzy
+msgid "%s is installed and activated"
+msgstr "%s έχει εγκατασταθεί και ενεργοποιηθεί"
+
+#. translators: 1: %s plugin name.
+#: includes/dependencies/gravityforms-activated.php:22
+#: includes/dependencies/ninja-forms-activated.php:22
+#: includes/dependencies/woocommerce-activated.php:22
+#, fuzzy
+msgid "%s is either not installed or not activated"
+msgstr "%s είτε δεν έχει εγκατασταθεί είτε δεν έχει ενεργοποιηθεί"
+
+#: includes/models/base.php:59
+#, fuzzy
+msgctxt "post fix added to name on duplication"
+msgid " copy"
+msgstr " αντίγραφο"
+
+#: includes/models/rule.php:37
+msgctxt "Category name"
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: includes/models/rule.php:79
+msgctxt "Created by user name"
+msgid "Plugin"
+msgstr "Πρόσθετο"
+
+#: includes/models/rule.php:84
+msgctxt "Created by user name"
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: includes/values/class-wp-dxp-rule-types.php:12
+msgctxt "Rule type"
+msgid "Standard"
+msgstr "Τυπικό"
+
+#: includes/values/class-wp-dxp-rule-types.php:16
+msgctxt "Rule type"
+msgid "Custom"
+msgstr "Προσαρμογή"
+
+#: src/index.js:16
+#, fuzzy
+msgid "-- No rule selected --"
+msgstr "-- Δεν έχει επιλεγεί κανόνας --"
+
+#: src/index.js:27
+msgid "Show Block"
+msgstr "Εμφάνιση Μπλοκ"
+
+#: src/index.js:28
+msgid "Hide Block"
+msgstr "Απόκρυψη Μπλοκ"
+
+#: src/index.js:94
+#, fuzzy
+msgid "When these rules are met:"
+msgstr "Όταν πληρούνται αυτοί οι κανόνες:"
+
+#: src/index.js:135
+#, fuzzy
+msgid "Then take the following action:"
+msgstr "Στη συνέχεια, προβείτε στις ακόλουθες ενέργειες:"

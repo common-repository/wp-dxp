@@ -1,0 +1,2210 @@
+# Copyright (C) 2023 Filter
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-DXP 1.6.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/source\n"
+"POT-Creation-Date: 2023-10-19T13:30:06+00:00\n"
+"PO-Revision-Date: 2023-10-19 14:33+0100\n"
+"Last-Translator: Filter <support@filteragency.com>\n"
+"Language-Team: Filter <support@filteragency.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4\n"
+"X-Domain: wp-dxp\n"
+
+#. Plugin Name of the plugin
+#| msgid "Personalization"
+msgid "PersonalizeWP"
+msgstr "PersonalizeWP"
+
+#. Plugin URI of the plugin
+#| msgid "https://filter.agency/about/wp-dxp/"
+msgid "https://filter.agency/about/personalizewp/"
+msgstr "https://filter.agency/about/personalizewp/"
+
+#. Description of the plugin
+msgid ""
+"Use WordPress as a digital experience platform, adding personalization and "
+"conditional rules to the content that your users see and can interact with. "
+"Compete with commercial enterprise platforms and add your own rules to match "
+"user behavior on, then show or hide blocks based on if your conditions are "
+"met."
+msgstr ""
+"Use WordPress as a digital experience platform, adding personalisation and "
+"conditional rules to the content that your users see and can interact with. "
+"Compete with commercial enterprise platforms and add your own rules to match "
+"user behaviour on, then show or hide blocks based on if your conditions are "
+"met."
+
+#. Author of the plugin
+msgid "Filter"
+msgstr "Filter"
+
+#. Author URI of the plugin
+msgid "https://filter.agency"
+msgstr "https://filter.agency"
+
+#: admin/class-wp-dxp-admin-base-page.php:111
+#: admin/partials/categories/index.php:126 admin/partials/rules/edit.php:152
+#: admin/partials/rules/index.php:151
+msgid "Close"
+msgstr "Close"
+
+#: admin/class-wp-dxp-admin-blocks.php:96
+msgid "Duplicate blocks, collision detected."
+msgstr "Duplicate blocks, collision detected."
+
+#: admin/class-wp-dxp-admin-categories-page.php:57
+#: admin/class-wp-dxp-admin-rules-page.php:58
+#: admin/class-wp-dxp-admin-settings-page.php:25
+msgid "First time configuration"
+msgstr "First time configuration"
+
+#: admin/class-wp-dxp-admin-categories-page.php:58
+#: admin/class-wp-dxp-admin-rules-page.php:59
+#| msgid ""
+#| "WP-DXP provides a number of pre-built rules and categories that are ready "
+#| "to use on your site, which you can see below. If you want to add your "
+#| "own, just click on the Create Rule or Create Category button."
+msgid ""
+"PersonalizeWP provides a number of pre-built rules and categories that are "
+"ready to use on your site, which you can see below. If you want to add your "
+"own, just click on the Create Rule or Create Category button."
+msgstr ""
+"PersonalizeWP provides a number of pre-built rules and categories that are "
+"ready to use on your site, which you can see below. If you want to add your "
+"own, just click on the Create Rule or Create Category button."
+
+#: admin/class-wp-dxp-admin-categories-page.php:95
+msgid "Category created"
+msgstr "Category created"
+
+#: admin/class-wp-dxp-admin-categories-page.php:104
+#: admin/class-wp-dxp-admin-categories-page.php:174
+#: admin/class-wp-dxp-admin-rules-page.php:105
+#: admin/class-wp-dxp-admin-rules-page.php:158
+msgid "An error occurred, please reload the page"
+msgstr "An error occurred, please reload the page"
+
+#: admin/class-wp-dxp-admin-categories-page.php:117
+#: admin/class-wp-dxp-admin-categories-page.php:133
+#: admin/class-wp-dxp-admin-categories-page.php:151
+#: admin/class-wp-dxp-admin-categories-page.php:187
+msgid "Category could not be found"
+msgstr "Category could not be found"
+
+#: admin/class-wp-dxp-admin-categories-page.php:155
+msgid "This category cannot be edited"
+msgstr "This category cannot be edited"
+
+#: admin/class-wp-dxp-admin-categories-page.php:165
+msgid "Category updated"
+msgstr "Category updated"
+
+#: admin/class-wp-dxp-admin-categories-page.php:191
+msgid "Category cannot be deleted"
+msgstr "Category cannot be deleted"
+
+#: admin/class-wp-dxp-admin-categories-page.php:196
+msgid "Category deleted"
+msgstr "Category deleted"
+
+#: admin/class-wp-dxp-admin-categories-page.php:236
+#: admin/class-wp-dxp-admin-rules-page.php:251
+msgid "Form is not valid"
+msgstr "Form is not valid"
+
+#: admin/class-wp-dxp-admin-categories-page.php:240
+msgid "ID is required to update a category"
+msgstr "ID is required to update a category"
+
+#: admin/class-wp-dxp-admin-categories-page.php:245
+msgid "Name is required"
+msgstr "Name is required"
+
+#: admin/class-wp-dxp-admin-categories-page.php:249
+msgid "This category name already exists. Please choose a different name."
+msgstr "This category name already exists. Please choose a different name."
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:27
+msgid "You’re all done!"
+msgstr "You’re all done!"
+
+#. translators: 1: %s expands to a website link to https://filter.agency/about/, 2: </a> closing tag.
+#: admin/class-wp-dxp-admin-dashboard-page.php:31
+msgid ""
+"Thanks, you’re now able to use the features below. If you get stuck or need "
+"help, please read our %1$shelp documentation%2$s, or if you are looking for "
+"an enterprise implementation talk to our %1$sperformance team%2$s."
+msgstr ""
+"Thanks, you’re now able to use the features below. If you get stuck or need "
+"help, please read our %1$shelp documentation%2$s, or if you are looking for "
+"an enterprise implementation talk to our %1$sperformance team%2$s."
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:44
+#: admin/class-wp-dxp-admin.php:265 admin/class-wp-dxp-admin.php:266
+#: admin/partials/_other/header.php:14
+msgid "Personalization"
+msgstr "Personalization"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:45
+msgid "Show or hide blocks based on conditions and rules"
+msgstr "Show or hide blocks based on conditions and rules"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:50
+#: admin/class-wp-dxp-admin.php:284 admin/class-wp-dxp-admin.php:285
+#: admin/partials/_other/header.php:18
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/class-wp-dxp-admin-dashboard-page.php:51
+msgid "Add and edit your site and plugin preferences"
+msgstr "Add and edit your site and plugin preferences"
+
+#: admin/class-wp-dxp-admin-rules-page.php:96
+msgid "Rule created"
+msgstr "Rule created"
+
+#: admin/class-wp-dxp-admin-rules-page.php:118
+#: admin/class-wp-dxp-admin-rules-page.php:136
+#: admin/class-wp-dxp-admin-rules-page.php:171
+#: admin/class-wp-dxp-admin-rules-page.php:196
+msgid "Rule could not be found"
+msgstr "Rule could not be found"
+
+#: admin/class-wp-dxp-admin-rules-page.php:140
+msgid "This rule cannot be edited"
+msgstr "This rule cannot be edited"
+
+#: admin/class-wp-dxp-admin-rules-page.php:150
+msgid "Rule updated"
+msgstr "Rule updated"
+
+#: admin/class-wp-dxp-admin-rules-page.php:175
+msgid "Rule cannot be deleted"
+msgstr "Rule cannot be deleted"
+
+#: admin/class-wp-dxp-admin-rules-page.php:180
+msgid "Rule deleted"
+msgstr "Rule deleted"
+
+#: admin/class-wp-dxp-admin-rules-page.php:202
+msgid "Rule duplicated"
+msgstr "Rule duplicated"
+
+#: admin/class-wp-dxp-admin-rules-page.php:206
+msgid "Error duplicating rule"
+msgstr "Error duplicating rule"
+
+#: admin/class-wp-dxp-admin-rules-page.php:256
+msgid "ID is required to update a rule"
+msgstr "ID is required to update a rule"
+
+#: admin/class-wp-dxp-admin-rules-page.php:261
+msgid "Please enter a name"
+msgstr "Please enter a name"
+
+#: admin/class-wp-dxp-admin-rules-page.php:265
+msgid "This rule name already exists. Please choose a different name."
+msgstr "This rule name already exists. Please choose a different name."
+
+#: admin/class-wp-dxp-admin-rules-page.php:269
+msgid "Please select a category"
+msgstr "Please select a category"
+
+#: admin/class-wp-dxp-admin-rules-page.php:275
+msgid "A measure for the condition should be selected"
+msgstr "A measure for the condition should be selected"
+
+#: admin/class-wp-dxp-admin-rules-page.php:285
+msgid "The meta value for the condition should not be empty"
+msgstr "The meta value for the condition should not be empty"
+
+#: admin/class-wp-dxp-admin-rules-page.php:293
+msgid "A comparator for the condition should be selected"
+msgstr "A comparator for the condition should be selected"
+
+#: admin/class-wp-dxp-admin-rules-page.php:304
+msgid "Please select a value"
+msgstr "Please select a value"
+
+#: admin/class-wp-dxp-admin-settings-page.php:26
+#| msgid ""
+#| "Thanks for installing and activating WP-DXP so that you can start to use "
+#| "WordPress as a digital experience platform. We recommend that if it is "
+#| "your first time with the plugin, that you sign up for our email list, "
+#| "where we plan to share tips and tricks of things you can do with WP-DXP, "
+#| "as well as inform you when new versions and features are added to the "
+#| "plugin."
+msgid ""
+"Thanks for installing and activating PersonalizeWP so that you can start to "
+"use WordPress as a digital experience platform. We recommend that if it is "
+"your first time with the plugin, that you sign up for our email list, where "
+"we plan to share tips and tricks of things you can do with PersonalizeWP, as "
+"well as inform you when new versions and features are added to the plugin."
+msgstr ""
+"Thanks for installing and activating PersonalizeWP so that you can start to "
+"use WordPress as a digital experience platform. We recommend that if it is "
+"your first time with the plugin, that you sign up for our email list, where "
+"we plan to share tips and tricks of things you can do with PersonalizeWP, as "
+"well as inform you when new versions and features are added to the plugin."
+
+#: admin/class-wp-dxp-admin-settings-page.php:35
+#: admin/class-wp-dxp-admin-settings-page.php:37
+msgid "Learn more"
+msgstr "Learn more"
+
+#: admin/class-wp-dxp-admin-settings-page.php:36
+#| msgid "Find out what more you can do with WP-DXP on our website"
+msgid "Find out what more you can do with PersonalizeWP on our website"
+msgstr "Find out what more you can do with PersonalizeWP on our website"
+
+#: admin/class-wp-dxp-admin-settings-page.php:42
+msgid "Need help?"
+msgstr "Need help?"
+
+#: admin/class-wp-dxp-admin-settings-page.php:43
+msgid "Check out our knowledge base"
+msgstr "Check out our knowledge base"
+
+#: admin/class-wp-dxp-admin-settings-page.php:44
+msgid "View Help Docs"
+msgstr "View Help Docs"
+
+#: admin/class-wp-dxp-admin-settings-page.php:79
+msgid "Please provide your first name"
+msgstr "Please provide your first name"
+
+#: admin/class-wp-dxp-admin-settings-page.php:87
+msgid "Please provide your last name"
+msgstr "Please provide your last name"
+
+#: admin/class-wp-dxp-admin-settings-page.php:95
+msgid "Please provide your email address"
+msgstr "Please provide your email address"
+
+#: admin/class-wp-dxp-admin-settings-page.php:103
+msgid "Please accept Terms and Conditions"
+msgstr "Please accept Terms and Conditions"
+
+#: admin/class-wp-dxp-admin-settings-page.php:145
+msgid "Something went wrong, please try again"
+msgstr "Something went wrong, please try again"
+
+#: admin/class-wp-dxp-admin.php:124 admin/partials/rules/index.php:40
+#: admin/partials/rules/index.php:111
+msgid "Active"
+msgstr "Active"
+
+#: admin/class-wp-dxp-admin.php:126
+msgid "Search"
+msgstr "Search"
+
+#. translators: 1: %s placeholder for select dropdown of numbers.
+#: admin/class-wp-dxp-admin.php:130
+msgid "Rows per page: %s"
+msgstr "Rows per page: %s"
+
+#. translators: 1: %s placeholder for index of the first record on the current page, 2: %s placeholder for index of the last record on the current page, 3: %s placeholder for number of records in the table after filtering
+#: admin/class-wp-dxp-admin.php:137
+msgid "%1$s-%2$s of %3$s items"
+msgstr "%1$s-%2$s of %3$s items"
+
+#: admin/class-wp-dxp-admin.php:143
+msgid "0 results"
+msgstr "0 results"
+
+#: admin/class-wp-dxp-admin.php:144
+msgid "No matching records found"
+msgstr "No matching records found"
+
+#: admin/class-wp-dxp-admin.php:145
+msgid "Previous"
+msgstr "Previous"
+
+#: admin/class-wp-dxp-admin.php:146
+msgid "Next"
+msgstr "Next"
+
+#: admin/class-wp-dxp-admin.php:245 admin/class-wp-dxp-admin.php:246
+#: src/index.js:87
+#| msgid "Personalization"
+msgid "Personalize"
+msgstr "Personalize"
+
+#: admin/class-wp-dxp-admin.php:256 admin/class-wp-dxp-admin.php:257
+#: admin/partials/_other/header.php:9
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: admin/class-wp-dxp-admin.php:275 admin/class-wp-dxp-admin.php:276
+#: admin/partials/personalisation/nav.php:25
+msgid "Categories"
+msgstr "Categories"
+
+#: admin/class-wp-dxp-admin.php:295 admin/class-wp-dxp-admin.php:296
+msgid "Knowledge Base"
+msgstr "Knowledge Base"
+
+#: admin/class-wp-dxp-admin.php:362
+msgid "You can not view private data."
+msgstr "You can not view private data."
+
+#: admin/partials/categories/create.php:28
+#: admin/partials/categories/index.php:85
+msgid "Add New Category"
+msgstr "Add New Category"
+
+#: admin/partials/categories/create.php:33
+msgid "Create a new category using the options below."
+msgstr "Create a new category using the options below."
+
+#. translators: 1: %s category name.
+#: admin/partials/categories/edit.php:30
+msgid "Edit Category: %s"
+msgstr "Edit Category: %s"
+
+#: admin/partials/categories/edit.php:39
+msgid ""
+"Edit the category details using the form below. When finished, click on Save "
+"to update the category."
+msgstr ""
+"Edit the category details using the form below. When finished, click on Save "
+"to update the category."
+
+#: admin/partials/categories/index.php:28
+msgid "Create Category"
+msgstr "Create Category"
+
+#: admin/partials/categories/index.php:33
+#: admin/partials/categories/_form.php:17
+msgid "Category Name"
+msgstr "Category Name"
+
+#: admin/partials/categories/index.php:34
+#: admin/partials/categories/rules.php:26
+#: admin/partials/personalisation/nav.php:22
+msgid "Rules"
+msgstr "Rules"
+
+#: admin/partials/categories/index.php:48
+#: admin/partials/categories/rules.php:81 admin/partials/rules/index.php:115
+msgid "Actions"
+msgstr "Actions"
+
+#: admin/partials/categories/index.php:51
+#: admin/partials/categories/rules.php:84 admin/partials/rules/edit.php:129
+#: admin/partials/rules/index.php:118
+msgid "Edit"
+msgstr "Edit"
+
+#: admin/partials/categories/index.php:51
+#: admin/partials/categories/rules.php:84 admin/partials/rules/index.php:118
+msgid "View"
+msgstr "View"
+
+#: admin/partials/categories/index.php:54
+msgid "View Rules"
+msgstr "View Rules"
+
+#: admin/partials/categories/index.php:58
+#: admin/partials/categories/index.php:60
+#: admin/partials/categories/index.php:134
+#: admin/partials/categories/rules.php:92 admin/partials/rules/edit.php:64
+#: admin/partials/rules/edit.php:66 admin/partials/rules/edit.php:160
+#: admin/partials/rules/index.php:125 admin/partials/rules/index.php:127
+#: admin/partials/rules/index.php:159
+msgid "Delete"
+msgstr "Delete"
+
+#: admin/partials/categories/index.php:105
+msgid "Edit Category"
+msgstr "Edit Category"
+
+#: admin/partials/categories/index.php:125
+msgid "Delete Category"
+msgstr "Delete Category"
+
+#: admin/partials/categories/index.php:132
+msgid "Are you sure you want to delete this category?"
+msgstr "Are you sure you want to delete this category?"
+
+#: admin/partials/categories/index.php:135
+#: admin/partials/categories/_form.php:39 admin/partials/rules/edit.php:161
+#: admin/partials/rules/index.php:160 admin/partials/rules/_form.php:281
+msgid "Cancel"
+msgstr "Cancel"
+
+#: admin/partials/categories/rules.php:31
+msgid ""
+"Rules that are active will be displayed to a user and are available to use. "
+"Click on View/Edit to find out more information about the rule."
+msgstr ""
+"Rules that are active will be displayed to a user and are available to use. "
+"Click on View/Edit to find out more information about the rule."
+
+#: admin/partials/categories/rules.php:45 admin/partials/rules/index.php:78
+#: admin/partials/rules/_form.php:18
+msgid "Rule Name"
+msgstr "Rule Name"
+
+#: admin/partials/categories/rules.php:46 admin/partials/rules/index.php:79
+#: admin/partials/rules/_form.php:33
+msgid "Category"
+msgstr "Category"
+
+#: admin/partials/categories/rules.php:47 admin/partials/rules/index.php:80
+msgid "Type"
+msgstr "Type"
+
+#: admin/partials/categories/rules.php:48 admin/partials/rules/index.php:81
+msgid "Created By"
+msgstr "Created By"
+
+#: admin/partials/categories/rules.php:49
+msgid "Used By"
+msgstr "Used By"
+
+#. translators: 1: %d number of blocks.
+#: admin/partials/categories/rules.php:75 admin/partials/rules/index.php:108
+msgid "%d block"
+msgid_plural "%d blocks"
+msgstr[0] "%d block"
+msgstr[1] "%d blocks"
+
+#: admin/partials/categories/rules.php:87 admin/partials/rules/edit.php:58
+#: admin/partials/rules/edit.php:60 admin/partials/rules/index.php:121
+msgid "Duplicate"
+msgstr "Duplicate"
+
+#: admin/partials/categories/_form.php:37
+msgid "Save Category"
+msgstr "Save Category"
+
+#: admin/partials/dashboard/tile.php:22
+msgid "Coming soon"
+msgstr "Coming soon"
+
+#: admin/partials/rules/create.php:26
+msgid "Add New Rule"
+msgstr "Add New Rule"
+
+#: admin/partials/rules/create.php:31
+msgid ""
+"Create a new rule using the options below. Once the rule has been added, it "
+"will become active or inactive, depending on the conditions chosen."
+msgstr ""
+"Create a new rule using the options below. Once the rule has been added, it "
+"will become active or inactive, depending on the conditions chosen."
+
+#: admin/partials/rules/edit.php:28
+msgid "Back"
+msgstr "Back"
+
+#: admin/partials/rules/edit.php:37
+msgid "This rule is not currently usable for the following reasons:"
+msgstr "This rule is not currently usable for the following reasons:"
+
+#: admin/partials/rules/edit.php:54
+msgid "View / edit rule"
+msgstr "View / edit rule"
+
+#: admin/partials/rules/edit.php:76
+msgid ""
+"Standard rules cannot be edited, however you can duplicate this rule and "
+"make your own changes."
+msgstr ""
+"Standard rules cannot be edited, however you can duplicate this rule and "
+"make your own changes."
+
+#: admin/partials/rules/edit.php:106
+msgid "Current usage"
+msgstr "Current usage"
+
+#: admin/partials/rules/edit.php:115
+msgid "Page"
+msgstr "Page"
+
+#: admin/partials/rules/edit.php:116
+msgid "Block"
+msgstr "Block"
+
+#: admin/partials/rules/edit.php:136
+msgid "There are no blocks using this rule"
+msgstr "There are no blocks using this rule"
+
+#: admin/partials/rules/edit.php:151
+msgid "Delete rule?"
+msgstr "Delete rule?"
+
+#: admin/partials/rules/edit.php:158 admin/partials/rules/index.php:157
+msgid "Are you sure you want to delete this rule?"
+msgstr "Are you sure you want to delete this rule?"
+
+#: admin/partials/rules/index.php:31
+msgid ""
+"Rules that are active will be displayed to a user and are available to use. "
+"If a rule is inactive, content related to it will not currently be displayed "
+"to a user."
+msgstr ""
+"Rules that are active will be displayed to a user and are available to use. "
+"If a rule is inactive, content related to it will not currently be displayed "
+"to a user."
+
+#. translators: 1: %d total active rules.
+#: admin/partials/rules/index.php:46
+msgid "Active (%d)"
+msgstr "Active (%d)"
+
+#: admin/partials/rules/index.php:53 admin/partials/rules/index.php:111
+msgid "Inactive"
+msgstr "Inactive"
+
+#. translators: 1: %d total inactive rules.
+#: admin/partials/rules/index.php:59
+msgid "Inactive (%d)"
+msgstr "Inactive (%d)"
+
+#: admin/partials/rules/index.php:68
+msgid "All categories"
+msgstr "All categories"
+
+#: admin/partials/rules/index.php:73 admin/partials/rules/_form.php:280
+msgid "Create rule"
+msgstr "Create rule"
+
+#: admin/partials/rules/index.php:82
+msgid "Blocks used in"
+msgstr "Blocks used in"
+
+#: admin/partials/rules/index.php:83
+msgid "Status"
+msgstr "Status"
+
+#: admin/partials/rules/index.php:150
+msgid "Delete Rule"
+msgstr "Delete Rule"
+
+#: admin/partials/rules/_form.php:36 admin/partials/rules/_form.php:38
+msgid "-- Select a category --"
+msgstr "-- Select a category --"
+
+#: admin/partials/rules/_form.php:53
+msgid "Conditions"
+msgstr "Conditions"
+
+#: admin/partials/rules/_form.php:68 admin/partials/rules/_form.php:76
+#: admin/partials/rules/_form.php:185
+msgid "-- Select a measure --"
+msgstr "-- Select a measure --"
+
+#: admin/partials/rules/_form.php:71 admin/partials/rules/_form.php:79
+#: admin/partials/rules/_form.php:188 admin/partials/rules/_form.php:231
+msgid "-- Enter cookie name here --"
+msgstr "-- Enter cookie name here --"
+
+#: admin/partials/rules/_form.php:74 admin/partials/rules/_form.php:82
+#: admin/partials/rules/_form.php:191
+msgid "-- Select a comparator --"
+msgstr "-- Select a comparator --"
+
+#: admin/partials/rules/_form.php:91 admin/partials/rules/_form.php:104
+#: admin/partials/rules/_form.php:122 admin/partials/rules/_form.php:130
+#: admin/partials/rules/_form.php:143 admin/partials/rules/_form.php:151
+#: admin/partials/rules/_form.php:193 admin/partials/rules/_form.php:236
+msgid "-- Select a value --"
+msgstr "-- Select a value --"
+
+#: admin/partials/rules/_form.php:93 admin/partials/rules/_form.php:106
+#: admin/partials/rules/_form.php:124 admin/partials/rules/_form.php:132
+#: admin/partials/rules/_form.php:145 admin/partials/rules/_form.php:153
+#: admin/partials/rules/_form.php:200
+msgid "-- Enter value here --"
+msgstr "-- Enter value here --"
+
+#: admin/partials/rules/_form.php:96 admin/partials/rules/_form.php:109
+#: admin/partials/rules/_form.php:127 admin/partials/rules/_form.php:135
+#: admin/partials/rules/_form.php:148 admin/partials/rules/_form.php:156
+#: admin/partials/rules/_form.php:204 admin/partials/rules/_form.php:246
+msgid "-- Select a date --"
+msgstr "-- Select a date --"
+
+#: admin/partials/rules/_form.php:101 admin/partials/rules/_form.php:196
+#: admin/partials/rules/_form.php:239
+msgid "-- Enter key here --"
+msgstr "-- Enter key here --"
+
+#: admin/partials/rules/_form.php:169 admin/partials/rules/_form.php:211
+#: admin/partials/rules/_form.php:253
+msgid "Remove"
+msgstr "Remove"
+
+#: admin/partials/rules/_form.php:267
+msgid "Add"
+msgstr "Add"
+
+#: admin/partials/rules/_form.php:275
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: admin/partials/rules/_form.php:276
+msgid "Reset"
+msgstr "Reset"
+
+#: admin/partials/settings/index.php:25
+msgid "Join our email list"
+msgstr "Join our email list"
+
+#: admin/partials/settings/index.php:29
+msgid "First name"
+msgstr "First name"
+
+#: admin/partials/settings/index.php:33
+msgid "Last name"
+msgstr "Last name"
+
+#: admin/partials/settings/index.php:38
+msgid "Email address"
+msgstr "Email address"
+
+#. translators: 1: %s expands to a website link to WP-DXP Terms and Conditions, 2: </a> closing tag.
+#: admin/partials/settings/index.php:47
+msgid "I accept the %1$sTerms and Conditions%2$s"
+msgstr "I accept the %1$sTerms and Conditions%2$s"
+
+#: admin/partials/settings/index.php:55
+msgid "Sign up"
+msgstr "Sign up"
+
+#: admin/partials/settings/index.php:58
+msgid "Skip for now"
+msgstr "Skip for now"
+
+#: admin/partials/settings/index.php:64
+msgid "You’re on the list!"
+msgstr "You’re on the list!"
+
+#: admin/partials/settings/index.php:65
+msgid ""
+"Now you’re on our email list, we’ll share tips and tricks of things you can "
+"do with WP-DXP, as well as inform you when new versions and features are "
+"added to the plugin. If you’d like to opt-out of receiving email, then click "
+"on the Manage Preference link at the bottom of any emails we send you."
+msgstr ""
+"Now you’re on our email list, we’ll share tips and tricks of things you can "
+"do with WP-DXP, as well as inform you when new versions and features are "
+"added to the plugin. If you’d like to opt-out of receiving email, then click "
+"on the Manage Preference link at the bottom of any emails we send you."
+
+#: admin/partials/wp-dxp-admin-display.php:18
+#| msgid "Personalization"
+msgid "PersonalizeWP: Partial"
+msgstr "PersonalizeWP: Partial"
+
+#: admin/partials/_other/header.php:20
+msgid "Onboarding"
+msgstr "Onboarding"
+
+#: admin/partials/_other/header.php:41
+msgid "Help"
+msgstr "Help"
+
+#: includes/class-wp-dxp-conditions.php:125
+msgctxt "Class description"
+msgid "Unknown"
+msgstr "Unknown"
+
+#: includes/class-wp-dxp-conditions.php:137
+msgctxt "Class category"
+msgid "Misc"
+msgstr "Misc"
+
+#: includes/conditions/base.php:39 includes/conditions/core-query-string.php:19
+#: includes/conditions/core-referrer.php:17
+#: includes/conditions/core-users-role.php:17
+#: includes/conditions/core-visitor-country.php:19
+msgctxt "Comparator"
+msgid "Equals"
+msgstr "Equals"
+
+#: includes/conditions/base.php:40 includes/conditions/core-query-string.php:20
+#: includes/conditions/core-referrer.php:18
+#: includes/conditions/core-users-role.php:18
+#: includes/conditions/core-visitor-country.php:20
+msgctxt "Comparator"
+msgid "Does Not Equal"
+msgstr "Does Not Equal"
+
+#: includes/conditions/base.php:41
+msgctxt "Comparator"
+msgid "Is any of"
+msgstr "Is any of"
+
+#: includes/conditions/base.php:44
+msgctxt "Comparison value"
+msgid "True"
+msgstr "True"
+
+#: includes/conditions/base.php:45
+msgctxt "Comparison value"
+msgid "False"
+msgstr "False"
+
+#: includes/conditions/core-cookie.php:16
+msgid "Cookie"
+msgstr "Cookie"
+
+#: includes/conditions/core-cookie.php:19
+msgctxt "Comparator"
+msgid "Has any Value (Exists)"
+msgstr "Has any Value (Exists)"
+
+#: includes/conditions/core-cookie.php:20
+msgctxt "Comparator"
+msgid "Has no Value (Does not exist)"
+msgstr "Has no Value (Does not exist)"
+
+#: includes/conditions/core-cookie.php:21
+msgctxt "Comparator"
+msgid "Equal to"
+msgstr "Equal to"
+
+#: includes/conditions/core-cookie.php:22
+msgctxt "Comparator"
+msgid "Not Equal to"
+msgstr "Not Equal to"
+
+#: includes/conditions/core-cookie.php:23
+#: includes/conditions/core-query-string.php:21
+#: includes/conditions/core-referrer.php:19
+msgctxt "Comparator"
+msgid "Contains"
+msgstr "Contains"
+
+#: includes/conditions/core-cookie.php:24
+#: includes/conditions/core-query-string.php:22
+#: includes/conditions/core-referrer.php:20
+msgctxt "Comparator"
+msgid "Does Not Contain"
+msgstr "Does Not Contain"
+
+#: includes/conditions/core-is-logged-in-user.php:14
+msgid "User is logged in"
+msgstr "User is logged in"
+
+#: includes/conditions/core-is-logged-in-user.php:17
+#: includes/conditions/core-new-visitor.php:17
+#: includes/conditions/core-time-elapsed.php:17
+#: includes/conditions/core-visiting-date.php:19
+msgctxt "Comparator"
+msgid "Is"
+msgstr "Is"
+
+#: includes/conditions/core-new-visitor.php:14
+msgid "New Visit"
+msgstr "New Visit"
+
+#: includes/conditions/core-query-string.php:16
+msgid "Query String"
+msgstr "Query String"
+
+#: includes/conditions/core-query-string.php:23
+msgctxt "Comparator"
+msgid "Key/Value"
+msgstr "Key/Value"
+
+#: includes/conditions/core-referrer.php:14
+msgid "Referer"
+msgstr "Referer"
+
+#: includes/conditions/core-time-elapsed.php:14
+msgid "Time on current page"
+msgstr "Time on current page"
+
+#: includes/conditions/core-users-device-type.php:16
+msgid "Device Type"
+msgstr "Device Type"
+
+#: includes/conditions/core-users-device-type.php:19
+#: includes/conditions/core-users-last-visit.php:19
+#: includes/conditions/core-users-visiting-time.php:17
+msgctxt "Comparator"
+msgid "Equal To"
+msgstr "Equal To"
+
+#: includes/conditions/core-users-device-type.php:23
+msgid "Mobile"
+msgstr "Mobile"
+
+#: includes/conditions/core-users-device-type.php:24
+msgid "Tablet"
+msgstr "Tablet"
+
+#: includes/conditions/core-users-device-type.php:25
+msgid "Desktop"
+msgstr "Desktop"
+
+#: includes/conditions/core-users-device-type.php:26
+msgid "iOS device"
+msgstr "iOS device"
+
+#: includes/conditions/core-users-device-type.php:27
+msgid "Android device"
+msgstr "Android device"
+
+#: includes/conditions/core-users-last-visit.php:14
+msgid "Last Visit"
+msgstr "Last Visit"
+
+#: includes/conditions/core-users-last-visit.php:17
+msgctxt "Comparator"
+msgid "More Than"
+msgstr "More Than"
+
+#: includes/conditions/core-users-last-visit.php:18
+msgctxt "Comparator"
+msgid "Less Than"
+msgstr "Less Than"
+
+#. translators: 1: %d number of days.
+#: includes/conditions/core-users-last-visit.php:27
+msgid "%d Day ago"
+msgid_plural "%d Days ago"
+msgstr[0] "%d Day ago"
+msgstr[1] "%d Days ago"
+
+#: includes/conditions/core-users-role.php:14
+msgid "User Role"
+msgstr "User Role"
+
+#: includes/conditions/core-users-specific-visiting-time.php:14
+msgid "Visit Time"
+msgstr "Visit Time"
+
+#: includes/conditions/core-users-specific-visiting-time.php:17
+#: includes/conditions/core-visiting-date.php:17
+msgctxt "Comparator"
+msgid "Before"
+msgstr "Before"
+
+#: includes/conditions/core-users-specific-visiting-time.php:18
+#: includes/conditions/core-visiting-date.php:18
+msgctxt "Comparator"
+msgid "After"
+msgstr "After"
+
+#: includes/conditions/core-users-visiting-time.php:14
+msgid "Visit Period"
+msgstr "Visit Period"
+
+#: includes/conditions/core-users-visiting-time.php:21
+msgctxt "Comparison value"
+msgid "Morning"
+msgstr "Morning"
+
+#: includes/conditions/core-users-visiting-time.php:22
+msgctxt "Comparison value"
+msgid "Afternoon"
+msgstr "Afternoon"
+
+#: includes/conditions/core-users-visiting-time.php:23
+msgctxt "Comparison value"
+msgid "Evening"
+msgstr "Evening"
+
+#: includes/conditions/core-users-visiting-time.php:24
+msgctxt "Comparison value"
+msgid "Nighttime"
+msgstr "Nighttime"
+
+#: includes/conditions/core-visiting-date.php:14
+msgid "Date"
+msgstr "Date"
+
+#: includes/conditions/core-visitor-country.php:16
+msgid "User Location"
+msgstr "User Location"
+
+#: includes/conditions/core-visitor-country.php:24
+msgctxt "countries"
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: includes/conditions/core-visitor-country.php:25
+msgctxt "countries"
+msgid "Åland Islands"
+msgstr "Åland Islands"
+
+#: includes/conditions/core-visitor-country.php:26
+msgctxt "countries"
+msgid "Albania"
+msgstr "Albania"
+
+#: includes/conditions/core-visitor-country.php:27
+msgctxt "countries"
+msgid "Algeria"
+msgstr "Algeria"
+
+#: includes/conditions/core-visitor-country.php:28
+msgctxt "countries"
+msgid "American Samoa"
+msgstr "American Samoa"
+
+#: includes/conditions/core-visitor-country.php:29
+msgctxt "countries"
+msgid "Andorra"
+msgstr "Andorra"
+
+#: includes/conditions/core-visitor-country.php:30
+msgctxt "countries"
+msgid "Angola"
+msgstr "Angola"
+
+#: includes/conditions/core-visitor-country.php:31
+msgctxt "countries"
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: includes/conditions/core-visitor-country.php:32
+msgctxt "countries"
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: includes/conditions/core-visitor-country.php:33
+msgctxt "countries"
+msgid "Antigua and Barbuda"
+msgstr "Antigua and Barbuda"
+
+#: includes/conditions/core-visitor-country.php:34
+msgctxt "countries"
+msgid "Argentina"
+msgstr "Argentina"
+
+#: includes/conditions/core-visitor-country.php:35
+msgctxt "countries"
+msgid "Armenia"
+msgstr "Armenia"
+
+#: includes/conditions/core-visitor-country.php:36
+msgctxt "countries"
+msgid "Aruba"
+msgstr "Aruba"
+
+#: includes/conditions/core-visitor-country.php:37
+msgctxt "countries"
+msgid "Australia"
+msgstr "Australia"
+
+#: includes/conditions/core-visitor-country.php:38
+msgctxt "countries"
+msgid "Austria"
+msgstr "Austria"
+
+#: includes/conditions/core-visitor-country.php:39
+msgctxt "countries"
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: includes/conditions/core-visitor-country.php:40
+msgctxt "countries"
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: includes/conditions/core-visitor-country.php:41
+msgctxt "countries"
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: includes/conditions/core-visitor-country.php:42
+msgctxt "countries"
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: includes/conditions/core-visitor-country.php:43
+msgctxt "countries"
+msgid "Barbados"
+msgstr "Barbados"
+
+#: includes/conditions/core-visitor-country.php:44
+msgctxt "countries"
+msgid "Belarus"
+msgstr "Belarus"
+
+#: includes/conditions/core-visitor-country.php:45
+msgctxt "countries"
+msgid "Belgium"
+msgstr "Belgium"
+
+#: includes/conditions/core-visitor-country.php:46
+msgctxt "countries"
+msgid "Belize"
+msgstr "Belize"
+
+#: includes/conditions/core-visitor-country.php:47
+msgctxt "countries"
+msgid "Benin"
+msgstr "Benin"
+
+#: includes/conditions/core-visitor-country.php:48
+msgctxt "countries"
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: includes/conditions/core-visitor-country.php:49
+msgctxt "countries"
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: includes/conditions/core-visitor-country.php:50
+msgctxt "countries"
+msgid "Bolivia, Plurinational State of"
+msgstr "Bolivia, Plurinational State of"
+
+#: includes/conditions/core-visitor-country.php:51
+msgctxt "countries"
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia and Herzegovina"
+
+#: includes/conditions/core-visitor-country.php:52
+msgctxt "countries"
+msgid "Botswana"
+msgstr "Botswana"
+
+#: includes/conditions/core-visitor-country.php:53
+msgctxt "countries"
+msgid "Bouvet Island"
+msgstr "Bouvet Island"
+
+#: includes/conditions/core-visitor-country.php:54
+msgctxt "countries"
+msgid "Brazil"
+msgstr "Brazil"
+
+#: includes/conditions/core-visitor-country.php:55
+msgctxt "countries"
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Ocean Territory"
+
+#: includes/conditions/core-visitor-country.php:56
+msgctxt "countries"
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#: includes/conditions/core-visitor-country.php:57
+msgctxt "countries"
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: includes/conditions/core-visitor-country.php:58
+msgctxt "countries"
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: includes/conditions/core-visitor-country.php:59
+msgctxt "countries"
+msgid "Burundi"
+msgstr "Burundi"
+
+#: includes/conditions/core-visitor-country.php:60
+msgctxt "countries"
+msgid "Cambodia"
+msgstr "Cambodia"
+
+#: includes/conditions/core-visitor-country.php:61
+msgctxt "countries"
+msgid "Cameroon"
+msgstr "Cameroon"
+
+#: includes/conditions/core-visitor-country.php:62
+msgctxt "countries"
+msgid "Canada"
+msgstr "Canada"
+
+#: includes/conditions/core-visitor-country.php:63
+msgctxt "countries"
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+#: includes/conditions/core-visitor-country.php:64
+msgctxt "countries"
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+#: includes/conditions/core-visitor-country.php:65
+msgctxt "countries"
+msgid "Central African Republic"
+msgstr "Central African Republic"
+
+#: includes/conditions/core-visitor-country.php:66
+msgctxt "countries"
+msgid "Chad"
+msgstr "Chad"
+
+#: includes/conditions/core-visitor-country.php:67
+msgctxt "countries"
+msgid "Chile"
+msgstr "Chile"
+
+#: includes/conditions/core-visitor-country.php:68
+msgctxt "countries"
+msgid "China"
+msgstr "China"
+
+#: includes/conditions/core-visitor-country.php:69
+msgctxt "countries"
+msgid "Christmas Island"
+msgstr "Christmas Island"
+
+#: includes/conditions/core-visitor-country.php:70
+msgctxt "countries"
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocos (Keeling) Islands"
+
+#: includes/conditions/core-visitor-country.php:71
+msgctxt "countries"
+msgid "Colombia"
+msgstr "Colombia"
+
+#: includes/conditions/core-visitor-country.php:72
+msgctxt "countries"
+msgid "Comoros"
+msgstr "Comoros"
+
+#: includes/conditions/core-visitor-country.php:73
+msgctxt "countries"
+msgid "Congo"
+msgstr "Congo"
+
+#: includes/conditions/core-visitor-country.php:74
+msgctxt "countries"
+msgid "Congo, Democratic Republic"
+msgstr "Congo, Democratic Republic"
+
+#: includes/conditions/core-visitor-country.php:75
+msgctxt "countries"
+msgid "Cook Islands"
+msgstr "Cook Islands"
+
+#: includes/conditions/core-visitor-country.php:76
+msgctxt "countries"
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: includes/conditions/core-visitor-country.php:77
+msgctxt "countries"
+msgid "Côte d'Ivoire"
+msgstr "Côte d'Ivoire"
+
+#: includes/conditions/core-visitor-country.php:78
+msgctxt "countries"
+msgid "Croatia"
+msgstr "Croatia"
+
+#: includes/conditions/core-visitor-country.php:79
+msgctxt "countries"
+msgid "Cuba"
+msgstr "Cuba"
+
+#: includes/conditions/core-visitor-country.php:80
+msgctxt "countries"
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: includes/conditions/core-visitor-country.php:81
+msgctxt "countries"
+msgid "Czech Republic"
+msgstr "Czech Republic"
+
+#: includes/conditions/core-visitor-country.php:82
+msgctxt "countries"
+msgid "Denmark"
+msgstr "Denmark"
+
+#: includes/conditions/core-visitor-country.php:83
+msgctxt "countries"
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: includes/conditions/core-visitor-country.php:84
+msgctxt "countries"
+msgid "Dominica"
+msgstr "Dominica"
+
+#: includes/conditions/core-visitor-country.php:85
+msgctxt "countries"
+msgid "Dominican Republic"
+msgstr "Dominican Republic"
+
+#: includes/conditions/core-visitor-country.php:86
+msgctxt "countries"
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: includes/conditions/core-visitor-country.php:87
+msgctxt "countries"
+msgid "Egypt"
+msgstr "Egypt"
+
+#: includes/conditions/core-visitor-country.php:88
+msgctxt "countries"
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: includes/conditions/core-visitor-country.php:89
+msgctxt "countries"
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#: includes/conditions/core-visitor-country.php:90
+msgctxt "countries"
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: includes/conditions/core-visitor-country.php:91
+msgctxt "countries"
+msgid "Estonia"
+msgstr "Estonia"
+
+#: includes/conditions/core-visitor-country.php:92
+msgctxt "countries"
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+#: includes/conditions/core-visitor-country.php:93
+msgctxt "countries"
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falkland Islands (Malvinas)"
+
+#: includes/conditions/core-visitor-country.php:94
+msgctxt "countries"
+msgid "Faroe Islands"
+msgstr "Faroe Islands"
+
+#: includes/conditions/core-visitor-country.php:95
+msgctxt "countries"
+msgid "Fiji"
+msgstr "Fiji"
+
+#: includes/conditions/core-visitor-country.php:96
+msgctxt "countries"
+msgid "Finland"
+msgstr "Finland"
+
+#: includes/conditions/core-visitor-country.php:97
+msgctxt "countries"
+msgid "France"
+msgstr "France"
+
+#: includes/conditions/core-visitor-country.php:98
+msgctxt "countries"
+msgid "French Guiana"
+msgstr "French Guiana"
+
+#: includes/conditions/core-visitor-country.php:99
+msgctxt "countries"
+msgid "French Polynesia"
+msgstr "French Polynesia"
+
+#: includes/conditions/core-visitor-country.php:100
+msgctxt "countries"
+msgid "French Southern Territories"
+msgstr "French Southern Territories"
+
+#: includes/conditions/core-visitor-country.php:101
+msgctxt "countries"
+msgid "Gabon"
+msgstr "Gabon"
+
+#: includes/conditions/core-visitor-country.php:102
+msgctxt "countries"
+msgid "Gambia"
+msgstr "Gambia"
+
+#: includes/conditions/core-visitor-country.php:103
+msgctxt "countries"
+msgid "Georgia"
+msgstr "Georgia"
+
+#: includes/conditions/core-visitor-country.php:104
+msgctxt "countries"
+msgid "Germany"
+msgstr "Germany"
+
+#: includes/conditions/core-visitor-country.php:105
+msgctxt "countries"
+msgid "Ghana"
+msgstr "Ghana"
+
+#: includes/conditions/core-visitor-country.php:106
+msgctxt "countries"
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: includes/conditions/core-visitor-country.php:107
+msgctxt "countries"
+msgid "Greece"
+msgstr "Greece"
+
+#: includes/conditions/core-visitor-country.php:108
+msgctxt "countries"
+msgid "Greenland"
+msgstr "Greenland"
+
+#: includes/conditions/core-visitor-country.php:109
+msgctxt "countries"
+msgid "Grenada"
+msgstr "Grenada"
+
+#: includes/conditions/core-visitor-country.php:110
+msgctxt "countries"
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: includes/conditions/core-visitor-country.php:111
+msgctxt "countries"
+msgid "Guam"
+msgstr "Guam"
+
+#: includes/conditions/core-visitor-country.php:112
+msgctxt "countries"
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: includes/conditions/core-visitor-country.php:113
+msgctxt "countries"
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: includes/conditions/core-visitor-country.php:114
+msgctxt "countries"
+msgid "Guinea"
+msgstr "Guinea"
+
+#: includes/conditions/core-visitor-country.php:115
+msgctxt "countries"
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: includes/conditions/core-visitor-country.php:116
+msgctxt "countries"
+msgid "Guyana"
+msgstr "Guyana"
+
+#: includes/conditions/core-visitor-country.php:117
+msgctxt "countries"
+msgid "Haiti"
+msgstr "Haiti"
+
+#: includes/conditions/core-visitor-country.php:118
+msgctxt "countries"
+msgid "Heard Island & Mcdonald Islands"
+msgstr "Heard Island & Mcdonald Islands"
+
+#: includes/conditions/core-visitor-country.php:119
+msgctxt "countries"
+msgid "Holy See (Vatican City State)"
+msgstr "Holy See (Vatican City State)"
+
+#: includes/conditions/core-visitor-country.php:120
+msgctxt "countries"
+msgid "Honduras"
+msgstr "Honduras"
+
+#: includes/conditions/core-visitor-country.php:121
+msgctxt "countries"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: includes/conditions/core-visitor-country.php:122
+msgctxt "countries"
+msgid "Hungary"
+msgstr "Hungary"
+
+#: includes/conditions/core-visitor-country.php:123
+msgctxt "countries"
+msgid "Iceland"
+msgstr "Iceland"
+
+#: includes/conditions/core-visitor-country.php:124
+msgctxt "countries"
+msgid "India"
+msgstr "India"
+
+#: includes/conditions/core-visitor-country.php:125
+msgctxt "countries"
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: includes/conditions/core-visitor-country.php:126
+msgctxt "countries"
+msgid "Iran, Islamic Republic Of"
+msgstr "Iran, Islamic Republic Of"
+
+#: includes/conditions/core-visitor-country.php:127
+msgctxt "countries"
+msgid "Iraq"
+msgstr "Iraq"
+
+#: includes/conditions/core-visitor-country.php:128
+msgctxt "countries"
+msgid "Ireland"
+msgstr "Ireland"
+
+#: includes/conditions/core-visitor-country.php:129
+msgctxt "countries"
+msgid "Isle Of Man"
+msgstr "Isle Of Man"
+
+#: includes/conditions/core-visitor-country.php:130
+msgctxt "countries"
+msgid "Israel"
+msgstr "Israel"
+
+#: includes/conditions/core-visitor-country.php:131
+msgctxt "countries"
+msgid "Italy"
+msgstr "Italy"
+
+#: includes/conditions/core-visitor-country.php:132
+msgctxt "countries"
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: includes/conditions/core-visitor-country.php:133
+msgctxt "countries"
+msgid "Japan"
+msgstr "Japan"
+
+#: includes/conditions/core-visitor-country.php:134
+msgctxt "countries"
+msgid "Jersey"
+msgstr "Jersey"
+
+#: includes/conditions/core-visitor-country.php:135
+msgctxt "countries"
+msgid "Jordan"
+msgstr "Jordan"
+
+#: includes/conditions/core-visitor-country.php:136
+msgctxt "countries"
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: includes/conditions/core-visitor-country.php:137
+msgctxt "countries"
+msgid "Kenya"
+msgstr "Kenya"
+
+#: includes/conditions/core-visitor-country.php:138
+msgctxt "countries"
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: includes/conditions/core-visitor-country.php:139
+msgctxt "countries"
+msgid "Korea, Democratic People's Republic of"
+msgstr "Korea, Democratic People's Republic of"
+
+#: includes/conditions/core-visitor-country.php:140
+msgctxt "countries"
+msgid "Korea, Republic of"
+msgstr "Korea, Republic of"
+
+#: includes/conditions/core-visitor-country.php:141
+msgctxt "countries"
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: includes/conditions/core-visitor-country.php:142
+msgctxt "countries"
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#: includes/conditions/core-visitor-country.php:143
+msgctxt "countries"
+msgid "Lao People's Democratic Republic"
+msgstr "Lao People's Democratic Republic"
+
+#: includes/conditions/core-visitor-country.php:144
+msgctxt "countries"
+msgid "Latvia"
+msgstr "Latvia"
+
+#: includes/conditions/core-visitor-country.php:145
+msgctxt "countries"
+msgid "Lebanon"
+msgstr "Lebanon"
+
+#: includes/conditions/core-visitor-country.php:146
+msgctxt "countries"
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: includes/conditions/core-visitor-country.php:147
+msgctxt "countries"
+msgid "Liberia"
+msgstr "Liberia"
+
+#: includes/conditions/core-visitor-country.php:148
+msgctxt "countries"
+msgid "Libyan Arab Jamahiriya"
+msgstr "Libyan Arab Jamahiriya"
+
+#: includes/conditions/core-visitor-country.php:149
+msgctxt "countries"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: includes/conditions/core-visitor-country.php:150
+msgctxt "countries"
+msgid "Lithuania"
+msgstr "Lithuania"
+
+#: includes/conditions/core-visitor-country.php:151
+msgctxt "countries"
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: includes/conditions/core-visitor-country.php:152
+msgctxt "countries"
+msgid "Macao"
+msgstr "Macao"
+
+#: includes/conditions/core-visitor-country.php:153
+msgctxt "countries"
+msgid "Macedonia, the former Yugoslav Republic of"
+msgstr "Macedonia, the former Yugoslav Republic of"
+
+#: includes/conditions/core-visitor-country.php:154
+msgctxt "countries"
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: includes/conditions/core-visitor-country.php:155
+msgctxt "countries"
+msgid "Malawi"
+msgstr "Malawi"
+
+#: includes/conditions/core-visitor-country.php:156
+msgctxt "countries"
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: includes/conditions/core-visitor-country.php:157
+msgctxt "countries"
+msgid "Maldives"
+msgstr "Maldives"
+
+#: includes/conditions/core-visitor-country.php:158
+msgctxt "countries"
+msgid "Mali"
+msgstr "Mali"
+
+#: includes/conditions/core-visitor-country.php:159
+msgctxt "countries"
+msgid "Malta"
+msgstr "Malta"
+
+#: includes/conditions/core-visitor-country.php:160
+msgctxt "countries"
+msgid "Marshall Islands"
+msgstr "Marshall Islands"
+
+#: includes/conditions/core-visitor-country.php:161
+msgctxt "countries"
+msgid "Martinique"
+msgstr "Martinique"
+
+#: includes/conditions/core-visitor-country.php:162
+msgctxt "countries"
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: includes/conditions/core-visitor-country.php:163
+msgctxt "countries"
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: includes/conditions/core-visitor-country.php:164
+msgctxt "countries"
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: includes/conditions/core-visitor-country.php:165
+msgctxt "countries"
+msgid "Mexico"
+msgstr "Mexico"
+
+#: includes/conditions/core-visitor-country.php:166
+msgctxt "countries"
+msgid "Micronesia, Federated States Of"
+msgstr "Micronesia, Federated States Of"
+
+#: includes/conditions/core-visitor-country.php:167
+msgctxt "countries"
+msgid "Moldova, Republic of"
+msgstr "Moldova, Republic of"
+
+#: includes/conditions/core-visitor-country.php:168
+msgctxt "countries"
+msgid "Monaco"
+msgstr "Monaco"
+
+#: includes/conditions/core-visitor-country.php:169
+msgctxt "countries"
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: includes/conditions/core-visitor-country.php:170
+msgctxt "countries"
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: includes/conditions/core-visitor-country.php:171
+msgctxt "countries"
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: includes/conditions/core-visitor-country.php:172
+msgctxt "countries"
+msgid "Morocco"
+msgstr "Morocco"
+
+#: includes/conditions/core-visitor-country.php:173
+msgctxt "countries"
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: includes/conditions/core-visitor-country.php:174
+msgctxt "countries"
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: includes/conditions/core-visitor-country.php:175
+msgctxt "countries"
+msgid "Namibia"
+msgstr "Namibia"
+
+#: includes/conditions/core-visitor-country.php:176
+msgctxt "countries"
+msgid "Nauru"
+msgstr "Nauru"
+
+#: includes/conditions/core-visitor-country.php:177
+msgctxt "countries"
+msgid "Nepal"
+msgstr "Nepal"
+
+#: includes/conditions/core-visitor-country.php:178
+msgctxt "countries"
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: includes/conditions/core-visitor-country.php:179
+msgctxt "countries"
+msgid "Netherlands Antilles"
+msgstr "Netherlands Antilles"
+
+#: includes/conditions/core-visitor-country.php:180
+msgctxt "countries"
+msgid "New Caledonia"
+msgstr "New Caledonia"
+
+#: includes/conditions/core-visitor-country.php:181
+msgctxt "countries"
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: includes/conditions/core-visitor-country.php:182
+msgctxt "countries"
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: includes/conditions/core-visitor-country.php:183
+msgctxt "countries"
+msgid "Niger"
+msgstr "Niger"
+
+#: includes/conditions/core-visitor-country.php:184
+msgctxt "countries"
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: includes/conditions/core-visitor-country.php:185
+msgctxt "countries"
+msgid "Niue"
+msgstr "Niue"
+
+#: includes/conditions/core-visitor-country.php:186
+msgctxt "countries"
+msgid "Norfolk Island"
+msgstr "Norfolk Island"
+
+#: includes/conditions/core-visitor-country.php:187
+msgctxt "countries"
+msgid "Northern Mariana Islands"
+msgstr "Northern Mariana Islands"
+
+#: includes/conditions/core-visitor-country.php:188
+msgctxt "countries"
+msgid "Norway"
+msgstr "Norway"
+
+#: includes/conditions/core-visitor-country.php:189
+msgctxt "countries"
+msgid "Oman"
+msgstr "Oman"
+
+#: includes/conditions/core-visitor-country.php:190
+msgctxt "countries"
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: includes/conditions/core-visitor-country.php:191
+msgctxt "countries"
+msgid "Palau"
+msgstr "Palau"
+
+#: includes/conditions/core-visitor-country.php:192
+msgctxt "countries"
+msgid "Palestinian Territory, Occupied"
+msgstr "Palestinian Territory, Occupied"
+
+#: includes/conditions/core-visitor-country.php:193
+msgctxt "countries"
+msgid "Panama"
+msgstr "Panama"
+
+#: includes/conditions/core-visitor-country.php:194
+msgctxt "countries"
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+#: includes/conditions/core-visitor-country.php:195
+msgctxt "countries"
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: includes/conditions/core-visitor-country.php:196
+msgctxt "countries"
+msgid "Peru"
+msgstr "Peru"
+
+#: includes/conditions/core-visitor-country.php:197
+msgctxt "countries"
+msgid "Philippines"
+msgstr "Philippines"
+
+#: includes/conditions/core-visitor-country.php:198
+msgctxt "countries"
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: includes/conditions/core-visitor-country.php:199
+msgctxt "countries"
+msgid "Poland"
+msgstr "Poland"
+
+#: includes/conditions/core-visitor-country.php:200
+msgctxt "countries"
+msgid "Portugal"
+msgstr "Portugal"
+
+#: includes/conditions/core-visitor-country.php:201
+msgctxt "countries"
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: includes/conditions/core-visitor-country.php:202
+msgctxt "countries"
+msgid "Qatar"
+msgstr "Qatar"
+
+#: includes/conditions/core-visitor-country.php:203
+msgctxt "countries"
+msgid "Réunion"
+msgstr "Réunion"
+
+#: includes/conditions/core-visitor-country.php:204
+msgctxt "countries"
+msgid "Romania"
+msgstr "Romania"
+
+#: includes/conditions/core-visitor-country.php:205
+msgctxt "countries"
+msgid "Russian Federation"
+msgstr "Russian Federation"
+
+#: includes/conditions/core-visitor-country.php:206
+msgctxt "countries"
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: includes/conditions/core-visitor-country.php:207
+msgctxt "countries"
+msgid "Saint Barthélemy"
+msgstr "Saint Barthélemy"
+
+#: includes/conditions/core-visitor-country.php:208
+msgctxt "countries"
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr "Saint Helena, Ascension and Tristan da Cunha"
+
+#: includes/conditions/core-visitor-country.php:209
+msgctxt "countries"
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts and Nevis"
+
+#: includes/conditions/core-visitor-country.php:210
+msgctxt "countries"
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: includes/conditions/core-visitor-country.php:211
+msgctxt "countries"
+msgid "Saint Martin (French part)"
+msgstr "Saint Martin (French part)"
+
+#: includes/conditions/core-visitor-country.php:212
+msgctxt "countries"
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre and Miquelon"
+
+#: includes/conditions/core-visitor-country.php:213
+msgctxt "countries"
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent and the Grenadines"
+
+#: includes/conditions/core-visitor-country.php:214
+msgctxt "countries"
+msgid "Samoa"
+msgstr "Samoa"
+
+#: includes/conditions/core-visitor-country.php:215
+msgctxt "countries"
+msgid "San Marino"
+msgstr "San Marino"
+
+#: includes/conditions/core-visitor-country.php:216
+msgctxt "countries"
+msgid "Sao Tome And Principe"
+msgstr "Sao Tome And Principe"
+
+#: includes/conditions/core-visitor-country.php:217
+msgctxt "countries"
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+#: includes/conditions/core-visitor-country.php:218
+msgctxt "countries"
+msgid "Senegal"
+msgstr "Senegal"
+
+#: includes/conditions/core-visitor-country.php:219
+msgctxt "countries"
+msgid "Serbia"
+msgstr "Serbia"
+
+#: includes/conditions/core-visitor-country.php:220
+msgctxt "countries"
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: includes/conditions/core-visitor-country.php:221
+msgctxt "countries"
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: includes/conditions/core-visitor-country.php:222
+msgctxt "countries"
+msgid "Singapore"
+msgstr "Singapore"
+
+#: includes/conditions/core-visitor-country.php:223
+msgctxt "countries"
+msgid "Slovakia"
+msgstr "Slovakia"
+
+#: includes/conditions/core-visitor-country.php:224
+msgctxt "countries"
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: includes/conditions/core-visitor-country.php:225
+msgctxt "countries"
+msgid "Solomon Islands"
+msgstr "Solomon Islands"
+
+#: includes/conditions/core-visitor-country.php:226
+msgctxt "countries"
+msgid "Somalia"
+msgstr "Somalia"
+
+#: includes/conditions/core-visitor-country.php:227
+msgctxt "countries"
+msgid "South Africa"
+msgstr "South Africa"
+
+#: includes/conditions/core-visitor-country.php:228
+msgctxt "countries"
+msgid "South Georgia And Sandwich Isl."
+msgstr "South Georgia And Sandwich Isl."
+
+#: includes/conditions/core-visitor-country.php:229
+msgctxt "countries"
+msgid "Spain"
+msgstr "Spain"
+
+#: includes/conditions/core-visitor-country.php:230
+msgctxt "countries"
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: includes/conditions/core-visitor-country.php:231
+msgctxt "countries"
+msgid "Sudan"
+msgstr "Sudan"
+
+#: includes/conditions/core-visitor-country.php:232
+msgctxt "countries"
+msgid "Suriname"
+msgstr "Suriname"
+
+#: includes/conditions/core-visitor-country.php:233
+msgctxt "countries"
+msgid "Svalbard And Jan Mayen"
+msgstr "Svalbard And Jan Mayen"
+
+#: includes/conditions/core-visitor-country.php:234
+msgctxt "countries"
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: includes/conditions/core-visitor-country.php:235
+msgctxt "countries"
+msgid "Sweden"
+msgstr "Sweden"
+
+#: includes/conditions/core-visitor-country.php:236
+msgctxt "countries"
+msgid "Switzerland"
+msgstr "Switzerland"
+
+#: includes/conditions/core-visitor-country.php:237
+msgctxt "countries"
+msgid "Syrian Arab Republic"
+msgstr "Syrian Arab Republic"
+
+#: includes/conditions/core-visitor-country.php:238
+msgctxt "countries"
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: includes/conditions/core-visitor-country.php:239
+msgctxt "countries"
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: includes/conditions/core-visitor-country.php:240
+msgctxt "countries"
+msgid "Tanzania, United Republic of"
+msgstr "Tanzania, United Republic of"
+
+#: includes/conditions/core-visitor-country.php:241
+msgctxt "countries"
+msgid "Thailand"
+msgstr "Thailand"
+
+#: includes/conditions/core-visitor-country.php:242
+msgctxt "countries"
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: includes/conditions/core-visitor-country.php:243
+msgctxt "countries"
+msgid "Togo"
+msgstr "Togo"
+
+#: includes/conditions/core-visitor-country.php:244
+msgctxt "countries"
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: includes/conditions/core-visitor-country.php:245
+msgctxt "countries"
+msgid "Tonga"
+msgstr "Tonga"
+
+#: includes/conditions/core-visitor-country.php:246
+msgctxt "countries"
+msgid "Trinidad And Tobago"
+msgstr "Trinidad And Tobago"
+
+#: includes/conditions/core-visitor-country.php:247
+msgctxt "countries"
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: includes/conditions/core-visitor-country.php:248
+msgctxt "countries"
+msgid "Turkey"
+msgstr "Turkey"
+
+#: includes/conditions/core-visitor-country.php:249
+msgctxt "countries"
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: includes/conditions/core-visitor-country.php:250
+msgctxt "countries"
+msgid "Turks And Caicos Islands"
+msgstr "Turks And Caicos Islands"
+
+#: includes/conditions/core-visitor-country.php:251
+msgctxt "countries"
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: includes/conditions/core-visitor-country.php:252
+msgctxt "countries"
+msgid "Uganda"
+msgstr "Uganda"
+
+#: includes/conditions/core-visitor-country.php:253
+msgctxt "countries"
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: includes/conditions/core-visitor-country.php:254
+msgctxt "countries"
+msgid "United Arab Emirates"
+msgstr "United Arab Emirates"
+
+#: includes/conditions/core-visitor-country.php:255
+msgctxt "countries"
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+#: includes/conditions/core-visitor-country.php:256
+msgctxt "countries"
+msgid "United States"
+msgstr "United States"
+
+#: includes/conditions/core-visitor-country.php:257
+msgctxt "countries"
+msgid "United States Outlying Islands"
+msgstr "United States Outlying Islands"
+
+#: includes/conditions/core-visitor-country.php:258
+msgctxt "countries"
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: includes/conditions/core-visitor-country.php:259
+msgctxt "countries"
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: includes/conditions/core-visitor-country.php:260
+msgctxt "countries"
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: includes/conditions/core-visitor-country.php:261
+msgctxt "countries"
+msgid "Venezuela, Bolivarian Republic of"
+msgstr "Venezuela, Bolivarian Republic of"
+
+#: includes/conditions/core-visitor-country.php:262
+msgctxt "countries"
+msgid "Viet Nam"
+msgstr "Viet Nam"
+
+#: includes/conditions/core-visitor-country.php:263
+msgctxt "countries"
+msgid "Virgin Islands, British"
+msgstr "Virgin Islands, British"
+
+#: includes/conditions/core-visitor-country.php:264
+msgctxt "countries"
+msgid "Virgin Islands, U.S."
+msgstr "Virgin Islands, U.S."
+
+#: includes/conditions/core-visitor-country.php:265
+msgctxt "countries"
+msgid "Wallis and Futuna"
+msgstr "Wallis and Futuna"
+
+#: includes/conditions/core-visitor-country.php:266
+msgctxt "countries"
+msgid "Western Sahara"
+msgstr "Western Sahara"
+
+#: includes/conditions/core-visitor-country.php:267
+msgctxt "countries"
+msgid "Yemen"
+msgstr "Yemen"
+
+#: includes/conditions/core-visitor-country.php:268
+msgctxt "countries"
+msgid "Zambia"
+msgstr "Zambia"
+
+#: includes/conditions/core-visitor-country.php:269
+msgctxt "countries"
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: includes/models/base.php:59
+msgctxt "post fix added to name on duplication"
+msgid " copy"
+msgstr " copy"
+
+#: includes/models/rule.php:37
+msgctxt "Category name"
+msgid "Unknown"
+msgstr "Unknown"
+
+#: includes/models/rule.php:79
+msgctxt "Created by user name"
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/models/rule.php:84
+msgctxt "Created by user name"
+msgid "Unknown"
+msgstr "Unknown"
+
+#: includes/values/class-wp-dxp-rule-types.php:12
+msgctxt "Rule type"
+msgid "Standard"
+msgstr "Standard"
+
+#: includes/values/class-wp-dxp-rule-types.php:16
+msgctxt "Rule type"
+msgid "Custom"
+msgstr "Custom"
+
+#: src/index.js:16
+msgid "-- No rule selected --"
+msgstr "-- No rule selected --"
+
+#: src/index.js:27
+msgid "Show Block"
+msgstr "Show Block"
+
+#: src/index.js:28
+msgid "Hide Block"
+msgstr "Hide Block"
+
+#: src/index.js:94
+msgid "When these rules are met:"
+msgstr "When these rules are met:"
+
+#: src/index.js:135
+msgid "Then take the following action:"
+msgstr "Then take the following action:"
